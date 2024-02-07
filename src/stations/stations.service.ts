@@ -1,6 +1,9 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable, Logger } from '@nestjs/common';
-import { map, Observable } from 'rxjs';
+import { readFile, writeFile } from 'fs';
+import { forkJoin, map, mergeMap, Observable, of } from 'rxjs';
+
+import { NominatimService } from '../nominatim/nominatim.service';
 
 export interface PegelonlineStation {
   uuid: string;
@@ -11,6 +14,8 @@ export interface PegelonlineStation {
   agency: string;
   longitude: number;
   latitude: number;
+  state?: string;
+  county?: string;
   water: {
     shortname: string;
     longname: string;
@@ -26,32 +31,48 @@ export interface StationQuery {
   region?: string;
   parameter?: string;
   bbox?: number[];
+  q?: string;
 }
 
 @Injectable()
 export class StationsService {
   private readonly logger = new Logger(StationsService.name);
 
-  private fetchedStations: Observable<PegelonlineStation[]> | undefined;
+  private stations: PegelonlineStation[];
 
-  constructor(private readonly httpService: HttpService) {}
+  private readonly stationFilePath = './stations,json';
+
+  constructor(
+    private readonly httpService: HttpService,
+    private readonly nominatimSrvc: NominatimService,
+  ) {
+    // this.fetchStations();
+    this.loadStations();
+  }
 
   getStations(query: StationQuery = {}): Observable<PegelonlineStation[]> {
-    if (this.fetchedStations === undefined) {
-      this.fetchStations();
-    }
-    this.logger.log(`Query ${JSON.stringify(query)}`);
-    return this.fetchedStations.pipe(map(this.filterResults(query)));
+    this.logger.log(this.stations);
+    return of(this.stations).pipe(
+      map((res) => {
+        return this.filterResults(res, query);
+      }),
+    );
   }
 
   private filterResults(
+    origin: PegelonlineStation[],
     query: StationQuery,
-  ): (value: PegelonlineStation[], index: number) => PegelonlineStation[] {
-    return (res) => {
-      res = this.filterStation(query, res);
-      res = this.filterGewaesser(query, res);
-      return res;
-    };
+  ): PegelonlineStation[] {
+    this.logger.log(origin);
+    origin = this.filterStation(query, origin);
+    origin = this.filterGewaesser(query, origin);
+    // TODO: add land filter
+    // TODO: add einzugsgebiet filter
+    // TODO: add kreis filter
+    // TODO: add region filter
+    // TODO: add parameter filter
+    // TODO: add bbox filter
+    return origin;
   }
 
   private filterStation(query: StationQuery, res: PegelonlineStation[]) {
@@ -77,11 +98,61 @@ export class StationsService {
   }
 
   private fetchStations() {
-    this.logger.log('fetch stations');
-    this.fetchedStations = this.httpService
+    this.logger.log(`start fetching stations`);
+    this.httpService
       .get<PegelonlineStation[]>(
         'https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations.json',
       )
-      .pipe(map((res) => res.data));
+      .pipe(map((res) => res.data))
+      // TODO: remove next line later
+      .pipe(map((stations) => stations.slice(0, 1)))
+      .pipe(
+        mergeMap((stations) => {
+          const requests = stations.map((s) => {
+            return this.nominatimSrvc.getAdressData(
+              s.uuid,
+              s.latitude,
+              s.longitude,
+            );
+          });
+          return forkJoin(requests).pipe(
+            map((res) => {
+              stations.forEach((st) => {
+                const match = res.find((e) => e.id === st.uuid);
+                if (match) {
+                  st.state = match.state;
+                  st.county = match.county;
+                }
+              });
+              return stations;
+            }),
+          );
+        }),
+      )
+      .subscribe((res) => {
+        this.saveFetchedStations(res);
+        this.stations = res;
+        this.logger.log(`finished fetching stations`);
+      });
+  }
+
+  private saveFetchedStations(res: PegelonlineStation[]) {
+    writeFile(this.stationFilePath, JSON.stringify(res, null, 2), (err) => {
+      if (err) {
+        this.logger.error(err);
+        return;
+      }
+      this.logger.log('Saved successfully');
+    });
+  }
+
+  private loadStations() {
+    readFile(this.stationFilePath, 'utf8', (err, data) => {
+      if (err) {
+        this.logger.log(err);
+        return;
+      }
+      this.stations = JSON.parse(data);
+    });
   }
 }
