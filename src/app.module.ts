@@ -3,8 +3,8 @@ import { Module } from '@nestjs/common';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { NominatimService } from './nominatim/nominatim.service';
 import { QueryController } from './query/query.controller';
-import { StationsController } from './stations.controller';
 import { StationsService } from './stations/stations.service';
 
 @Module({
@@ -14,7 +14,7 @@ import { StationsService } from './stations/stations.service';
       maxRedirects: 5,
     }),
   ],
-  controllers: [AppController, StationsController, QueryController],
-  providers: [AppService, StationsService],
+  controllers: [AppController, QueryController],
+  providers: [AppService, StationsService, NominatimService],
 })
 export class AppModule {}
