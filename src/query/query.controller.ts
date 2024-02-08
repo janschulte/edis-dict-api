@@ -21,7 +21,7 @@ export class QueryController {
   ) {}
 
   @Get()
-  findAll(@Query() query: StationQuery) {
+  queryStations(@Query() query: StationQuery) {
     if (query.q) {
       this.logger.log(`Query with term: ${query.q}`);
       return this.nominatimSrvc.query(query.q).pipe(

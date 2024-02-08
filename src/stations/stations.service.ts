@@ -59,9 +59,7 @@ export class StationsService {
 
   getStations(query: StationQuery = {}): Observable<PegelonlineStation[]> {
     return of(this.stations).pipe(
-      map((res) => {
-        return this.filterResults(res, query);
-      }),
+      map((stations) => this.filterResults(stations, query)),
     );
   }
 
@@ -82,27 +80,27 @@ export class StationsService {
     return origin;
   }
 
-  private filterStation(query: StationQuery, res: PegelonlineStation[]) {
+  private filterStation(query: StationQuery, stations: PegelonlineStation[]) {
     if (query.station) {
       const filter = query.station;
       this.logger.log(`Filter with Station: ${filter}`);
-      res = res.filter(
+      stations = stations.filter(
         (e) => e.shortname.toLowerCase().indexOf(filter.toLowerCase()) >= 0,
       );
     }
-    return res;
+    return stations;
   }
 
-  private filterGewaesser(query: StationQuery, res: PegelonlineStation[]) {
+  private filterGewaesser(query: StationQuery, stations: PegelonlineStation[]) {
     if (query.gewaesser) {
       const filter = query.gewaesser;
       this.logger.log(`Filter with Gewaesser: ${filter}`);
-      res = res.filter(
+      stations = stations.filter(
         (e) =>
           e.water.shortname.toLowerCase().indexOf(filter.toLowerCase()) >= 0,
       );
     }
-    return res;
+    return stations;
   }
 
   private filterParameter(
