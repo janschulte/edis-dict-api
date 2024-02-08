@@ -12,10 +12,10 @@ export interface PegelonlineStation {
   longname: string;
   km: number;
   agency: string;
-  longitude: number;
-  latitude: number;
-  state?: string;
-  county?: string;
+  longitude?: number;
+  latitude?: number;
+  land?: string;
+  kreis?: string;
   water: {
     shortname: string;
     longname: string;
@@ -51,7 +51,6 @@ export class StationsService {
   }
 
   getStations(query: StationQuery = {}): Observable<PegelonlineStation[]> {
-    this.logger.log(this.stations);
     return of(this.stations).pipe(
       map((res) => {
         return this.filterResults(res, query);
@@ -63,12 +62,11 @@ export class StationsService {
     origin: PegelonlineStation[],
     query: StationQuery,
   ): PegelonlineStation[] {
-    this.logger.log(origin);
     origin = this.filterStation(query, origin);
     origin = this.filterGewaesser(query, origin);
-    // TODO: add land filter
+    origin = this.filterLand(query, origin);
     // TODO: add einzugsgebiet filter
-    // TODO: add kreis filter
+    origin = this.filterKreis(query, origin);
     // TODO: add region filter
     // TODO: add parameter filter
     // TODO: add bbox filter
@@ -80,7 +78,7 @@ export class StationsService {
       const filter = query.station;
       this.logger.log(`Filter with Station: ${filter}`);
       res = res.filter(
-        (e) => e.shortname.toLowerCase() === filter.toLowerCase(),
+        (e) => e.shortname.toLowerCase().indexOf(filter.toLowerCase()) >= 0,
       );
     }
     return res;
@@ -91,10 +89,35 @@ export class StationsService {
       const filter = query.gewaesser;
       this.logger.log(`Filter with Gewaesser: ${filter}`);
       res = res.filter(
-        (e) => e.water.shortname.toLowerCase() === filter.toLowerCase(),
+        (e) =>
+          e.water.shortname.toLowerCase().indexOf(filter.toLowerCase()) >= 0,
       );
     }
     return res;
+  }
+
+  private filterLand(query: StationQuery, stations: PegelonlineStation[]) {
+    return this.filter(query, 'land', stations);
+  }
+
+  private filterKreis(query: StationQuery, stations: PegelonlineStation[]) {
+    return this.filter(query, 'kreis', stations);
+  }
+
+  private filter(
+    query: StationQuery,
+    propertyKey: string,
+    stations: PegelonlineStation[],
+  ): PegelonlineStation[] {
+    const filterTerm = query[propertyKey];
+    if (filterTerm) {
+      this.logger.log(`Filter with paramter ${propertyKey}: ${filterTerm}`);
+      return stations.filter(
+        (e) =>
+          e[propertyKey]?.toLowerCase().indexOf(filterTerm.toLowerCase()) >= 0,
+      );
+    }
+    return stations;
   }
 
   private fetchStations() {
@@ -108,20 +131,29 @@ export class StationsService {
       .pipe(map((stations) => stations.slice(0, 1)))
       .pipe(
         mergeMap((stations) => {
-          const requests = stations.map((s) => {
-            return this.nominatimSrvc.getAdressData(
-              s.uuid,
-              s.latitude,
-              s.longitude,
-            );
-          });
+          const requests = stations
+            .filter((s) => {
+              if (s.latitude && s.longitude) {
+                return true;
+              } else {
+                this.logger.warn(`${s.shortname} has no coordinates`);
+                return false;
+              }
+            })
+            .map((s) => {
+              return this.nominatimSrvc.getAdressData(
+                s.uuid,
+                s.latitude,
+                s.longitude,
+              );
+            });
           return forkJoin(requests).pipe(
             map((res) => {
               stations.forEach((st) => {
                 const match = res.find((e) => e.id === st.uuid);
                 if (match) {
-                  st.state = match.state;
-                  st.county = match.county;
+                  st.land = match.state || match.county || match.city;
+                  st.kreis = match.county || match.city;
                 }
               });
               return stations;
