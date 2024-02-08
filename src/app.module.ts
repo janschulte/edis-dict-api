@@ -4,6 +4,7 @@ import { Module } from '@nestjs/common';
 import { NominatimService } from './nominatim/nominatim.service';
 import { QueryController } from './query/query.controller';
 import { StationsService } from './stations/stations.service';
+import { OptionsController } from './options/options.controller';
 
 @Module({
   imports: [
@@ -12,7 +13,7 @@ import { StationsService } from './stations/stations.service';
       maxRedirects: 5,
     }),
   ],
-  controllers: [QueryController],
+  controllers: [QueryController, OptionsController],
   providers: [StationsService, NominatimService],
 })
 export class AppModule {}
