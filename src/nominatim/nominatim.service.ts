@@ -33,8 +33,8 @@ export interface NominatimSearchResponse {
 
 @Injectable()
 export class NominatimService {
-  private nominatimBaseUrl = 'https://nominatim.openstreetmap.org/';
-  //   private nominatimBaseUrl = 'http://localhost:9090/';
+  // private nominatimBaseUrl = 'https://nominatim.openstreetmap.org/';
+  private nominatimBaseUrl = 'http://localhost:9090/';
   private readonly logger = new Logger(NominatimService.name);
 
   constructor(private readonly httpService: HttpService) {}

@@ -25,6 +25,7 @@ export interface PegelonlineStation {
 export interface StationQuery {
   station?: string;
   gewaesser?: string;
+  agency?: string;
   land?: string;
   einzugsgebiet?: string;
   kreis?: string;
@@ -65,6 +66,7 @@ export class StationsService {
     origin = this.filterStation(query, origin);
     origin = this.filterGewaesser(query, origin);
     origin = this.filterLand(query, origin);
+    origin = this.filterAgency(query, origin);
     // TODO: add einzugsgebiet filter
     origin = this.filterKreis(query, origin);
     // TODO: add region filter
@@ -94,6 +96,10 @@ export class StationsService {
       );
     }
     return res;
+  }
+
+  private filterAgency(query: StationQuery, stations: PegelonlineStation[]) {
+    return this.filter(query, 'agency', stations);
   }
 
   private filterLand(query: StationQuery, stations: PegelonlineStation[]) {
@@ -128,7 +134,7 @@ export class StationsService {
       )
       .pipe(map((res) => res.data))
       // TODO: remove next line later
-      .pipe(map((stations) => stations.slice(0, 1)))
+      // .pipe(map((stations) => stations.slice(0, 5)))
       .pipe(
         mergeMap((stations) => {
           const requests = stations
