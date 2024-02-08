@@ -47,7 +47,7 @@ export class StationsService {
 
   private stations: PegelonlineStation[];
 
-  private readonly stationFilePath = './stations,json';
+  private readonly stationFilePath = './stations.json';
 
   constructor(
     private readonly httpService: HttpService,
