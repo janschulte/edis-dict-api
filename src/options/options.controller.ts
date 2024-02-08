@@ -68,6 +68,16 @@ export class OptionsController {
                     .filter((e) => e),
                 ),
               );
+            case 'parameter':
+              return Array.from(
+                new Set(
+                  stations
+                    .map((st) => st.timeseries.map((e) => e.longname))
+                    .flat()
+                    .sort()
+                    .filter((e) => e),
+                ),
+              );
             default:
               throw new HttpException(
                 'unsupported parameter',

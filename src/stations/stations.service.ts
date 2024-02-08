@@ -20,6 +20,12 @@ export interface PegelonlineStation {
     shortname: string;
     longname: string;
   };
+  timeseries: {
+    shortname: string;
+    longname: string;
+    unit: string;
+    equidistance: number;
+  }[];
 }
 
 export interface StationQuery {
@@ -71,6 +77,7 @@ export class StationsService {
     origin = this.filterKreis(query, origin);
     // TODO: add region filter
     // TODO: add parameter filter
+    origin = this.filterParameter(query, origin);
     // TODO: add bbox filter
     return origin;
   }
@@ -96,6 +103,22 @@ export class StationsService {
       );
     }
     return res;
+  }
+
+  private filterParameter(
+    query: StationQuery,
+    stations: PegelonlineStation[],
+  ): PegelonlineStation[] {
+    if (query.parameter) {
+      const filter = query.parameter;
+      this.logger.log(`Filter with Gewaesser: ${filter}`);
+      return stations.filter((st) =>
+        st.timeseries.find(
+          (ts) => ts.longname.toLowerCase().indexOf(filter.toLowerCase()) >= 0,
+        ),
+      );
+    }
+    return stations;
   }
 
   private filterAgency(query: StationQuery, stations: PegelonlineStation[]) {
@@ -130,7 +153,7 @@ export class StationsService {
     this.logger.log(`start fetching stations`);
     this.httpService
       .get<PegelonlineStation[]>(
-        'https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations.json',
+        'https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations.json?includeTimeseries=true',
       )
       .pipe(map((res) => res.data))
       // TODO: remove next line later
