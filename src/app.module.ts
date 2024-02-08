@@ -1,8 +1,6 @@
 import { HttpModule } from '@nestjs/axios';
 import { Module } from '@nestjs/common';
 
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { NominatimService } from './nominatim/nominatim.service';
 import { QueryController } from './query/query.controller';
 import { StationsService } from './stations/stations.service';
@@ -14,7 +12,7 @@ import { StationsService } from './stations/stations.service';
       maxRedirects: 5,
     }),
   ],
-  controllers: [AppController, QueryController],
-  providers: [AppService, StationsService, NominatimService],
+  controllers: [QueryController],
+  providers: [StationsService, NominatimService],
 })
 export class AppModule {}
