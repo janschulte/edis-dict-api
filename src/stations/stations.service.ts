@@ -146,7 +146,9 @@ export class StationsService {
       this.logger.log(`Filter with Gewaesser: ${filter}`);
       return stations.filter((st) =>
         st.timeseries.find(
-          (ts) => ts.longname.toLowerCase().indexOf(filter.toLowerCase()) >= 0,
+          (ts) =>
+            ts.longname.toLowerCase() === filter.toLowerCase() ||
+            ts.shortname.toLowerCase() === filter.toLowerCase(),
         ),
       );
     }

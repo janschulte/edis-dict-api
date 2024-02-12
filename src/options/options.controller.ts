@@ -72,7 +72,10 @@ export class OptionsController {
               return Array.from(
                 new Set(
                   stations
-                    .map((st) => st.timeseries.map((e) => e.longname))
+                    .map((st) =>
+                      st.timeseries.map((e) => [e.longname, e.shortname]),
+                    )
+                    .flat()
                     .flat()
                     .sort()
                     .filter((e) => e),
