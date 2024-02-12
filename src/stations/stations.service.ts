@@ -48,7 +48,7 @@ export interface StationQuery {
   kreis?: string;
   region?: string;
   parameter?: string;
-  bbox?: number[];
+  bbox?: string;
   q?: string;
 }
 
@@ -108,9 +108,8 @@ export class StationsService {
     // TODO: add einzugsgebiet filter
     origin = this.filterKreis(query, origin);
     // TODO: add region filter
-    // TODO: add parameter filter
     origin = this.filterParameter(query, origin);
-    // TODO: add bbox filter
+    origin = this.filterBbox(query, origin);
     return origin;
   }
 
@@ -178,6 +177,27 @@ export class StationsService {
       return stations.filter(
         (e) =>
           e[propertyKey]?.toLowerCase().indexOf(filterTerm.toLowerCase()) >= 0,
+      );
+    }
+    return stations;
+  }
+
+  private filterBbox(
+    query: StationQuery,
+    stations: PegelonlineStation[],
+  ): PegelonlineStation[] {
+    const bboxFilter = query.bbox.split(',');
+    if (bboxFilter && bboxFilter.length === 4) {
+      this.logger.log(`Filter with paramter bbox: ${bboxFilter}`);
+      const [minLon, minLat, maxLon, maxLat] = bboxFilter.map((c) =>
+        parseFloat(c),
+      );
+      return stations.filter(
+        (st) =>
+          st.longitude >= minLon &&
+          st.longitude <= maxLon &&
+          st.latitude >= minLat &&
+          st.latitude <= maxLat,
       );
     }
     return stations;
