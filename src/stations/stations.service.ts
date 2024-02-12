@@ -5,6 +5,15 @@ import { forkJoin, map, mergeMap, Observable, of } from 'rxjs';
 
 import { NominatimService } from '../nominatim/nominatim.service';
 
+interface PegelonlineTimeseries {
+  shortname: string;
+  longname: string;
+  unit: string;
+  mqtttopic: string;
+  pegelonlinelink: string;
+  equidistance: number;
+}
+
 export interface PegelonlineStation {
   uuid: string;
   number: string;
@@ -16,16 +25,18 @@ export interface PegelonlineStation {
   latitude?: number;
   land?: string;
   kreis?: string;
+  mqtttopic: string;
   water: {
     shortname: string;
     longname: string;
   };
-  timeseries: {
-    shortname: string;
-    longname: string;
-    unit: string;
-    equidistance: number;
-  }[];
+  timeseries: PegelonlineTimeseries[];
+}
+
+export interface AggregatedStationResponse {
+  mqtttopics: string[];
+  pegelonlinelinks: string[];
+  stations: PegelonlineStation[];
 }
 
 export interface StationQuery {
@@ -48,6 +59,9 @@ export class StationsService {
   private stations: PegelonlineStation[];
 
   private readonly stationFilePath = './stations.json';
+  private readonly pegelonlineBaseUrl =
+    'https://www.pegelonline.wsv.de/webservices/rest-api/v2';
+  private readonly mqttBaseUrl = 'edis/pegelonline';
 
   constructor(
     private readonly httpService: HttpService,
@@ -61,6 +75,26 @@ export class StationsService {
     return of(this.stations).pipe(
       map((stations) => this.filterResults(stations, query)),
     );
+  }
+
+  prepareResponse(stations: PegelonlineStation[]): AggregatedStationResponse {
+    // TODO: add here some intelligent aggregation of mqtt topics
+    const mqtttopics = [];
+    const pegelonlinelinks = [];
+    stations.forEach((st) => {
+      st.mqtttopic = `${this.mqttBaseUrl}/+/+/+/+/${st.uuid}/+`;
+      mqtttopics.push(st.mqtttopic);
+      st.timeseries.forEach((ts) => {
+        ts.mqtttopic = `${this.mqttBaseUrl}/+/+/+/+/${st.uuid}/${ts.shortname}`;
+        ts.pegelonlinelink = `${this.pegelonlineBaseUrl}/stations/${st.uuid}/${ts.shortname}/measurements.json`;
+        pegelonlinelinks.push(ts.pegelonlinelink);
+      });
+    });
+    return {
+      mqtttopics,
+      pegelonlinelinks,
+      stations,
+    };
   }
 
   private filterResults(

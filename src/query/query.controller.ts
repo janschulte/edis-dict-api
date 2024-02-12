@@ -6,7 +6,7 @@ import {
   Logger,
   Query,
 } from '@nestjs/common';
-import { mergeMap } from 'rxjs';
+import { map, mergeMap } from 'rxjs';
 
 import { NominatimService } from '../nominatim/nominatim.service';
 import { StationQuery, StationsService } from '../stations/stations.service';
@@ -41,7 +41,9 @@ export class QueryController {
                   HttpStatus.INTERNAL_SERVER_ERROR,
                 );
             }
-            return this.stationsSrvc.getStations(query);
+            return this.stationsSrvc
+              .getStations(query)
+              .pipe(map((st) => this.stationsSrvc.prepareResponse(st)));
           }
           throw new HttpException(
             'Could not resolve your query',
@@ -50,7 +52,9 @@ export class QueryController {
         }),
       );
     } else {
-      return this.stationsSrvc.getStations(query);
+      return this.stationsSrvc
+        .getStations(query)
+        .pipe(map((st) => this.stationsSrvc.prepareResponse(st)));
     }
   }
 }
