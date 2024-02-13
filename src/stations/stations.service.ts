@@ -216,7 +216,7 @@ export class StationsService {
     query: StationQuery,
     stations: PegelonlineStation[],
   ): PegelonlineStation[] {
-    const bboxFilter = query.bbox.split(',');
+    const bboxFilter = query.bbox?.split(',');
     if (bboxFilter && bboxFilter.length === 4) {
       this.logger.log(`Filter with paramter bbox: ${bboxFilter}`);
       const [minLon, minLat, maxLon, maxLat] = bboxFilter.map((c) =>
@@ -240,8 +240,6 @@ export class StationsService {
         'https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations.json?includeTimeseries=true',
       )
       .pipe(map((res) => res.data))
-      // TODO: remove next line later
-      // .pipe(map((stations) => stations.slice(0, 5)))
       .pipe(
         mergeMap((stations) => {
           const requests = stations
