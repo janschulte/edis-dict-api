@@ -72,8 +72,38 @@ export class StationsService {
   }
 
   getStations(query: StationQuery = {}): Observable<PegelonlineStation[]> {
-    return of(this.stations).pipe(
-      map((stations) => this.filterResults(stations, query)),
+    if (query.q) {
+      return this.filterQ(query.q);
+    } else {
+      return of(this.stations).pipe(
+        map((stations) => this.filterResults(stations, query)),
+      );
+    }
+  }
+
+  private filterQ(filter: string): Observable<PegelonlineStation[]> {
+    const fields = ['shortname', 'longname', 'agency', 'land', 'kreis'];
+    const waterFields = ['shortname', 'longname'];
+    const timeseriesFields = ['shortname', 'longname'];
+    return of(
+      this.stations.filter((station) => {
+        const matchField = fields.some(
+          (f) =>
+            station[f] &&
+            station[f].toLowerCase().indexOf(filter.toLowerCase()) >= 0,
+        );
+        const matchWaterFields = waterFields.some(
+          (wf) =>
+            station.water[wf] &&
+            station.water[wf].toLowerCase().indexOf(filter.toLowerCase()) >= 0,
+        );
+        const matchTimeseriesFields = timeseriesFields.some((tsf) =>
+          station.timeseries.some(
+            (ts) => ts[tsf].toLowerCase().indexOf(filter.toLowerCase()) >= 0,
+          ),
+        );
+        return matchField || matchWaterFields || matchTimeseriesFields;
+      }),
     );
   }
 
