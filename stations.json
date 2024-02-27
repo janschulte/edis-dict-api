@@ -25,6 +25,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Verden"
   },
@@ -54,6 +55,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Heidekreis"
   },
@@ -78,6 +80,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Heidekreis"
   },
@@ -107,6 +110,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Heidekreis"
   },
@@ -136,6 +140,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Celle"
   },
@@ -165,6 +170,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -194,6 +200,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -223,6 +230,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Landkreis Konstanz"
   },
@@ -278,6 +286,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -307,6 +316,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Dahme-Spreewald"
   },
@@ -342,6 +352,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Dahme-Spreewald"
   },
@@ -417,6 +428,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Hochsauerlandkreis"
   },
@@ -446,6 +458,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Hochsauerlandkreis"
   },
@@ -481,6 +494,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Waldeck-Frankenberg"
   },
@@ -510,6 +524,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Passau"
   },
@@ -539,6 +554,7 @@
         }
       }
     ],
+    "country": "Österreich",
     "land": "Freinberg",
     "kreis": "Freinberg"
   },
@@ -568,6 +584,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern"
   },
   {
@@ -591,6 +608,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern"
   },
   {
@@ -631,6 +649,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern"
   },
   {
@@ -654,6 +673,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern"
   },
   {
@@ -682,6 +702,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern"
   },
   {
@@ -747,6 +768,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Passau"
   },
@@ -788,6 +810,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Passau"
   },
@@ -829,6 +852,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Deggendorf"
   },
@@ -870,6 +894,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Straubing-Bogen"
   },
@@ -899,6 +924,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Regensburg"
   },
@@ -946,6 +972,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Regensburg"
   },
@@ -975,6 +1002,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Regensburg"
   },
@@ -1022,6 +1050,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Kelheim"
   },
@@ -1057,6 +1086,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Kelheim"
   },
@@ -1251,6 +1281,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Emsland"
   },
@@ -1275,6 +1306,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Emsland"
   },
@@ -1299,6 +1331,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Emsland"
   },
@@ -1323,6 +1356,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -1347,6 +1381,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -1371,6 +1406,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -1395,6 +1431,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -1419,6 +1456,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -1443,6 +1481,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -1467,6 +1506,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -1509,6 +1549,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -1533,6 +1574,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -1562,6 +1604,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Waldeck-Frankenberg"
   },
@@ -1591,6 +1634,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Waldeck-Frankenberg"
   },
@@ -1626,6 +1670,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Waldeck-Frankenberg"
   },
@@ -1661,6 +1706,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Dithmarschen"
   },
@@ -1696,6 +1742,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Dithmarschen"
   },
@@ -1731,6 +1778,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Dithmarschen"
   },
@@ -1784,6 +1832,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Dithmarschen"
   },
@@ -1813,6 +1862,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Nordfriesland"
   },
@@ -1878,6 +1928,7 @@
         "equidistance": 5
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Nordfriesland"
   },
@@ -1931,6 +1982,7 @@
         "equidistance": 5
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Nordfriesland"
   },
@@ -2006,6 +2058,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen",
     "kreis": "Sächsische Schweiz-Osterzgebirge"
   },
@@ -2035,6 +2088,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen",
     "kreis": "Sächsische Schweiz-Osterzgebirge"
   },
@@ -2070,6 +2124,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen",
     "kreis": "Dresden"
   },
@@ -2099,6 +2154,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen",
     "kreis": "Meißen"
   },
@@ -2134,6 +2190,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen",
     "kreis": "Meißen"
   },
@@ -2163,6 +2220,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Elbe-Elster"
   },
@@ -2198,6 +2256,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen",
     "kreis": "Nordsachsen"
   },
@@ -2227,6 +2286,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Wittenberg"
   },
@@ -2256,6 +2316,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Wittenberg"
   },
@@ -2291,6 +2352,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Wittenberg"
   },
@@ -2320,6 +2382,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Wittenberg"
   },
@@ -2355,6 +2418,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Wittenberg"
   },
@@ -2384,6 +2448,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Dessau-Roßlau"
   },
@@ -2413,6 +2478,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Dessau-Roßlau"
   },
@@ -2448,6 +2514,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Anhalt-Bitterfeld"
   },
@@ -2483,6 +2550,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -2512,6 +2580,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -2541,6 +2610,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Magdeburg"
   },
@@ -2576,6 +2646,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Magdeburg"
   },
@@ -2611,6 +2682,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Magdeburg"
   },
@@ -2640,6 +2712,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Jerichower Land"
   },
@@ -2669,6 +2742,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Börde"
   },
@@ -2704,6 +2778,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Stendal"
   },
@@ -2733,6 +2808,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Stendal"
   },
@@ -2762,6 +2838,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Stendal"
   },
@@ -2791,6 +2868,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Prignitz"
   },
@@ -2826,6 +2904,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Prignitz"
   },
@@ -2855,6 +2934,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Prignitz"
   },
@@ -2884,6 +2964,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüchow-Dannenberg"
   },
@@ -2913,6 +2994,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Prignitz"
   },
@@ -2942,6 +3024,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüchow-Dannenberg"
   },
@@ -2971,6 +3054,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -3000,6 +3084,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüchow-Dannenberg"
   },
@@ -3029,6 +3114,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüchow-Dannenberg"
   },
@@ -3064,6 +3150,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüchow-Dannenberg"
   },
@@ -3093,6 +3180,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüneburg"
   },
@@ -3122,6 +3210,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -3151,6 +3240,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüneburg"
   },
@@ -3180,6 +3270,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüneburg"
   },
@@ -3209,6 +3300,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Herzogtum Lauenburg"
   },
@@ -3256,6 +3348,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Herzogtum Lauenburg"
   },
@@ -3285,6 +3378,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -3314,6 +3408,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -3340,13 +3435,10 @@
           "unit": "m. ü. NHN",
           "value": -5.098,
           "validFrom": "2019-11-01"
-        },
-        "comment": {
-          "shortDescription": "Störung aufgrund von Baggerarbeiten",
-          "longDescription": "Störung aufgrund von Baggerarbeiten"
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Harburg"
   },
@@ -3376,6 +3468,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -3405,6 +3498,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -3434,6 +3528,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -3463,6 +3558,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -3492,6 +3588,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -3521,6 +3618,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -3550,6 +3648,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -3579,6 +3678,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Pinneberg"
   },
@@ -3634,8 +3734,9 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Stade"
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "599c23b1-4550-41e3-a7e7-3056989927f1",
@@ -3675,6 +3776,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Pinneberg"
   },
@@ -3742,8 +3844,9 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Stade"
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "391bbba5-83d4-4791-b07e-65ab29b423f6",
@@ -3771,6 +3874,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Pinneberg"
   },
@@ -3812,8 +3916,9 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Stade"
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "a653eb04-de2e-47f7-8e2c-09277cfe95ae",
@@ -3841,6 +3946,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -3882,6 +3988,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -3923,8 +4030,9 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Stade"
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "1f1bbed7-c1fa-45b4-90d3-df94b50ad631",
@@ -3958,6 +4066,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -3987,6 +4096,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -4016,6 +4126,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -4071,6 +4182,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Dithmarschen"
   },
@@ -4100,8 +4212,9 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Stade"
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "5140295e-b93e-4081-a920-642d89c7ca8b",
@@ -4129,6 +4242,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -4157,6 +4271,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Cuxhaven"
   },
@@ -4196,6 +4311,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Jerichower Land"
   },
@@ -4225,6 +4341,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Jerichower Land"
   },
@@ -4260,6 +4377,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Jerichower Land"
   },
@@ -4289,6 +4407,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Jerichower Land"
   },
@@ -4318,6 +4437,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Jerichower Land"
   },
@@ -4357,6 +4477,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Jerichower Land"
   },
@@ -4386,6 +4507,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Potsdam-Mittelmark"
   },
@@ -4415,6 +4537,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Potsdam-Mittelmark"
   },
@@ -4450,6 +4573,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Lübeck"
   },
@@ -4479,6 +4603,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Herzogtum Lauenburg"
   },
@@ -4520,6 +4645,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Herzogtum Lauenburg"
   },
@@ -4807,6 +4933,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Emsland"
   },
@@ -4860,6 +4987,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Leer"
   },
@@ -4889,6 +5017,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Leer"
   },
@@ -4918,6 +5047,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Leer"
   },
@@ -4959,6 +5089,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Leer"
   },
@@ -4988,6 +5119,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Leer"
   },
@@ -5029,6 +5161,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -5069,6 +5202,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -5097,6 +5231,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -5125,6 +5260,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -5153,6 +5289,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Kreis Steinfurt"
   },
@@ -5182,6 +5319,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Kreis Steinfurt"
   },
@@ -5211,6 +5349,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Emsland"
   },
@@ -5240,6 +5379,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Emsland"
   },
@@ -5269,6 +5409,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Emsland"
   },
@@ -5304,8 +5445,9 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Stade"
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "5fea1a12-326f-4919-ac9a-02f9fa11ab57",
@@ -5333,6 +5475,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -5374,6 +5517,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -5403,6 +5547,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -5432,6 +5577,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -5461,6 +5607,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -5490,6 +5637,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -5519,6 +5667,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -5548,6 +5697,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -5577,6 +5727,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -5606,6 +5757,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -5635,6 +5787,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -5696,6 +5849,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Göttingen"
   },
@@ -5731,6 +5885,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Kassel"
   },
@@ -5772,6 +5927,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Schwalm-Eder-Kreis"
   },
@@ -5813,6 +5969,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Hersfeld-Rotenburg"
   },
@@ -5842,6 +5999,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Osterholz"
   },
@@ -5871,6 +6029,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -5900,6 +6059,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -5935,6 +6095,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -5976,6 +6137,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -6005,6 +6167,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -6034,6 +6197,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -6063,6 +6227,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -6098,6 +6263,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Märkisch-Oderland"
   },
@@ -6139,6 +6305,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Märkisch-Oderland"
   },
@@ -6180,6 +6347,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Uckermark"
   },
@@ -6209,6 +6377,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Uckermark"
   },
@@ -6238,6 +6407,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg"
   },
   {
@@ -6266,6 +6436,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg"
   },
   {
@@ -6294,6 +6465,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Oldenburg"
   },
@@ -6323,6 +6495,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Oldenburg"
   },
@@ -6352,6 +6525,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Oldenburg"
   },
@@ -6381,6 +6555,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Wesermarsch"
   },
@@ -6410,6 +6585,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Wesermarsch"
   },
@@ -6439,6 +6615,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Wesermarsch"
   },
@@ -6475,6 +6652,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Thüringen",
     "kreis": "Ilm-Kreis"
   },
@@ -6504,6 +6682,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüneburg"
   },
@@ -6533,6 +6712,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüneburg"
   },
@@ -6568,6 +6748,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüneburg"
   },
@@ -6597,6 +6778,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüneburg"
   },
@@ -6632,6 +6814,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Lüneburg"
   },
@@ -6661,6 +6844,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Harburg"
   },
@@ -6696,6 +6880,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Harburg"
   },
@@ -6725,6 +6910,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Harburg"
   },
@@ -6754,6 +6940,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Waldeck-Frankenberg"
   },
@@ -6789,6 +6976,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Waldeck-Frankenberg"
   },
@@ -6818,6 +7006,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -6870,6 +7059,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -6898,6 +7088,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -6926,6 +7117,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Friesland"
   },
@@ -6952,13 +7144,10 @@
           "unit": "m. ü. NHN",
           "value": -5.04,
           "validFrom": "2019-11-01"
-        },
-        "comment": {
-          "shortDescription": "Aufgrund eines Defektes derzeit fehlerhafte Messwerte.",
-          "longDescription": "Aufgrund eines Defektes derzeit fehlerhafte Messwerte. Bis zur Behebung des Schadens kann auf die benachbarten Pegel Wangerooge Nord oder Schillig ausgewichen werden."
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -6987,6 +7176,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Friesland"
   },
@@ -7016,6 +7206,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Friesland"
   },
@@ -7045,6 +7236,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Friesland"
   },
@@ -7094,6 +7286,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Greifswald"
   },
@@ -7123,6 +7316,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Greifswald"
   },
@@ -7158,6 +7352,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Pinneberg"
   },
@@ -7199,6 +7394,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -7223,6 +7419,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Oldenburg"
   },
@@ -7283,6 +7480,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Gießen"
   },
@@ -7330,6 +7528,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Lahn-Dill-Kreis"
   },
@@ -7354,6 +7553,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Limburg-Weilburg"
   },
@@ -7389,6 +7589,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Rhein-Lahn-Kreis"
   },
@@ -7424,6 +7625,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Rhein-Lahn-Kreis"
   },
@@ -7453,6 +7655,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Rhein-Lahn-Kreis"
   },
@@ -7482,6 +7685,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -7511,6 +7715,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -7540,6 +7745,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -7569,6 +7775,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -7598,6 +7805,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Cloppenburg"
   },
@@ -7627,6 +7835,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Leer"
   },
@@ -7656,6 +7865,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Heidekreis"
   },
@@ -7685,6 +7895,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Region Hannover"
   },
@@ -7714,6 +7925,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Region Hannover"
   },
@@ -7743,6 +7955,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bremen",
     "kreis": "Stadtgebiet Bremen"
   },
@@ -7772,6 +7985,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -7801,6 +8015,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -7836,8 +8051,9 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Stade"
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "259dcb4a-2366-45a6-a448-b06a8941ae16",
@@ -7921,6 +8137,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Kreis Groß-Gerau"
   },
@@ -7980,6 +8197,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Frankfurt am Main"
   },
@@ -8071,6 +8289,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Main-Kinzig-Kreis"
   },
@@ -8124,6 +8343,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Aschaffenburg"
   },
@@ -8197,6 +8417,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern"
   },
   {
@@ -8249,6 +8470,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Miltenberg"
   },
@@ -8302,6 +8524,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Miltenberg"
   },
@@ -8343,6 +8566,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Main-Tauber-Kreis"
   },
@@ -8408,6 +8632,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Main-Spessart"
   },
@@ -8473,6 +8698,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Würzburg"
   },
@@ -8514,6 +8740,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Kitzingen"
   },
@@ -8587,6 +8814,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern"
   },
   {
@@ -8651,6 +8879,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Bamberg"
   },
@@ -8686,6 +8915,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern"
   },
   {
@@ -8714,6 +8944,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bayern",
     "kreis": "Landkreis Kelheim"
   },
@@ -8743,6 +8974,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -8778,6 +9010,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -9515,6 +9748,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Börde"
   },
@@ -9588,6 +9822,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Börde"
   },
@@ -9612,6 +9847,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Koblenz"
   },
@@ -9641,6 +9877,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Koblenz"
   },
@@ -9746,6 +9983,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Landkreis Cochem-Zell"
   },
@@ -9850,6 +10088,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Landkreis Bernkastel-Wittlich"
   },
@@ -9935,6 +10174,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Trier"
   },
@@ -9964,6 +10204,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Trier"
   },
@@ -10012,7 +10253,8 @@
           "validFrom": "1982-01-01"
         }
       }
-    ]
+    ],
+    "country": "Luxemburg"
   },
   {
     "uuid": "c263ea53-ca4d-41f5-b3f5-6178fec302aa",
@@ -10046,6 +10288,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Saarland",
     "kreis": "Landkreis Merzig-Wadern"
   },
@@ -10075,6 +10318,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -10104,6 +10348,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -10139,6 +10384,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10168,6 +10414,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10203,6 +10450,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10232,6 +10480,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10261,6 +10510,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10308,6 +10558,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10337,6 +10588,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10372,6 +10624,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10413,6 +10666,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10442,6 +10696,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10477,6 +10732,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10518,6 +10774,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10547,6 +10804,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10588,6 +10846,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10654,6 +10913,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10695,6 +10955,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10730,6 +10991,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10759,6 +11021,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10794,6 +11057,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10823,6 +11087,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10870,6 +11135,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -10911,6 +11177,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Mecklenburgische Seenplatte"
   },
@@ -10940,6 +11207,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Mecklenburgische Seenplatte"
   },
@@ -10969,6 +11237,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Mecklenburgische Seenplatte"
   },
@@ -10998,6 +11267,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Mannheim"
   },
@@ -11033,6 +11303,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Heidelberg"
   },
@@ -11088,6 +11359,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Rhein-Neckar-Kreis"
   },
@@ -11117,6 +11389,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Neckar-Odenwald-Kreis"
   },
@@ -11227,6 +11500,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Landkreis Heilbronn"
   },
@@ -11281,6 +11555,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Landkreis Ludwigsburg"
   },
@@ -11330,6 +11605,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Landkreis Ludwigsburg"
   },
@@ -11434,6 +11710,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Landkreis Ludwigsburg"
   },
@@ -11744,6 +12021,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Landkreis Esslingen"
   },
@@ -11773,6 +12051,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -11802,6 +12081,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -11831,6 +12111,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Jerichower Land"
   },
@@ -11860,6 +12141,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Rendsburg-Eckernförde"
   },
@@ -11889,6 +12171,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Dithmarschen"
   },
@@ -11918,6 +12201,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein"
   },
   {
@@ -11946,6 +12230,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Rendsburg-Eckernförde"
   },
@@ -11975,6 +12260,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Rendsburg-Eckernförde"
   },
@@ -12004,6 +12290,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Rendsburg-Eckernförde"
   },
@@ -12028,6 +12315,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kiel"
   },
@@ -12052,6 +12340,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kiel"
   },
@@ -12087,6 +12376,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Pinneberg"
   },
@@ -12122,6 +12412,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein"
   },
   {
@@ -12156,6 +12447,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Nordfriesland"
   },
@@ -12223,6 +12515,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Leer"
   },
@@ -12252,6 +12545,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Leer"
   },
@@ -12281,6 +12575,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Pinneberg"
   },
@@ -12316,6 +12611,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Dithmarschen"
   },
@@ -12351,6 +12647,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Nordfriesland"
   },
@@ -12386,6 +12683,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Nordfriesland"
   },
@@ -12421,6 +12719,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Nordfriesland"
   },
@@ -12456,6 +12755,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Nordfriesland"
   },
@@ -12509,6 +12809,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Nordfriesland"
   },
@@ -12538,6 +12839,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Aurich"
   },
@@ -12567,6 +12869,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Wittmund"
   },
@@ -12596,6 +12899,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -12624,6 +12928,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -12652,6 +12957,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -12680,6 +12986,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -12709,6 +13016,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -12738,6 +13046,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hamburg",
     "kreis": "Hamburg"
   },
@@ -12767,6 +13076,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -12796,6 +13106,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -12825,6 +13136,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -12854,6 +13166,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -12883,6 +13196,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -12912,6 +13226,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -12941,6 +13256,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -12970,6 +13286,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -12999,6 +13316,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Mecklenburgische Seenplatte"
   },
@@ -13028,6 +13346,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Mecklenburgische Seenplatte"
   },
@@ -13057,6 +13376,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Mecklenburgische Seenplatte"
   },
@@ -13086,6 +13406,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Mecklenburgische Seenplatte"
   },
@@ -13121,6 +13442,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -13168,6 +13490,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -13209,6 +13532,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg"
   },
   {
@@ -13248,7 +13572,8 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland"
   },
   {
     "uuid": "6298a8f9-7c77-4605-a55a-278c61cc8f50",
@@ -13288,6 +13613,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Märkisch-Oderland"
   },
@@ -13335,6 +13661,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Märkisch-Oderland"
   },
@@ -13376,6 +13703,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg"
   },
   {
@@ -13416,6 +13744,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Uckermark"
   },
@@ -13465,6 +13794,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -13494,6 +13824,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -13523,6 +13854,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -13552,6 +13884,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -13576,6 +13909,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Waldeck-Frankenberg"
   },
@@ -13622,9 +13956,14 @@
           "unit": "m. ü. NN",
           "value": -5,
           "validFrom": "2000-12-11"
+        },
+        "comment": {
+          "shortDescription": "Technische Probleme. Pegel derzeit außer Betrieb",
+          "longDescription": "Pegel aufgrund technischer Probleme derzeit außer Betrieb"
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Rotenburg (Wümme)"
   },
@@ -13649,6 +13988,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Cuxhaven"
   },
@@ -13679,6 +14019,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Cuxhaven"
   },
@@ -13760,8 +14101,9 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Stade"
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "8c3295dc-fe73-45bc-9a7b-679d4aaad0cf",
@@ -13789,8 +14131,9 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Stade"
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "9427fafc-7146-4be1-a71e-4e4658236037",
@@ -13844,8 +14187,9 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Stade"
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "b8d05bf9-2ef2-416d-ba70-b5dba74fe777",
@@ -13872,6 +14216,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Rügen"
   },
@@ -13900,6 +14245,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Rügen"
   },
@@ -13929,6 +14275,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Rostock"
   },
@@ -13958,6 +14305,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Rügen"
   },
@@ -13987,6 +14335,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Rügen"
   },
@@ -14016,6 +14365,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Rügen"
   },
@@ -14045,6 +14395,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Greifswald"
   },
@@ -14074,6 +14425,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Rügen"
   },
@@ -14103,6 +14455,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Rügen"
   },
@@ -14136,6 +14489,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Rügen"
   },
@@ -14165,6 +14519,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Rügen"
   },
@@ -14194,6 +14549,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Rügen"
   },
@@ -14223,6 +14579,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Rügen"
   },
@@ -14252,6 +14609,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern"
   },
   {
@@ -14280,6 +14638,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Küstengewässer einschließlich Anteil am Festlandsockel"
   },
@@ -14309,6 +14668,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Greifswald"
   },
@@ -14338,6 +14698,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Küstengewässer einschließlich Anteil am Festlandsockel"
   },
@@ -14367,6 +14728,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Greifswald"
   },
@@ -14396,6 +14758,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Flensburg"
   },
@@ -14425,6 +14788,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Schleswig-Flensburg"
   },
@@ -14454,6 +14818,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein"
   },
   {
@@ -14482,6 +14847,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Schleswig-Flensburg"
   },
@@ -14511,6 +14877,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Nordwestmecklenburg"
   },
@@ -14540,6 +14907,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Nordwestmecklenburg"
   },
@@ -14569,6 +14937,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Ostholstein"
   },
@@ -14598,6 +14967,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kiel"
   },
@@ -14627,6 +14997,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein"
   },
   {
@@ -14655,6 +15026,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Ostholstein"
   },
@@ -14684,6 +15056,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Ostholstein"
   },
@@ -14713,6 +15086,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Schleswig-Flensburg"
   },
@@ -14742,6 +15116,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Schleswig-Flensburg"
   },
@@ -14771,6 +15146,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Rendsburg-Eckernförde"
   },
@@ -14800,6 +15176,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Jerichower Land"
   },
@@ -14829,6 +15206,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Jerichower Land"
   },
@@ -14858,6 +15236,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Mecklenburgische Seenplatte"
   },
@@ -14887,6 +15266,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Mecklenburgische Seenplatte"
   },
@@ -14916,6 +15296,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Greifswald"
   },
@@ -14945,6 +15326,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Vorpommern-Greifswald"
   },
@@ -14980,6 +15362,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Pinneberg"
   },
@@ -15021,6 +15404,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Pinneberg"
   },
@@ -15082,6 +15466,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Potsdam"
   },
@@ -15130,7 +15515,8 @@
           "validFrom": "2010-02-01"
         }
       }
-    ]
+    ],
+    "country": "Schweiz"
   },
   {
     "uuid": "06b978dd-8c4d-48ac-a0c8-2c16681ed281",
@@ -15164,6 +15550,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Landkreis Lörrach"
   },
@@ -15193,6 +15580,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Landkreis Breisgau-Hochschwarzwald"
   },
@@ -15222,6 +15610,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Ortenaukreis"
   },
@@ -15251,6 +15640,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Ortenaukreis"
   },
@@ -15286,6 +15676,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Ortenaukreis"
   },
@@ -15321,6 +15712,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Landkreis Rastatt"
   },
@@ -15356,6 +15748,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Landkreis Rastatt"
   },
@@ -15391,6 +15784,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Karlsruhe"
   },
@@ -15420,6 +15814,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Rhein-Pfalz-Kreis"
   },
@@ -15455,6 +15850,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz"
   },
   {
@@ -15483,6 +15879,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Baden-Württemberg",
     "kreis": "Mannheim"
   },
@@ -15518,6 +15915,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz"
   },
   {
@@ -15546,6 +15944,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Landkreis Mainz-Bingen"
   },
@@ -15606,6 +16005,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Mainz"
   },
@@ -15635,6 +16035,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Rheingau-Taunus-Kreis"
   },
@@ -15664,6 +16065,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Landkreis Mainz-Bingen"
   },
@@ -15699,6 +16101,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Rhein-Lahn-Kreis"
   },
@@ -15728,6 +16131,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Rhein-Hunsrück-Kreis"
   },
@@ -15757,6 +16161,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Rhein-Hunsrück-Kreis"
   },
@@ -15786,6 +16191,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Rhein-Lahn-Kreis"
   },
@@ -15815,6 +16221,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Koblenz"
   },
@@ -15844,6 +16251,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Landkreis Neuwied"
   },
@@ -15879,6 +16287,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Landkreis Mayen-Koblenz"
   },
@@ -15908,6 +16317,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Rheinland-Pfalz",
     "kreis": "Landkreis Ahrweiler"
   },
@@ -15943,6 +16353,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Bonn"
   },
@@ -15984,6 +16395,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Köln"
   },
@@ -16019,6 +16431,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Düsseldorf"
   },
@@ -16054,6 +16467,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Duisburg"
   },
@@ -16089,6 +16503,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Kreis Wesel"
   },
@@ -16124,6 +16539,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Kreis Kleve"
   },
@@ -16159,6 +16575,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Kreis Kleve"
   },
@@ -16388,6 +16805,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Ostprignitz-Ruppin"
   },
@@ -16417,6 +16835,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Ostprignitz-Ruppin"
   },
@@ -16446,6 +16865,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Magdeburg"
   },
@@ -16470,6 +16890,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Magdeburg"
   },
@@ -16591,6 +17012,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -16620,6 +17042,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -16649,6 +17072,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -16684,6 +17108,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -16713,6 +17138,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -16742,6 +17168,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -16771,6 +17198,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -16806,6 +17234,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -16835,6 +17264,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -16864,6 +17294,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -16893,6 +17324,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -16922,6 +17354,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -16951,6 +17384,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Salzlandkreis"
   },
@@ -16980,6 +17414,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Saalekreis"
   },
@@ -17009,6 +17444,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Saalekreis"
   },
@@ -17044,6 +17480,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Halle (Saale)"
   },
@@ -17073,6 +17510,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Halle (Saale)"
   },
@@ -17102,6 +17540,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Saalekreis"
   },
@@ -17131,6 +17570,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Saalekreis"
   },
@@ -17166,6 +17606,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Saalekreis"
   },
@@ -17241,6 +17682,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Saarland",
     "kreis": "Landkreis Merzig-Wadern"
   },
@@ -17342,6 +17784,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Saarland",
     "kreis": "Regionalverband Saarbrücken"
   },
@@ -17391,6 +17834,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Uckermark"
   },
@@ -17446,6 +17890,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -17475,6 +17920,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -17504,6 +17950,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -17533,6 +17980,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -17562,6 +18010,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Berlin",
     "kreis": "Berlin"
   },
@@ -17591,6 +18040,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Dahme-Spreewald"
   },
@@ -17620,6 +18070,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Dahme-Spreewald"
   },
@@ -17649,6 +18100,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -17678,6 +18130,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -17707,6 +18160,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -17736,6 +18190,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -17765,6 +18220,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -17794,6 +18250,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -17823,6 +18280,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -17852,6 +18310,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -17881,6 +18340,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -17910,6 +18370,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -17939,6 +18400,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -17968,6 +18430,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oder-Spree"
   },
@@ -18003,6 +18466,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -18038,6 +18502,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -18073,6 +18538,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -18120,6 +18586,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Kreis Steinburg"
   },
@@ -18181,6 +18648,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Ludwigslust-Parchim"
   },
@@ -18222,6 +18690,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern"
   },
   {
@@ -18250,6 +18719,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Potsdam-Mittelmark"
   },
@@ -18279,6 +18749,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Potsdam-Mittelmark"
   },
@@ -18358,6 +18829,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Lübeck"
   },
@@ -18387,6 +18859,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Lübeck"
   },
@@ -18416,6 +18889,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Schleswig-Holstein",
     "kreis": "Nordfriesland"
   },
@@ -18451,6 +18925,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Havelland"
   },
@@ -18480,6 +18955,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg"
   },
   {
@@ -18508,6 +18984,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg"
   },
   {
@@ -18536,6 +19013,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg"
   },
   {
@@ -18564,6 +19042,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg"
   },
   {
@@ -18598,6 +19077,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Potsdam-Mittelmark"
   },
@@ -18627,6 +19107,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Havelland"
   },
@@ -18656,6 +19137,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Havelland"
   },
@@ -18685,6 +19167,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Havelland"
   },
@@ -18714,6 +19197,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Havelland"
   },
@@ -18749,6 +19233,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Havelland"
   },
@@ -18778,6 +19263,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Havelland"
   },
@@ -18807,6 +19293,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Havelland"
   },
@@ -18836,6 +19323,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt"
   },
   {
@@ -18864,6 +19352,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg"
   },
   {
@@ -18892,6 +19381,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Stendal"
   },
@@ -18921,6 +19411,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Stendal"
   },
@@ -18950,6 +19441,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Stendal"
   },
@@ -18985,6 +19477,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Stendal"
   },
@@ -19014,6 +19507,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Stendal"
   },
@@ -19043,6 +19537,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Stendal"
   },
@@ -19072,6 +19567,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Stendal"
   },
@@ -19101,6 +19597,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Stendal"
   },
@@ -19130,6 +19627,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Sachsen-Anhalt",
     "kreis": "Stendal"
   },
@@ -19165,6 +19663,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Prignitz"
   },
@@ -19194,6 +19693,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Prignitz"
   },
@@ -19223,6 +19723,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Märkisch-Oderland"
   },
@@ -19272,6 +19773,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Rostock"
   },
@@ -19301,6 +19803,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
     "kreis": "Rostock"
   },
@@ -19330,6 +19833,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -19359,6 +19863,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Oberhavel"
   },
@@ -19388,6 +19893,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -19417,6 +19923,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Barnim"
   },
@@ -19452,6 +19959,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Göttingen"
   },
@@ -19487,6 +19995,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Werra-Meißner-Kreis"
   },
@@ -19528,6 +20037,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Werra-Meißner-Kreis"
   },
@@ -19557,46 +20067,6 @@
     "shortname": "FRIEDRICHSFELD SCHLEUSE OW",
     "longname": "FRIEDRICHSFELD SCHLEUSE OW",
     "km": 2.295,
-    "agency": "DUISBURG-MEIDERICH",
-    "water": {
-      "shortname": "WDK",
-      "longname": "WESEL-DATTELN-KANAL"
-    },
-    "timeseries": [
-      {
-        "shortname": "W",
-        "longname": "WASSERSTAND ROHDATEN",
-        "unit": "m+NN",
-        "equidistance": 1
-      }
-    ]
-  },
-  {
-    "uuid": "14699a51-aaa5-4ae4-98a6-d35aa9a80ec3",
-    "number": "27800212",
-    "shortname": "HÜNXE SCHLEUSE UW",
-    "longname": "HÜNXE SCHLEUSE UW",
-    "km": 12.875,
-    "agency": "DUISBURG-MEIDERICH",
-    "water": {
-      "shortname": "WDK",
-      "longname": "WESEL-DATTELN-KANAL"
-    },
-    "timeseries": [
-      {
-        "shortname": "W",
-        "longname": "WASSERSTAND ROHDATEN",
-        "unit": "m+NN",
-        "equidistance": 1
-      }
-    ]
-  },
-  {
-    "uuid": "5c1b6183-eaaf-436c-b863-8a191d9e1f5a",
-    "number": "27800198",
-    "shortname": "HÜNXE SCHLEUSE OW",
-    "longname": "HÜNXE SCHLEUSE OW",
-    "km": 13.664,
     "agency": "DUISBURG-MEIDERICH",
     "water": {
       "shortname": "WDK",
@@ -19829,6 +20299,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bremen",
     "kreis": "Bremen"
   },
@@ -19858,6 +20329,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Göttingen"
   },
@@ -19925,6 +20397,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bremen",
     "kreis": "Bremen"
   },
@@ -19974,6 +20447,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bremen",
     "kreis": "Stadtgebiet Bremen"
   },
@@ -20003,6 +20477,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bremen",
     "kreis": "Stadtgebiet Bremen"
   },
@@ -20032,6 +20507,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Wesermarsch"
   },
@@ -20061,6 +20537,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Kassel"
   },
@@ -20090,6 +20567,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Wesermarsch"
   },
@@ -20119,6 +20597,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Hessen",
     "kreis": "Landkreis Kassel"
   },
@@ -20172,6 +20651,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Cuxhaven"
   },
@@ -20213,6 +20693,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Wesermarsch"
   },
@@ -20292,6 +20773,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Bremen",
     "kreis": "Bremerhaven"
   },
@@ -20321,6 +20803,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Kreis Höxter"
   },
@@ -20374,6 +20857,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -20426,6 +20910,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -20454,6 +20939,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Holzminden"
   },
@@ -20507,6 +20993,7 @@
         "equidistance": 1
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen"
   },
   {
@@ -20541,6 +21028,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Hameln-Pyrmont"
   },
@@ -20570,6 +21058,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Schaumburg"
   },
@@ -20599,6 +21088,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Kreis Herford"
   },
@@ -20628,6 +21118,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Kreis Minden-Lübbecke"
   },
@@ -20657,6 +21148,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
     "kreis": "Kreis Minden-Lübbecke"
   },
@@ -20681,6 +21173,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Nienburg/Weser"
   },
@@ -20710,6 +21203,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Nienburg/Weser"
   },
@@ -20739,6 +21233,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Nienburg/Weser"
   },
@@ -20768,6 +21263,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Nienburg/Weser"
   },
@@ -20792,6 +21288,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Nienburg/Weser"
   },
@@ -20821,6 +21318,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Verden"
   },
@@ -20850,6 +21348,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Verden"
   },
@@ -20879,6 +21378,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Diepholz"
   },
@@ -20908,6 +21408,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bremen",
     "kreis": "Bremen"
   },
@@ -20937,6 +21438,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bremen",
     "kreis": "Stadtgebiet Bremen"
   },
@@ -20978,6 +21480,7 @@
         "equidistance": 60
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Uckermark"
   },
@@ -21013,6 +21516,7 @@
         "equidistance": 15
       }
     ],
+    "country": "Deutschland",
     "land": "Brandenburg",
     "kreis": "Uckermark"
   },
@@ -21094,6 +21598,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Niedersachsen",
     "kreis": "Landkreis Osterholz"
   },
@@ -21123,6 +21628,7 @@
         }
       }
     ],
+    "country": "Deutschland",
     "land": "Bremen",
     "kreis": "Bremen"
   }

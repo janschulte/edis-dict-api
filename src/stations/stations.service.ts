@@ -23,6 +23,7 @@ export interface PegelonlineStation {
   agency: string;
   longitude?: number;
   latitude?: number;
+  country: string;
   land?: string;
   kreis?: string;
   mqtttopic: string;
@@ -44,6 +45,7 @@ export interface StationQuery {
   gewaesser?: string;
   agency?: string;
   land?: string;
+  country?: string;
   einzugsgebiet?: string;
   kreis?: string;
   region?: string;
@@ -135,6 +137,7 @@ export class StationsService {
     origin = this.filterGewaesser(query, origin);
     origin = this.filterLand(query, origin);
     origin = this.filterAgency(query, origin);
+    origin = this.filterCountry(query, origin);
     // TODO: add einzugsgebiet filter
     origin = this.filterKreis(query, origin);
     // TODO: add region filter
@@ -194,6 +197,10 @@ export class StationsService {
 
   private filterKreis(query: StationQuery, stations: PegelonlineStation[]) {
     return this.filter(query, 'kreis', stations);
+  }
+
+  private filterCountry(query: StationQuery, stations: PegelonlineStation[]) {
+    return this.filter(query, 'country', stations);
   }
 
   private filter(
@@ -263,6 +270,7 @@ export class StationsService {
               stations.forEach((st) => {
                 const match = res.find((e) => e.id === st.uuid);
                 if (match) {
+                  st.country = match.country;
                   st.land = match.state || match.county || match.city;
                   st.kreis = match.county || match.city;
                 }

@@ -6,6 +6,7 @@ export interface AddressData {
   id: string;
   county: string;
   state: string;
+  country: string;
   city: string;
 }
 
@@ -15,6 +16,7 @@ interface NominatimReverseResponse {
     state: string;
     county: string;
     city: string;
+    country: string;
   };
 }
 
@@ -49,6 +51,7 @@ export class NominatimService {
         map((res) => {
           return {
             id: id,
+            country: res.address.country,
             state: res.address.state,
             county: res.address.county,
             city: res.address.city,

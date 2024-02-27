@@ -68,6 +68,15 @@ export class OptionsController {
                     .filter((e) => e),
                 ),
               );
+            case 'country':
+              return Array.from(
+                new Set(
+                  stations
+                    .map((st) => st.country)
+                    .sort()
+                    .filter((e) => e),
+                ),
+              );
             case 'parameter':
               return Array.from(
                 new Set(
