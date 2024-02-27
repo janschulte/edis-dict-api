@@ -1,5 +1,6 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable, Logger } from '@nestjs/common';
+import { AxiosRequestConfig } from 'axios';
 import { map, Observable } from 'rxjs';
 
 export interface AddressData {
@@ -42,10 +43,12 @@ export class NominatimService {
   constructor(private readonly httpService: HttpService) {}
 
   getAdressData(id: string, lat: number, lon: number): Observable<AddressData> {
+    const url = `${this.nominatimBaseUrl}reverse?lat=${lat}&lon=${lon}&format=json`;
+    const config: AxiosRequestConfig = {
+      headers: { 'Accept-Language': 'de' },
+    };
     return this.httpService
-      .get<NominatimReverseResponse>(
-        `${this.nominatimBaseUrl}/reverse?lat=${lat}&lon=${lon}&format=json`,
-      )
+      .get<NominatimReverseResponse>(url, config)
       .pipe(map((res) => res.data))
       .pipe(
         map((res) => {
