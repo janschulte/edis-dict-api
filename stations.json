@@ -241,6 +241,8 @@
     "longname": "ABBENFLETH SPERRWERK",
     "km": 2.95,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.494306874416917,
+    "latitude": 53.66896303514211,
     "water": {
       "shortname": "BSE",
       "longname": "BÜTZFLETHER SÜDERELBE"
@@ -258,7 +260,10 @@
         "unit": "µS/cm",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "6b595707-8c47-4bc7-a803-dbc327775c26",
@@ -363,6 +368,8 @@
     "longname": "WALTROP",
     "km": 2.144,
     "agency": "RHEINE",
+    "longitude": 7.380201417969079,
+    "latitude": 51.639741305288204,
     "water": {
       "shortname": "DHK",
       "longname": "DATTELN-HAMM-KANAL"
@@ -374,7 +381,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Recklinghausen"
   },
   {
     "uuid": "d31767ef-2cf8-4046-9881-d5651d81ade8",
@@ -383,6 +393,8 @@
     "longname": "WERRIES OW",
     "km": 40.611,
     "agency": "RHEINE",
+    "longitude": 7.870045686711513,
+    "latitude": 51.695152785910125,
     "water": {
       "shortname": "DHK",
       "longname": "DATTELN-HAMM-KANAL"
@@ -394,7 +406,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Hamm"
   },
   {
     "uuid": "33092c28-201a-4210-89c9-ce68cad61ed1",
@@ -503,10 +518,10 @@
     "number": "10096001",
     "shortname": "ERLAU",
     "longname": "ERLAU",
-    "km": 2214.51,
+    "km": 2214.5,
     "agency": "STANDORT REGENSBURG",
-    "longitude": 13.586857356936076,
-    "latitude": 48.567366742725774,
+    "longitude": 13.586812740786126,
+    "latitude": 48.567381563713134,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -563,10 +578,10 @@
     "number": "10092000",
     "shortname": "PASSAU ILZSTADT",
     "longname": "PASSAU ILZSTADT",
-    "km": 2225.25,
+    "km": 2225.2,
     "agency": "STANDORT REGENSBURG",
-    "longitude": 13.478019136458599,
-    "latitude": 48.575208664098355,
+    "longitude": 13.478017248883907,
+    "latitude": 48.575198327193995,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -618,8 +633,8 @@
     "longname": "PASSAU DONAU",
     "km": 2226.7,
     "agency": "STANDORT REGENSBURG",
-    "longitude": 13.459076672254575,
-    "latitude": 48.57612015936987,
+    "longitude": 13.45907704343669,
+    "latitude": 48.576132998182786,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -653,6 +668,35 @@
     "land": "Bayern"
   },
   {
+    "uuid": "0fd56e0a-e32e-4b56-9cda-e0ce93d715c4",
+    "number": "10090708",
+    "shortname": "KACHLET UP",
+    "longname": "KACHLET UP",
+    "km": 2230.3,
+    "agency": "STANDORT REGENSBURG",
+    "longitude": 13.412690329547244,
+    "latitude": 48.57822824232616,
+    "water": {
+      "shortname": "DONAU",
+      "longname": "DONAU"
+    },
+    "timeseries": [
+      {
+        "shortname": "W",
+        "longname": "WASSERSTAND ROHDATEN",
+        "unit": "cm",
+        "equidistance": 1,
+        "gaugeZero": {
+          "unit": "m. ü. NHN",
+          "value": 289.978,
+          "validFrom": "2019-11-01"
+        }
+      }
+    ],
+    "country": "Deutschland",
+    "land": "Bayern"
+  },
+  {
     "uuid": "3199ce09-cd9b-4be2-82bc-f03bb81438e5",
     "number": "10090710",
     "shortname": "PASSAU STEINBACHBRÜCKE DFH",
@@ -671,35 +715,6 @@
         "longname": "DURCHFAHRTSHÖHE",
         "unit": "cm",
         "equidistance": 1
-      }
-    ],
-    "country": "Deutschland",
-    "land": "Bayern"
-  },
-  {
-    "uuid": "0fd56e0a-e32e-4b56-9cda-e0ce93d715c4",
-    "number": "10090708",
-    "shortname": "KACHLET UP",
-    "longname": "KACHLET UP",
-    "km": 2230.32,
-    "agency": "STANDORT REGENSBURG",
-    "longitude": 13.410785883418406,
-    "latitude": 48.578554772293664,
-    "water": {
-      "shortname": "DONAU",
-      "longname": "DONAU"
-    },
-    "timeseries": [
-      {
-        "shortname": "W",
-        "longname": "WASSERSTAND ROHDATEN",
-        "unit": "cm",
-        "equidistance": 1,
-        "gaugeZero": {
-          "unit": "m. ü. NHN",
-          "value": 289.978,
-          "validFrom": "2019-11-01"
-        }
       }
     ],
     "country": "Deutschland",
@@ -735,10 +750,10 @@
     "number": "10089006",
     "shortname": "VILSHOFEN",
     "longname": "VILSHOFEN",
-    "km": 2249.47,
+    "km": 2249.5,
     "agency": "STANDORT REGENSBURG",
-    "longitude": 13.182358222269338,
-    "latitude": 48.637199635394644,
+    "longitude": 13.182352727075328,
+    "latitude": 48.63719446076585,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -777,10 +792,10 @@
     "number": "10088003",
     "shortname": "HOFKIRCHEN",
     "longname": "HOFKIRCHEN",
-    "km": 2256.86,
+    "km": 2256.9,
     "agency": "STANDORT REGENSBURG",
-    "longitude": 13.115160271464772,
-    "latitude": 48.67663180868335,
+    "longitude": 13.115159742918724,
+    "latitude": 48.676629660669875,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -819,10 +834,10 @@
     "number": "10081004",
     "shortname": "DEGGENDORF",
     "longname": "DEGGENDORF",
-    "km": 2284.44,
+    "km": 2284.4,
     "agency": "STANDORT REGENSBURG",
-    "longitude": 12.962349998942592,
-    "latitude": 48.82493261070345,
+    "longitude": 12.962349954256105,
+    "latitude": 48.824943730974475,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -861,10 +876,10 @@
     "number": "10078000",
     "shortname": "PFELLING",
     "longname": "PFELLING",
-    "km": 2305.53,
+    "km": 2305.5,
     "agency": "STANDORT REGENSBURG",
-    "longitude": 12.747330153374984,
-    "latitude": 48.879849896849194,
+    "longitude": 12.74721651873093,
+    "latitude": 48.87976613950202,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -903,10 +918,10 @@
     "number": "10068006",
     "shortname": "PFATTER",
     "longname": "PFATTER",
-    "km": 2350.69,
+    "km": 2350.7,
     "agency": "STANDORT REGENSBURG",
-    "longitude": 12.3837692520114,
-    "latitude": 48.980452515579366,
+    "longitude": 12.383772087742049,
+    "latitude": 48.980436203842146,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -933,10 +948,10 @@
     "number": "10062000",
     "shortname": "SCHWABELWEIS",
     "longname": "SCHWABELWEIS",
-    "km": 2376.49,
+    "km": 2376.5,
     "agency": "STANDORT REGENSBURG",
-    "longitude": 12.138682863673605,
-    "latitude": 49.02359436949415,
+    "longitude": 12.138693301483213,
+    "latitude": 49.023582660908495,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -981,10 +996,10 @@
     "number": "10061007",
     "shortname": "EISERNE BRÜCKE",
     "longname": "EISERNE BRÜCKE",
-    "km": 2379.27,
+    "km": 2379.3,
     "agency": "STANDORT REGENSBURG",
-    "longitude": 12.101838366417141,
-    "latitude": 49.021378880478416,
+    "longitude": 12.101826608059241,
+    "latitude": 49.021358796498625,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -1011,10 +1026,10 @@
     "number": "10056302",
     "shortname": "OBERNDORF",
     "longname": "OBERNDORF",
-    "km": 2397.38,
+    "km": 2397.4,
     "agency": "STANDORT REGENSBURG",
-    "longitude": 12.014757615398484,
-    "latitude": 48.94685792048538,
+    "longitude": 12.01493643053968,
+    "latitude": 48.94690010403335,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -1061,8 +1076,8 @@
     "longname": "KELHEIMWINZER",
     "km": 2409.7,
     "agency": "STANDORT REGENSBURG",
-    "longitude": 11.932078963881247,
-    "latitude": 48.911858709369014,
+    "longitude": 11.933331230073497,
+    "latitude": 48.911633083316254,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -1097,6 +1112,8 @@
     "longname": "INGOLSTADT LUITPOLDSTRASSE",
     "km": 2458.3,
     "agency": "WASSERWIRTSCHAFTSAMT INGOLSTADT",
+    "longitude": 11.42605413309612,
+    "latitude": 48.75741417707601,
     "water": {
       "shortname": "DONAU",
       "longname": "DONAU"
@@ -1113,7 +1130,10 @@
           "validFrom": "2012-01-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Bayern",
+    "kreis": "Ingolstadt"
   },
   {
     "uuid": "0024cc40-d690-468d-84f9-4e9bf45d9108",
@@ -1122,6 +1142,8 @@
     "longname": "VERSEN TRENNSPITZE",
     "km": 1,
     "agency": "STANDORT MEPPEN",
+    "longitude": 7.260856418142803,
+    "latitude": 52.73118697618089,
     "water": {
       "shortname": "DEK",
       "longname": "DORTMUND-EMS-KANAL"
@@ -1133,7 +1155,10 @@
         "unit": "cm",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Emsland"
   },
   {
     "uuid": "70bee932-1c14-42f8-b4df-9a85589ca80e",
@@ -1142,6 +1167,8 @@
     "longname": "HENRICHENBURG OW",
     "km": 14.3,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.339002440622213,
+    "latitude": 51.61604687127452,
     "water": {
       "shortname": "DEK",
       "longname": "DORTMUND-EMS-KANAL"
@@ -1153,7 +1180,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Recklinghausen"
   },
   {
     "uuid": "e6b68bc2-6814-4bbf-b37e-44a0b7807c2d",
@@ -1162,6 +1192,8 @@
     "longname": "HENRICHENBURG UW",
     "km": 15.9,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.329425364716587,
+    "latitude": 51.62111786863903,
     "water": {
       "shortname": "DEK",
       "longname": "DORTMUND-EMS-KANAL"
@@ -1173,7 +1205,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Recklinghausen"
   },
   {
     "uuid": "f5bc4a51-004f-4e5e-99b9-e6ae888d57de",
@@ -1182,6 +1217,8 @@
     "longname": "LÜDINGHAUSEN",
     "km": 39.32,
     "agency": "RHEINE",
+    "longitude": 7.4019473459304415,
+    "latitude": 51.79811271704396,
     "water": {
       "shortname": "DEK",
       "longname": "DORTMUND-EMS-KANAL"
@@ -1193,7 +1230,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Coesfeld"
   },
   {
     "uuid": "ccd3e8f1-39e9-4e09-aa41-625afda84460",
@@ -1202,6 +1242,8 @@
     "longname": "MÜNSTER OW",
     "km": 70.315,
     "agency": "RHEINE",
+    "longitude": 7.664374042081728,
+    "latitude": 51.968941959729285,
     "water": {
       "shortname": "DEK",
       "longname": "DORTMUND-EMS-KANAL"
@@ -1213,7 +1255,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Münster"
   },
   {
     "uuid": "ed260406-bdd6-42ef-bf2a-1246eea392f9",
@@ -1222,6 +1267,8 @@
     "longname": "MÜNSTER UW",
     "km": 72.49,
     "agency": "RHEINE",
+    "longitude": 7.660129217739212,
+    "latitude": 51.987125070778745,
     "water": {
       "shortname": "DEK",
       "longname": "DORTMUND-EMS-KANAL"
@@ -1233,7 +1280,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Münster"
   },
   {
     "uuid": "ade3a084-8680-47b5-9d2e-288cb6c5f9d5",
@@ -1242,6 +1292,8 @@
     "longname": "BERGESHÖVEDE",
     "km": 108.26,
     "agency": "RHEINE",
+    "longitude": 7.604958266270348,
+    "latitude": 52.275852653274264,
     "water": {
       "shortname": "DEK",
       "longname": "DORTMUND-EMS-KANAL"
@@ -1253,7 +1305,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Steinfurt"
   },
   {
     "uuid": "04572010-1db2-4338-8562-b3dca5e715c5",
@@ -3435,6 +3490,10 @@
           "unit": "m. ü. NHN",
           "value": -5.098,
           "validFrom": "2019-11-01"
+        },
+        "comment": {
+          "shortDescription": "Längerfristige Störung aufgrund von Baggerarbeiten",
+          "longDescription": "Längerfristige Störung aufgrund von Baggerarbeiten"
         }
       }
     ],
@@ -3689,6 +3748,8 @@
     "longname": "HAHNÖFER SAND WEST SIEL",
     "km": 641.5,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.690490444910012,
+    "latitude": 53.54823797295135,
     "water": {
       "shortname": "ELBE",
       "longname": "ELBE"
@@ -3706,7 +3767,10 @@
         "unit": "°C",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "8d18d129-07f1-4c4d-adba-a985016be0b0",
@@ -3787,6 +3851,8 @@
     "longname": "TWIELENFLETH SIEL",
     "km": 650.7,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.56713709100286,
+    "latitude": 53.5987544867678,
     "water": {
       "shortname": "ELBE",
       "longname": "ELBE"
@@ -3804,7 +3870,10 @@
         "unit": "°C",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "80f0fc4d-9fc7-449d-9d68-ee89333f0eff",
@@ -4137,6 +4206,8 @@
     "longname": "SCHÖNEWORTH SIEL",
     "km": 685.1,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.288200593012338,
+    "latitude": 53.846897132615574,
     "water": {
       "shortname": "ELBE",
       "longname": "ELBE"
@@ -4154,7 +4225,10 @@
         "unit": "°C",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "d4f5f719-8c52-4f8d-945d-1c31404cc628",
@@ -4350,10 +4424,10 @@
     "number": "587510",
     "shortname": "ZERBEN OP",
     "longname": "ZERBEN OP",
-    "km": 345.25,
+    "km": 344.686,
     "agency": "STANDORT BRANDENBURG",
-    "longitude": 11.962203879639915,
-    "latitude": 52.34391067008559,
+    "longitude": 11.957395153939682,
+    "latitude": 52.33961334991041,
     "water": {
       "shortname": "EHK",
       "longname": "ELBE-HAVEL-KANAL"
@@ -4386,10 +4460,10 @@
     "number": "587520",
     "shortname": "ZERBEN UP",
     "longname": "ZERBEN UP",
-    "km": 345.63,
+    "km": 346.162,
     "agency": "STANDORT BRANDENBURG",
-    "longitude": 11.96494543465139,
-    "latitude": 52.34689512676189,
+    "longitude": 11.969785382757323,
+    "latitude": 52.35067989593104,
     "water": {
       "shortname": "EHK",
       "longname": "ELBE-HAVEL-KANAL"
@@ -4656,6 +4730,8 @@
     "longname": "OSLOSS",
     "km": 9.72,
     "agency": "UELZEN",
+    "longitude": 10.667920057338701,
+    "latitude": 52.47767068829406,
     "water": {
       "shortname": "ESK",
       "longname": "ELBESEITENKANAL"
@@ -4667,7 +4743,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Gifhorn"
   },
   {
     "uuid": "9cf795ce-8bdf-494b-b8c6-ef1bfb89c08b",
@@ -4676,6 +4755,8 @@
     "longname": "WITTINGEN",
     "km": 39,
     "agency": "UELZEN",
+    "longitude": 10.664477396292549,
+    "latitude": 52.727726831464516,
     "water": {
       "shortname": "ESK",
       "longname": "ELBESEITENKANAL"
@@ -4699,7 +4780,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Gifhorn"
   },
   {
     "uuid": "728bd3e3-23f2-41c6-8ac5-4cfa223a5a7e",
@@ -4708,6 +4792,8 @@
     "longname": "UELZEN OW",
     "km": 60.38,
     "agency": "UELZEN",
+    "longitude": 10.614719701462517,
+    "latitude": 52.90933661624463,
     "water": {
       "shortname": "ESK",
       "longname": "ELBESEITENKANAL"
@@ -4725,7 +4811,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Uelzen"
   },
   {
     "uuid": "3eba7da6-fbd6-431c-91d3-522ec49275f0",
@@ -4734,6 +4823,8 @@
     "longname": "UELZEN",
     "km": 60.68,
     "agency": "UELZEN",
+    "longitude": 10.6135154863819,
+    "latitude": 52.91193196992062,
     "water": {
       "shortname": "ESK",
       "longname": "ELBESEITENKANAL"
@@ -4757,7 +4848,10 @@
         "unit": "°C",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Uelzen"
   },
   {
     "uuid": "0d0082cf-0b4b-4c8b-8e97-5d37b511916b",
@@ -4766,6 +4860,8 @@
     "longname": "UELZEN UW",
     "km": 60.98,
     "agency": "UELZEN",
+    "longitude": 10.61231113033207,
+    "latitude": 52.914527311414254,
     "water": {
       "shortname": "ESK",
       "longname": "ELBESEITENKANAL"
@@ -4783,7 +4879,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Uelzen"
   },
   {
     "uuid": "b8997708-53d0-4932-8fbf-265083e11517",
@@ -4792,6 +4891,8 @@
     "longname": "BEVENSEN",
     "km": 79.72,
     "agency": "UELZEN",
+    "longitude": 10.603346356554994,
+    "latitude": 53.0747965620184,
     "water": {
       "shortname": "ESK",
       "longname": "ELBESEITENKANAL"
@@ -4803,7 +4904,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Uelzen"
   },
   {
     "uuid": "c7364d1e-6139-4575-84cb-b420d21275c4",
@@ -4812,6 +4916,8 @@
     "longname": "LÜNEBURG OW",
     "km": 104,
     "agency": "UELZEN",
+    "longitude": 10.485459016759826,
+    "latitude": 53.27248768100028,
     "water": {
       "shortname": "ESK",
       "longname": "ELBESEITENKANAL"
@@ -4829,7 +4935,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Lüneburg"
   },
   {
     "uuid": "f348f2f6-37c2-41c2-8d53-fd06a18acce0",
@@ -4838,6 +4947,8 @@
     "longname": "LÜNEBURG",
     "km": 105.1,
     "agency": "UELZEN",
+    "longitude": 10.486987882835402,
+    "latitude": 53.28295910351831,
     "water": {
       "shortname": "ESK",
       "longname": "ELBESEITENKANAL"
@@ -4861,7 +4972,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Lüneburg"
   },
   {
     "uuid": "d18033cd-9cf6-4800-9176-57758bb444dc",
@@ -4870,6 +4984,8 @@
     "longname": "LÜNEBURG UW",
     "km": 106.3,
     "agency": "UELZEN",
+    "longitude": 10.488563061269605,
+    "latitude": 53.29342820761987,
     "water": {
       "shortname": "ESK",
       "longname": "ELBESEITENKANAL"
@@ -4887,7 +5003,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Lüneburg"
   },
   {
     "uuid": "7fec2f4f-6a2e-47ec-8f3c-016c581e4bbd",
@@ -4896,6 +5015,8 @@
     "longname": "ARTLENBURG-ELK",
     "km": 114.74,
     "agency": "UELZEN",
+    "longitude": 10.501986716627135,
+    "latitude": 53.36856406209302,
     "water": {
       "shortname": "ESK",
       "longname": "ELBESEITENKANAL"
@@ -4907,7 +5028,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Lüneburg"
   },
   {
     "uuid": "df06a523-8012-41cd-bd3c-47979d66e45e",
@@ -5798,6 +5922,8 @@
     "longname": "FREIBURG SPERRWERK",
     "km": 0.45,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.295079440408713,
+    "latitude": 53.82692556106338,
     "water": {
       "shortname": "Freiburger Hafenpriel",
       "longname": "FREIBURGER HAFENPRIEL"
@@ -5815,7 +5941,10 @@
         "unit": "°C",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "23721dfd-9b89-4b69-af80-063229917f27",
@@ -6195,6 +6324,18 @@
           "value": 28.955,
           "validFrom": "2019-11-01"
         }
+      },
+      {
+        "shortname": "LT",
+        "longname": "LUFTTEMPERATUR ROHDATEN",
+        "unit": "°C",
+        "equidistance": 15
+      },
+      {
+        "shortname": "WT",
+        "longname": "WASSERTEMPERATUR ROHDATEN",
+        "unit": "°C",
+        "equidistance": 60
       }
     ],
     "country": "Deutschland",
@@ -7430,6 +7571,8 @@
     "longname": "MARBURG",
     "km": -38.7,
     "agency": "MARBURG",
+    "longitude": 8.764488839485487,
+    "latitude": 50.798715517206084,
     "water": {
       "shortname": "LAHN",
       "longname": "LAHN"
@@ -7446,7 +7589,10 @@
           "validFrom": "1987-11-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Hessen",
+    "kreis": "Landkreis Marburg-Biedenkopf"
   },
   {
     "uuid": "4b386a6a-996e-4a4a-a440-15d6b40226d4",
@@ -8062,6 +8208,8 @@
     "longname": "LÜHORT LFK",
     "km": 12.6,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.633671953854105,
+    "latitude": 53.57137510339342,
     "water": {
       "shortname": "LÜHE",
       "longname": "LÜHE"
@@ -8079,7 +8227,10 @@
         "unit": "°C",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "db1684c1-7ffc-4e8a-b8cf-8240a0d03519",
@@ -8208,6 +8359,8 @@
     "longname": "HANAU BRÜCKE DFH",
     "km": 56.398,
     "agency": "ASCHAFFENBURG",
+    "longitude": 8.917580195300888,
+    "latitude": 50.12018029502036,
     "water": {
       "shortname": "MAIN",
       "longname": "MAIN"
@@ -8224,7 +8377,10 @@
           "validFrom": "2019-11-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Hessen",
+    "kreis": "Main-Kinzig-Kreis"
   },
   {
     "uuid": "da453ad0-5f1d-417c-baa3-74ae297f0b7a",
@@ -8233,6 +8389,8 @@
     "longname": "AUHEIM BRÜCKE DFH",
     "km": 59.56,
     "agency": "ASCHAFFENBURG",
+    "longitude": 8.936362926976003,
+    "latitude": 50.107039597753236,
     "water": {
       "shortname": "MAIN",
       "longname": "MAIN"
@@ -8249,7 +8407,10 @@
           "validFrom": "2019-11-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Hessen",
+    "kreis": "Main-Kinzig-Kreis"
   },
   {
     "uuid": "27eed51b-c0a4-417e-926b-bb4194bfb341",
@@ -8354,6 +8515,8 @@
     "longname": "KLEINOSTHEIM_WUK",
     "km": 77.8,
     "agency": "ASCHAFFENBURG",
+    "longitude": 9.040708664679794,
+    "latitude": 50.00823810919674,
     "water": {
       "shortname": "MAIN",
       "longname": "MAIN"
@@ -8371,7 +8534,10 @@
         "unit": "mg/l",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Hessen",
+    "kreis": "Landkreis Offenbach"
   },
   {
     "uuid": "3c7cfb10-c866-404b-b11c-0d79986f865a",
@@ -8623,13 +8789,21 @@
         "shortname": "Q",
         "longname": "ABFLUSS",
         "unit": "m³/s",
-        "equidistance": 15
+        "equidistance": 15,
+        "comment": {
+          "shortDescription": "Technische Störung",
+          "longDescription": "Technische Störung"
+        }
       },
       {
         "shortname": "VA",
         "longname": "FLIESSGESCHWINDIGKEIT",
         "unit": "m/s",
-        "equidistance": 15
+        "equidistance": 15,
+        "comment": {
+          "shortDescription": "Technische Störung",
+          "longDescription": "Technische Störung"
+        }
       }
     ],
     "country": "Deutschland",
@@ -8785,21 +8959,13 @@
         "shortname": "Q",
         "longname": "ABFLUSS_ROHDATEN",
         "unit": "m³/s",
-        "equidistance": 15,
-        "comment": {
-          "shortDescription": "Technische Störung",
-          "longDescription": "Technische Störung"
-        }
+        "equidistance": 15
       },
       {
         "shortname": "VA",
         "longname": "FLIESSGESCHWINDIGKEIT",
         "unit": "m/s",
-        "equidistance": 15,
-        "comment": {
-          "shortDescription": "Technische Störung",
-          "longDescription": "Technische Störung"
-        }
+        "equidistance": 15
       },
       {
         "shortname": "PH",
@@ -9021,6 +9187,8 @@
     "longname": "HÖRSTEL",
     "km": 0.6,
     "agency": "MINDEN",
+    "longitude": 7.605447065657078,
+    "latitude": 52.28313190939285,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9032,7 +9200,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Steinfurt"
   },
   {
     "uuid": "7af19499-8bc8-4a91-964d-88618ea8998a",
@@ -9041,6 +9212,8 @@
     "longname": "RECKE",
     "km": 12.595,
     "agency": "MINDEN",
+    "longitude": 7.706273734728178,
+    "latitude": 52.354327856738095,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9052,7 +9225,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Steinfurt"
   },
   {
     "uuid": "bec8a6a5-c3de-4322-856a-870ceb992fe4",
@@ -9061,6 +9237,8 @@
     "longname": "BRAMSCHE",
     "km": 31.95,
     "agency": "MINDEN",
+    "longitude": 7.9781727337046835,
+    "latitude": 52.39616715439622,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9102,7 +9280,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Osnabrück"
   },
   {
     "uuid": "1125a391-6586-4951-865f-3a2c72f2c81a",
@@ -9111,6 +9292,8 @@
     "longname": "BROXTEN",
     "km": 47.43,
     "agency": "MINDEN",
+    "longitude": 8.190182787252551,
+    "latitude": 52.39066746356301,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9122,7 +9305,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Osnabrück"
   },
   {
     "uuid": "6760b547-a7e7-408a-b3aa-529fe376bfcd",
@@ -9131,6 +9317,8 @@
     "longname": "BAD ESSEN",
     "km": 60.8,
     "agency": "MINDEN",
+    "longitude": 8.342519632727996,
+    "latitude": 52.32454060842585,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9154,7 +9342,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Osnabrück"
   },
   {
     "uuid": "c2aa9164-1073-4271-82ef-44344fbe456e",
@@ -9163,6 +9354,8 @@
     "longname": "LÜBBECKE",
     "km": 80.1,
     "agency": "MINDEN",
+    "longitude": 8.617140963904102,
+    "latitude": 52.334960676468675,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9174,7 +9367,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Minden-Lübbecke"
   },
   {
     "uuid": "ac970eb0-f5cf-4db0-90f0-e281f5d4775c",
@@ -9183,6 +9379,8 @@
     "longname": "HAHLEN",
     "km": 98.09,
     "agency": "MINDEN",
+    "longitude": 8.868900742195017,
+    "latitude": 52.29731102245896,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9206,7 +9404,10 @@
         "unit": "mg/l",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Minden-Lübbecke"
   },
   {
     "uuid": "6d3a3e2a-713c-4232-9b70-834a2c0e9705",
@@ -9215,6 +9416,8 @@
     "longname": "MINDEN",
     "km": 102.132,
     "agency": "MINDEN",
+    "longitude": 8.926898351900594,
+    "latitude": 52.30307579567465,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9238,7 +9441,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Minden-Lübbecke"
   },
   {
     "uuid": "8bccd43b-ed6f-4ed8-ae6e-80ad7e330658",
@@ -9247,6 +9453,8 @@
     "longname": "WESER",
     "km": 102.5,
     "agency": "MINDEN",
+    "longitude": 8.932229359197002,
+    "latitude": 52.30360593754341,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9264,7 +9472,10 @@
         "unit": "mg/l",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Minden-Lübbecke"
   },
   {
     "uuid": "d2c8f60e-fda4-4744-9017-9c727fdcfe1f",
@@ -9273,6 +9484,8 @@
     "longname": "BERENBUSCH",
     "km": 106.732,
     "agency": "MINDEN",
+    "longitude": 8.990630381569474,
+    "latitude": 52.294948467237035,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9296,7 +9509,10 @@
         "unit": "mg/l",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Schaumburg"
   },
   {
     "uuid": "c1f06401-9488-4a27-b932-59cce52c5819",
@@ -9305,6 +9521,8 @@
     "longname": "RUSBEND",
     "km": 112.16,
     "agency": "MINDEN",
+    "longitude": 9.058269750285689,
+    "latitude": 52.31324463118083,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9316,7 +9534,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Schaumburg"
   },
   {
     "uuid": "864a8111-d0c1-4b74-b94e-515f0869355e",
@@ -9325,6 +9546,8 @@
     "longname": "NIENBRÜGGE",
     "km": 126.7,
     "agency": "MINDEN",
+    "longitude": 9.228531529696014,
+    "latitude": 52.379195781573294,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9336,7 +9559,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Schaumburg"
   },
   {
     "uuid": "eb24b5a3-5102-429b-93a9-15656fee850f",
@@ -9345,6 +9571,8 @@
     "longname": "RODENBERGER AUE-WEST",
     "km": 132.68,
     "agency": "BRAUNSCHWEIG",
+    "longitude": 9.315912784359135,
+    "latitude": 52.38758644490628,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9356,7 +9584,9 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen"
   },
   {
     "uuid": "6288de60-38be-4291-9ff6-dcf6c0f58cea",
@@ -9365,6 +9595,8 @@
     "longname": "RODENBERGER AUE-OST",
     "km": 133.55,
     "agency": "BRAUNSCHWEIG",
+    "longitude": 9.3286513806457,
+    "latitude": 52.38820300986906,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9376,7 +9608,9 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen"
   },
   {
     "uuid": "516c4814-d70b-47bf-99bf-a76844b94e5e",
@@ -9385,6 +9619,8 @@
     "longname": "LOHNDE",
     "km": 150.1,
     "agency": "BRAUNSCHWEIG",
+    "longitude": 9.56415099470703,
+    "latitude": 52.399312301337744,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9426,7 +9662,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Region Hannover"
   },
   {
     "uuid": "27dfd137-3b88-42e8-9baf-6bee76e0717c",
@@ -9435,6 +9674,8 @@
     "longname": "HANN. LIST",
     "km": 163.56,
     "agency": "BRAUNSCHWEIG",
+    "longitude": 9.745765567789217,
+    "latitude": 52.40596236432859,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9446,7 +9687,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Region Hannover"
   },
   {
     "uuid": "dd41a7d6-9b11-4ec4-9518-388266750cfa",
@@ -9455,6 +9699,8 @@
     "longname": "ANDERTEN UW",
     "km": 173.425,
     "agency": "BRAUNSCHWEIG",
+    "longitude": 9.85877700997171,
+    "latitude": 52.36671491890307,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9472,7 +9718,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Region Hannover"
   },
   {
     "uuid": "98daae03-5aaa-4284-9717-7d52da4fe063",
@@ -9481,6 +9730,8 @@
     "longname": "ANDERTEN",
     "km": 174.5,
     "agency": "BRAUNSCHWEIG",
+    "longitude": 9.866583192357153,
+    "latitude": 52.358330028425975,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9492,7 +9743,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Region Hannover"
   },
   {
     "uuid": "bc20d819-1782-4588-885d-129f21a27cf9",
@@ -9501,6 +9755,8 @@
     "longname": "ANDERTEN OW",
     "km": 174.96,
     "agency": "BRAUNSCHWEIG",
+    "longitude": 9.869744389448227,
+    "latitude": 52.35467744559063,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9524,7 +9780,10 @@
         "unit": "mg/l",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Region Hannover"
   },
   {
     "uuid": "ab0d9117-83f3-412d-bce5-b3e698246c0b",
@@ -9533,6 +9792,8 @@
     "longname": "SEHNDE",
     "km": 183.58,
     "agency": "BRAUNSCHWEIG",
+    "longitude": 9.962091467569225,
+    "latitude": 52.306048807035964,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9544,7 +9805,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Region Hannover"
   },
   {
     "uuid": "be05603a-83e4-48d4-90d9-e074b7d34dcd",
@@ -9553,6 +9817,8 @@
     "longname": "MEHRUM",
     "km": 192.556,
     "agency": "BRAUNSCHWEIG",
+    "longitude": 10.09332374057412,
+    "latitude": 52.31074650400972,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9564,7 +9830,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Peine"
   },
   {
     "uuid": "42b865fb-5dd8-4204-a7aa-260704d69e21",
@@ -9573,6 +9842,8 @@
     "longname": "THUNE",
     "km": 222.85,
     "agency": "BRAUNSCHWEIG",
+    "longitude": 10.517134246080976,
+    "latitude": 52.33523664706349,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9596,7 +9867,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Braunschweig"
   },
   {
     "uuid": "a8604e8f-9330-4431-8cf6-0a68fc793c82",
@@ -9605,6 +9879,8 @@
     "longname": "SÜLFELD OW",
     "km": 235.7,
     "agency": "UELZEN",
+    "longitude": 10.647378490339184,
+    "latitude": 52.41683049515999,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9622,7 +9898,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Gifhorn"
   },
   {
     "uuid": "9dfb4b0b-daa6-4a90-9a82-60734d3d2f04",
@@ -9631,6 +9910,8 @@
     "longname": "SÜLFELD",
     "km": 236.8,
     "agency": "UELZEN",
+    "longitude": 10.661979362056853,
+    "latitude": 52.421070807285304,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9654,7 +9935,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Wolfsburg"
   },
   {
     "uuid": "892183d6-3a28-4347-afb4-bc89602ca927",
@@ -9663,6 +9947,8 @@
     "longname": "SÜLFELD UW",
     "km": 238,
     "agency": "UELZEN",
+    "longitude": 10.678298136429538,
+    "latitude": 52.42507310361727,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9680,7 +9966,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Wolfsburg"
   },
   {
     "uuid": "dbb2bb9f-0f80-4df4-9d5c-98af2ee41826",
@@ -9689,6 +9978,8 @@
     "longname": "VORSFELDE",
     "km": 249.12,
     "agency": "UELZEN",
+    "longitude": 10.840641047318789,
+    "latitude": 52.43288821809177,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9700,7 +9991,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Wolfsburg"
   },
   {
     "uuid": "4ed5f6da-b7a0-4431-ab1f-1a26e69a21bc",
@@ -9709,6 +10003,8 @@
     "longname": "RÜHEN",
     "km": 256.1,
     "agency": "UELZEN",
+    "longitude": 10.909579440422444,
+    "latitude": 52.47882084702305,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9720,7 +10016,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Gifhorn"
   },
   {
     "uuid": "36f80081-9353-4ab1-8e61-07a5509f1cea",
@@ -9759,6 +10058,8 @@
     "longname": "HALDENSLEBEN",
     "km": 300.9,
     "agency": "UELZEN",
+    "longitude": 11.408771857381964,
+    "latitude": 52.27792188628186,
     "water": {
       "shortname": "MLK",
       "longname": "MITTELLANDKANAL"
@@ -9794,7 +10095,10 @@
         "unit": "°C",
         "equidistance": 60
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Sachsen-Anhalt",
+    "kreis": "Börde"
   },
   {
     "uuid": "32b997c2-d97c-452a-a5c1-ee4592a15b4c",
@@ -9888,6 +10192,8 @@
     "longname": "LEHMEN UP",
     "km": 20.4,
     "agency": "STANDORT KOBLENZ",
+    "longitude": 7.457699265736657,
+    "latitude": 50.2784723206586,
     "water": {
       "shortname": "MOSEL",
       "longname": "MOSEL"
@@ -9904,7 +10210,10 @@
           "validFrom": "2018-01-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Rheinland-Pfalz",
+    "kreis": "Landkreis Mayen-Koblenz"
   },
   {
     "uuid": "16578824-88de-4700-ab09-f61dbb1182bd",
@@ -9913,6 +10222,8 @@
     "longname": "ALKEN",
     "km": 24.13,
     "agency": "STANDORT KOBLENZ",
+    "longitude": 7.446100426875524,
+    "latitude": 50.250183820715726,
     "water": {
       "shortname": "MOSEL",
       "longname": "MOSEL"
@@ -9924,7 +10235,10 @@
         "unit": "m³/s",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Rheinland-Pfalz",
+    "kreis": "Landkreis Mayen-Koblenz"
   },
   {
     "uuid": "edc67ca3-b597-402a-9037-ff39ee816452",
@@ -9933,6 +10247,8 @@
     "longname": "MÜDEN UP",
     "km": 36.8,
     "agency": "STANDORT KOBLENZ",
+    "longitude": 7.336870435150974,
+    "latitude": 50.182436916335845,
     "water": {
       "shortname": "MOSEL",
       "longname": "MOSEL"
@@ -9949,7 +10265,10 @@
           "validFrom": "2018-01-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Rheinland-Pfalz",
+    "kreis": "Landkreis Cochem-Zell"
   },
   {
     "uuid": "768df4e9-ed5a-4141-901b-e25ac404d559",
@@ -9994,6 +10313,8 @@
     "longname": "FANKEL UP",
     "km": 58.9,
     "agency": "STANDORT KOBLENZ",
+    "longitude": 7.227314292498862,
+    "latitude": 50.128000165870326,
     "water": {
       "shortname": "MOSEL",
       "longname": "MOSEL"
@@ -10010,7 +10331,10 @@
           "validFrom": "2018-01-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Rheinland-Pfalz",
+    "kreis": "Landkreis Cochem-Zell"
   },
   {
     "uuid": "20640279-2334-4acd-afb5-c8f3afc18379",
@@ -10019,6 +10343,8 @@
     "longname": "SANKT ALDEGUND UP",
     "km": 78.1,
     "agency": "STANDORT KOBLENZ",
+    "longitude": 7.133981076586329,
+    "latitude": 50.0893352739833,
     "water": {
       "shortname": "MOSEL",
       "longname": "MOSEL"
@@ -10035,7 +10361,10 @@
           "validFrom": "2018-01-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Rheinland-Pfalz",
+    "kreis": "Landkreis Cochem-Zell"
   },
   {
     "uuid": "ee861944-647f-4242-bf61-60f9b9d75fb7",
@@ -10044,6 +10373,8 @@
     "longname": "ENKIRCH UP",
     "km": 102.6,
     "agency": "STANDORT KOBLENZ",
+    "longitude": 7.1229736756543645,
+    "latitude": 49.97808048627515,
     "water": {
       "shortname": "MOSEL",
       "longname": "MOSEL"
@@ -10060,7 +10391,10 @@
           "validFrom": "2018-01-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Rheinland-Pfalz",
+    "kreis": "Landkreis Bernkastel-Wittlich"
   },
   {
     "uuid": "d867e7e9-feb9-4d36-8757-4afd865e697b",
@@ -10099,6 +10433,8 @@
     "longname": "WINTRICH UP",
     "km": 141.1,
     "agency": "STANDORT TRIER",
+    "longitude": 6.946620150874741,
+    "latitude": 49.87570957067352,
     "water": {
       "shortname": "MOSEL",
       "longname": "MOSEL"
@@ -10115,7 +10451,10 @@
           "validFrom": "2004-04-13"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Rheinland-Pfalz",
+    "kreis": "Landkreis Bernkastel-Wittlich"
   },
   {
     "uuid": "dc344605-c507-4054-b4e3-293cf0602bc4",
@@ -10124,6 +10463,8 @@
     "longname": "DETZEM UP",
     "km": 165.4,
     "agency": "STANDORT TRIER",
+    "longitude": 6.845035832609276,
+    "latitude": 49.8185125090412,
     "water": {
       "shortname": "MOSEL",
       "longname": "MOSEL"
@@ -10140,7 +10481,10 @@
           "validFrom": "2004-04-13"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Rheinland-Pfalz",
+    "kreis": "Landkreis Trier-Saarburg"
   },
   {
     "uuid": "abd34ee6-a578-4639-b73d-fa4e08f40345",
@@ -10215,6 +10559,8 @@
     "longname": "GREVENMACHER UP",
     "km": 212.5,
     "agency": "STANDORT TRIER",
+    "longitude": 6.439262070024059,
+    "latitude": 49.673564152394675,
     "water": {
       "shortname": "MOSEL",
       "longname": "MOSEL"
@@ -10226,7 +10572,8 @@
         "unit": "cm",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Luxemburg"
   },
   {
     "uuid": "bb5560fc-7995-40a2-b92f-3d828c67dcfa",
@@ -10857,6 +11204,8 @@
     "longname": "PARCHIM GÜTE",
     "km": 72.567,
     "agency": "STANDORT LAUENBURG",
+    "longitude": 11.834570381155551,
+    "latitude": 53.42525731373197,
     "water": {
       "shortname": "MEW",
       "longname": "MÜRITZ-ELDE-WASSERSTRASSE"
@@ -10879,7 +11228,10 @@
           "validFrom": "2019-11-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Mecklenburg-Vorpommern",
+    "kreis": "Ludwigslust-Parchim"
   },
   {
     "uuid": "541c508a-00bf-4a9d-bd47-17fda98b349d",
@@ -11314,6 +11666,8 @@
     "longname": "ZIEGELHAUSEN AMS",
     "km": 29.4,
     "agency": "STANDORT HEIDELBERG",
+    "longitude": 8.777435199450945,
+    "latitude": 49.410944764812896,
     "water": {
       "shortname": "NECKAR",
       "longname": "NECKAR"
@@ -11325,7 +11679,10 @@
         "unit": "m³/s",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Baden-Württemberg",
+    "kreis": "Heidelberg"
   },
   {
     "uuid": "4c00a166-7d6d-48d7-b4dc-673b96b4041e",
@@ -11821,6 +12178,8 @@
     "longname": "UNTERTÜRKHEIM SCHLEUSE UP",
     "km": 186.2,
     "agency": "STANDORT STUTTGART",
+    "longitude": 9.243162743728227,
+    "latitude": 48.77801270356594,
     "water": {
       "shortname": "NECKAR",
       "longname": "NECKAR"
@@ -11837,7 +12196,10 @@
           "validFrom": "2017-11-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Baden-Württemberg",
+    "kreis": "Stuttgart"
   },
   {
     "uuid": "80e002d8-bc6a-4685-9aab-88edbfc069e0",
@@ -13956,10 +14318,6 @@
           "unit": "m. ü. NN",
           "value": -5,
           "validFrom": "2000-12-11"
-        },
-        "comment": {
-          "shortDescription": "Technische Probleme. Pegel derzeit außer Betrieb",
-          "longDescription": "Pegel aufgrund technischer Probleme derzeit außer Betrieb"
         }
       }
     ],
@@ -14030,6 +14388,8 @@
     "longname": "NEUENSEER SCHLEUSENFLETH SIEL",
     "km": 58.9,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.13090359745104,
+    "latitude": 53.78068651386331,
     "water": {
       "shortname": "OSTE",
       "longname": "OSTE"
@@ -14047,7 +14407,10 @@
         "unit": "°C",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Cuxhaven"
   },
   {
     "uuid": "f44e7220-892e-40b5-8ef4-3da129c2a6ae",
@@ -14056,6 +14419,8 @@
     "longname": "GEVERSDORF BRÜCKE",
     "km": 64.45,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.080457720114461,
+    "latitude": 53.80124318655905,
     "water": {
       "shortname": "OSTE",
       "longname": "OSTE"
@@ -14073,7 +14438,10 @@
         "unit": "µS/cm",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Cuxhaven"
   },
   {
     "uuid": "7cb4566b-c584-4167-8736-f52ca7fd837d",
@@ -14142,6 +14510,8 @@
     "longname": "BELUM PEGEL",
     "km": 69.89,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.037130579870126,
+    "latitude": 53.8227648307363,
     "water": {
       "shortname": "OSTE",
       "longname": "OSTE"
@@ -14159,7 +14529,10 @@
         "unit": "°C",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "a9e93be0-cb0e-4418-ba3c-94e7869f6199",
@@ -15955,6 +16328,8 @@
     "longname": "BODENHEIM",
     "km": 489,
     "agency": "STANDORT MANNHEIM",
+    "longitude": 8.342802341371497,
+    "latitude": 49.93566033334008,
     "water": {
       "shortname": "RHEIN",
       "longname": "RHEIN"
@@ -15971,7 +16346,10 @@
           "validFrom": "2017-07-18"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Rheinland-Pfalz",
+    "kreis": "Landkreis Mainz-Bingen"
   },
   {
     "uuid": "a37a9aa3-45e9-4d90-9df6-109f3a28a5af",
@@ -16586,6 +16964,8 @@
     "longname": "DUISBURG-MEIDERICH SCHLEUSE OW",
     "km": 0.869,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 6.775961810666088,
+    "latitude": 51.45171759166437,
     "water": {
       "shortname": "RHK",
       "longname": "RHEIN-HERNE-KANAL"
@@ -16597,7 +16977,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Duisburg"
   },
   {
     "uuid": "48780245-36f2-453e-b430-5fa838851d6d",
@@ -16606,6 +16989,8 @@
     "longname": "DUISBURG-MEIDERICH SCHLEUSE UW",
     "km": 1.1,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 6.779116363296887,
+    "latitude": 51.45237026917467,
     "water": {
       "shortname": "RHK",
       "longname": "RHEIN-HERNE-KANAL"
@@ -16617,7 +17002,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Duisburg"
   },
   {
     "uuid": "12f63015-c66a-4e89-a69b-ddd069872d40",
@@ -16626,6 +17014,8 @@
     "longname": "OBERHAUSEN SCHLEUSE UW",
     "km": 5.189,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 6.815456818151978,
+    "latitude": 51.478972116245465,
     "water": {
       "shortname": "RHK",
       "longname": "RHEIN-HERNE-KANAL"
@@ -16637,7 +17027,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Oberhausen"
   },
   {
     "uuid": "e251f943-ce2f-4003-b208-e2797aa72202",
@@ -16646,6 +17039,8 @@
     "longname": "OBERHAUSEN SCHLEUSE OW",
     "km": 5.734,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 6.821446710191655,
+    "latitude": 51.48213670062221,
     "water": {
       "shortname": "RHK",
       "longname": "RHEIN-HERNE-KANAL"
@@ -16657,7 +17052,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Oberhausen"
   },
   {
     "uuid": "427318d0-ee8d-4d9b-89f1-e8a8685b5d8c",
@@ -16666,6 +17064,8 @@
     "longname": "GELSENKIRCHEN SCHLEUSE UW",
     "km": 23.069,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.053884636912696,
+    "latitude": 51.52979237844467,
     "water": {
       "shortname": "RHK",
       "longname": "RHEIN-HERNE-KANAL"
@@ -16677,7 +17077,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Gelsenkirchen"
   },
   {
     "uuid": "5b9f8134-8bf0-4b51-a548-72a36303bbc2",
@@ -16686,6 +17089,8 @@
     "longname": "GELSENKIRCHEN SCHLEUSE OW",
     "km": 23.566,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.059887649239827,
+    "latitude": 51.53222783772565,
     "water": {
       "shortname": "RHK",
       "longname": "RHEIN-HERNE-KANAL"
@@ -16697,7 +17102,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Gelsenkirchen"
   },
   {
     "uuid": "23045f8b-e7e8-4534-8162-b7dba81764db",
@@ -16706,6 +17114,8 @@
     "longname": "WANNE EICKEL SCHLEUSE UW",
     "km": 30.907,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.158004187559418,
+    "latitude": 51.547248449776134,
     "water": {
       "shortname": "RHK",
       "longname": "RHEIN-HERNE-KANAL"
@@ -16717,7 +17127,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Herne"
   },
   {
     "uuid": "05ca0e33-5c71-4368-b824-2243fcff656c",
@@ -16726,6 +17139,8 @@
     "longname": "WANNE EICKEL SCHLEUSE OW",
     "km": 31.47,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.165993854149792,
+    "latitude": 51.54815978180885,
     "water": {
       "shortname": "RHK",
       "longname": "RHEIN-HERNE-KANAL"
@@ -16737,7 +17152,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Herne"
   },
   {
     "uuid": "b9975ea1-5b45-4e27-abb8-4c3f7878b1f7",
@@ -16746,6 +17164,8 @@
     "longname": "HERNE UW",
     "km": 36.825,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.306141323485445,
+    "latitude": 51.60310161836077,
     "water": {
       "shortname": "RHK",
       "longname": "RHEIN-HERNE-KANAL"
@@ -16757,7 +17177,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Recklinghausen"
   },
   {
     "uuid": "ac6c4362-1fb1-4b7a-9406-016bed804804",
@@ -16766,6 +17189,8 @@
     "longname": "HERNE OW",
     "km": 37.35,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.245823919191931,
+    "latitude": 51.564599722378425,
     "water": {
       "shortname": "RHK",
       "longname": "RHEIN-HERNE-KANAL"
@@ -16777,7 +17202,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Herne"
   },
   {
     "uuid": "4d00c13e-e689-4dfc-85e6-a3fc8596ac8b",
@@ -16901,6 +17329,8 @@
     "longname": "RUHRWEHR OW",
     "km": 2.961,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 6.757436722992025,
+    "latitude": 51.44592254469835,
     "water": {
       "shortname": "RUHR",
       "longname": "RUHR"
@@ -16912,7 +17342,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Duisburg"
   },
   {
     "uuid": "36fb2c81-5fc0-4f2c-8f37-347c822a4b59",
@@ -16921,6 +17354,8 @@
     "longname": "SCHLOSSBRÜCKE MÜLHEIM",
     "km": 12.183,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 6.8759653038330795,
+    "latitude": 51.42676111965543,
     "water": {
       "shortname": "RUHR",
       "longname": "RUHR"
@@ -16932,7 +17367,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Mülheim an der Ruhr"
   },
   {
     "uuid": "c0594fb5-77ff-4287-9b8d-7ff326afe9ff",
@@ -16941,6 +17379,8 @@
     "longname": "HATTINGEN",
     "km": 56.9,
     "agency": "RUHRVERBAND",
+    "longitude": 7.161034055228364,
+    "latitude": 51.39974995669543,
     "water": {
       "shortname": "RUHR",
       "longname": "RUHR"
@@ -16958,7 +17398,10 @@
         "unit": "m³/s",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Ennepe-Ruhr-Kreis"
   },
   {
     "uuid": "752a8c5a-5f2a-4575-af2f-d825cffc6eb3",
@@ -16967,6 +17410,8 @@
     "longname": "RUTHENSTROM-SPERRWERK",
     "km": 3.64,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.419406799690009,
+    "latitude": 53.71995970904395,
     "water": {
       "shortname": "RuS",
       "longname": "RUTHENSTROM"
@@ -16984,7 +17429,10 @@
         "unit": "°C",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "99989609-7bd8-4f91-bd55-ad31fbf55ee4",
@@ -17617,6 +18065,8 @@
     "longname": "SERRIG UP",
     "km": 18.22,
     "agency": "STANDORT SAARBRÜCKEN",
+    "longitude": 6.589893624713408,
+    "latitude": 49.56545417246006,
     "water": {
       "shortname": "SAAR",
       "longname": "SAAR"
@@ -17628,7 +18078,10 @@
         "unit": "cm",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Rheinland-Pfalz",
+    "kreis": "Landkreis Trier-Saarburg"
   },
   {
     "uuid": "50881379-70ca-4e85-9bf2-752a7e5aea8c",
@@ -17845,6 +18298,8 @@
     "longname": "SCHWINGE-SPERRWERK",
     "km": 3.6,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.514315636026316,
+    "latitude": 53.62485233499486,
     "water": {
       "shortname": "Schwinge",
       "longname": "SCHWINGE"
@@ -17862,7 +18317,10 @@
         "unit": "°C",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "d89eb759-58c4-43f4-9fe4-e6a21af23f5c",
@@ -18597,6 +19055,8 @@
     "longname": "BANZKOW UP",
     "km": 10.852,
     "agency": "STANDORT LAUENBURG",
+    "longitude": 11.521817168422146,
+    "latitude": 53.52283688669219,
     "water": {
       "shortname": "STW",
       "longname": "STÖR-WASSERSTRASSE"
@@ -18608,7 +19068,10 @@
         "unit": "°C",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Mecklenburg-Vorpommern",
+    "kreis": "Ludwigslust-Parchim"
   },
   {
     "uuid": "a9320108-ad58-41b8-b7b5-f52163a23927",
@@ -18760,6 +19223,8 @@
     "longname": "TEMPLIN UP",
     "km": 13.291,
     "agency": "STANDORT EBERSWALDE",
+    "longitude": 13.494752447153083,
+    "latitude": 53.12225321920685,
     "water": {
       "shortname": "TlG",
       "longname": "TEMPLINER GEWÄSSER"
@@ -18776,7 +19241,10 @@
           "validFrom": "2010-11-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Brandenburg",
+    "kreis": "Uckermark"
   },
   {
     "uuid": "71357738-c8e2-4cb7-a41a-365659bb8d58",
@@ -18785,6 +19253,8 @@
     "longname": "TEMPLIN OP",
     "km": 13.338,
     "agency": "STANDORT EBERSWALDE",
+    "longitude": 13.495313970633909,
+    "latitude": 53.1225067740016,
     "water": {
       "shortname": "TlG",
       "longname": "TEMPLINER GEWÄSSER"
@@ -18801,7 +19271,10 @@
           "validFrom": "2010-11-01"
         }
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Brandenburg",
+    "kreis": "Uckermark"
   },
   {
     "uuid": "f4f9f7fb-eeff-46dc-9727-04d8aa56240a",
@@ -20048,6 +20521,8 @@
     "longname": "FRIEDRICHSFELD SCHLEUSE UW",
     "km": 1.628,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 6.613936099614114,
+    "latitude": 51.62901684198965,
     "water": {
       "shortname": "WDK",
       "longname": "WESEL-DATTELN-KANAL"
@@ -20059,7 +20534,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Wesel"
   },
   {
     "uuid": "e3409c98-72d7-425b-9e2d-da54f75b3be8",
@@ -20068,6 +20546,8 @@
     "longname": "FRIEDRICHSFELD SCHLEUSE OW",
     "km": 2.295,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 6.623104637536296,
+    "latitude": 51.62723086931834,
     "water": {
       "shortname": "WDK",
       "longname": "WESEL-DATTELN-KANAL"
@@ -20079,7 +20559,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Wesel"
   },
   {
     "uuid": "5db8ab4b-315b-466e-b9d5-5ba5a19f5f08",
@@ -20088,6 +20571,8 @@
     "longname": "DORSTEN SCHLEUSE UW",
     "km": 30.016,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 6.998495058397988,
+    "latitude": 51.66300130903522,
     "water": {
       "shortname": "WDK",
       "longname": "WESEL-DATTELN-KANAL"
@@ -20099,7 +20584,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Recklinghausen"
   },
   {
     "uuid": "6610cf2e-7bfd-4686-b9ac-b105f492d708",
@@ -20108,6 +20596,8 @@
     "longname": "DORSTEN SCHLEUSE OW",
     "km": 30.863,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.01073174371013,
+    "latitude": 51.66280343989228,
     "water": {
       "shortname": "WDK",
       "longname": "WESEL-DATTELN-KANAL"
@@ -20119,7 +20609,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Recklinghausen"
   },
   {
     "uuid": "a7ffcc9e-fecd-431c-8044-e004682d023f",
@@ -20128,6 +20621,8 @@
     "longname": "FLAESHEIM SCHLEUSE UW",
     "km": 48.99,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.238068733431322,
+    "latitude": 51.72038176367795,
     "water": {
       "shortname": "WDK",
       "longname": "WESEL-DATTELN-KANAL"
@@ -20139,7 +20634,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Recklinghausen"
   },
   {
     "uuid": "f833a494-961b-42d3-9843-e4e61607b5be",
@@ -20148,6 +20646,8 @@
     "longname": "FLAESHEIM SCHLEUSE OW",
     "km": 49.73,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.246876437752155,
+    "latitude": 51.71662009240344,
     "water": {
       "shortname": "WDK",
       "longname": "WESEL-DATTELN-KANAL"
@@ -20159,7 +20659,10 @@
         "unit": "m+NN",
         "equidistance": 15
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Recklinghausen"
   },
   {
     "uuid": "7703d54d-ca33-44b9-b519-c618bae5bcc7",
@@ -20168,6 +20671,8 @@
     "longname": "AHSEN SCHLEUSE UW",
     "km": 55.924,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.321516930092937,
+    "latitude": 51.68901486941863,
     "water": {
       "shortname": "WDK",
       "longname": "WESEL-DATTELN-KANAL"
@@ -20179,7 +20684,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Recklinghausen"
   },
   {
     "uuid": "2813f196-3404-4ac2-92be-e288fe1607af",
@@ -20188,6 +20696,8 @@
     "longname": "AHSEN SCHLEUSE OW",
     "km": 56.278,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.325448955559613,
+    "latitude": 51.68697876100928,
     "water": {
       "shortname": "WDK",
       "longname": "WESEL-DATTELN-KANAL"
@@ -20199,7 +20709,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Recklinghausen"
   },
   {
     "uuid": "06c498e3-786a-48be-83be-6a6293ea3b8c",
@@ -20208,6 +20721,8 @@
     "longname": "DATTELN SCHLEUSE UW",
     "km": 58.89,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.353662412653228,
+    "latitude": 51.6713783099922,
     "water": {
       "shortname": "WDK",
       "longname": "WESEL-DATTELN-KANAL"
@@ -20219,7 +20734,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Recklinghausen"
   },
   {
     "uuid": "4dd743e9-3040-4f11-8c7c-d5c5789d80b4",
@@ -20228,6 +20746,8 @@
     "longname": "DATTELN SCHLEUSE OW",
     "km": 60.11,
     "agency": "DUISBURG-MEIDERICH",
+    "longitude": 7.364979258746803,
+    "latitude": 51.66298764678014,
     "water": {
       "shortname": "WDK",
       "longname": "WESEL-DATTELN-KANAL"
@@ -20239,7 +20759,10 @@
         "unit": "m+NN",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Nordrhein-Westfalen",
+    "kreis": "Kreis Recklinghausen"
   },
   {
     "uuid": "e0d7d4b2-7a72-429f-a858-f1e6f5ff40ae",
@@ -20649,6 +21172,12 @@
         "longname": "WINDRICHTUNG",
         "unit": "Grad",
         "equidistance": 1
+      },
+      {
+        "shortname": "O2",
+        "longname": "SAUERSTOFFGEHALT ROHDATEN",
+        "unit": "mg/l",
+        "equidistance": 1
       }
     ],
     "country": "Deutschland",
@@ -20704,6 +21233,8 @@
     "longname": "BLEXEN ABZ",
     "km": 62.46,
     "agency": "BREMERHAVEN",
+    "longitude": 8.537411727150166,
+    "latitude": 53.51758038460683,
     "water": {
       "shortname": "WESER",
       "longname": "WESER"
@@ -20721,7 +21252,10 @@
         "unit": "°C",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Wesermarsch"
   },
   {
     "uuid": "d3f822a0-e201-4a61-8913-589c74818ae0",
@@ -21315,6 +21849,10 @@
           "unit": "m. ü. NN",
           "value": 7.991,
           "validFrom": "1981-11-01"
+        },
+        "comment": {
+          "shortDescription": "Funktionsstörung. Keine Messwerte.",
+          "longDescription": "Funktionsstörung. Keine Messwerte."
         }
       }
     ],
@@ -21527,6 +22065,8 @@
     "longname": "DORNBUSCH BRÜCKE",
     "km": 3.7,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.348016526795693,
+    "latitude": 53.73777577422477,
     "water": {
       "shortname": "WSE",
       "longname": "WISCHHAFENER SÜDERELBE"
@@ -21544,7 +22084,10 @@
         "unit": "°C",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "e0747660-6d75-476a-be0f-73865bf47363",
@@ -21553,6 +22096,8 @@
     "longname": "WISCHHAFEN SPERRWERK",
     "km": 10,
     "agency": "STANDORT HAMBURG",
+    "longitude": 9.340786122111076,
+    "latitude": 53.785178225601356,
     "water": {
       "shortname": "WSE",
       "longname": "WISCHHAFENER SÜDERELBE"
@@ -21570,7 +22115,10 @@
         "unit": "µS/cm",
         "equidistance": 1
       }
-    ]
+    ],
+    "country": "Deutschland",
+    "land": "Niedersachsen",
+    "kreis": "Landkreis Stade"
   },
   {
     "uuid": "aac49cf2-5d3f-4c69-9847-027fecaeef30",
