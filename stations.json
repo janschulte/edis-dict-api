@@ -27,7 +27,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Verden"
+    "kreis": "Landkreis Verden",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "5aaed954-de4e-4528-8f65-f3f530bc8325",
@@ -57,7 +58,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Heidekreis"
+    "kreis": "Heidekreis",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "522286e2-b2b3-4d0d-9a11-01b3ea418c76",
@@ -82,7 +84,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Heidekreis"
+    "kreis": "Heidekreis",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "8b4f9f7c-3376-4dd8-95c1-de55b1be4dfd",
@@ -112,7 +115,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Heidekreis"
+    "kreis": "Heidekreis",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "b475386c-30cc-453a-b3b7-1d17ace13595",
@@ -142,7 +146,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Celle"
+    "kreis": "Landkreis Celle",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "ee52ce62-212c-4735-b438-26fbdc37e3e2",
@@ -172,7 +177,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "45721a68-566c-4e2a-a6c7-a7595982a779",
@@ -202,7 +208,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "aa9179c1-17ef-4c61-a48a-74193fa7bfdf",
@@ -232,7 +239,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Landkreis Konstanz"
+    "kreis": "Landkreis Konstanz",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "28ec91e8-90c0-44d1-8fd2-b0b64c00c43b",
@@ -263,7 +271,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "6b595707-8c47-4bc7-a803-dbc327775c26",
@@ -293,7 +302,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "c9a6c3bf-02d4-4945-83e8-b7c6cf9701fa",
@@ -323,7 +333,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Dahme-Spreewald"
+    "kreis": "Dahme-Spreewald",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "0e0dbcc9-0a7d-494a-bc92-52e56a7fffe2",
@@ -359,7 +370,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Dahme-Spreewald"
+    "kreis": "Dahme-Spreewald",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "facc5c16-f700-4248-9893-a395bffaf2e4",
@@ -384,7 +396,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Recklinghausen"
+    "kreis": "Kreis Recklinghausen",
+    "einzugsgebiet": "Lippe"
   },
   {
     "uuid": "d31767ef-2cf8-4046-9881-d5651d81ade8",
@@ -409,7 +422,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Hamm"
+    "kreis": "Hamm",
+    "einzugsgebiet": "Lippe"
   },
   {
     "uuid": "33092c28-201a-4210-89c9-ce68cad61ed1",
@@ -445,7 +459,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Hochsauerlandkreis"
+    "kreis": "Hochsauerlandkreis",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "5cdc6555-87d7-4fcd-834d-cbbe24c9d08b",
@@ -475,7 +490,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Hochsauerlandkreis"
+    "kreis": "Hochsauerlandkreis",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "7deedc21-2878-40cc-ab47-f6da0d9002f1",
@@ -511,7 +527,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Waldeck-Frankenberg"
+    "kreis": "Landkreis Waldeck-Frankenberg",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "99619dc5-9c88-45e9-a97d-653c41cda8a1",
@@ -541,7 +558,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Passau"
+    "kreis": "Landkreis Passau",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "c389c9e2-a5d8-4104-a4cf-510ade44f143",
@@ -600,7 +618,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Bayern"
+    "land": "Bayern",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "4520c1a8-174c-4b95-9ca3-fe1e3f9d874a",
@@ -624,7 +643,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Bayern"
+    "land": "Bayern",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "9f12c405-35ac-4d90-9b7b-023be355867e",
@@ -665,7 +685,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Bayern"
+    "land": "Bayern",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "0fd56e0a-e32e-4b56-9cda-e0ce93d715c4",
@@ -694,7 +715,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Bayern"
+    "land": "Bayern",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "3199ce09-cd9b-4be2-82bc-f03bb81438e5",
@@ -718,7 +740,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Bayern"
+    "land": "Bayern",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "560cf185-0052-4e40-832b-7792b52dd343",
@@ -780,12 +803,17 @@
         "shortname": "WT",
         "longname": "WASSERTEMPERATUR",
         "unit": "°C",
-        "equidistance": 60
+        "equidistance": 60,
+        "comment": {
+          "shortDescription": "Wassertemperatursonde ausgefallen.",
+          "longDescription": "Wassertemperatursonde ausgefallen. Sonde beschafft, jedoch Tauchereinsatz erforderlich."
+        }
       }
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Passau"
+    "kreis": "Landkreis Passau",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "616dd98e-816d-4e17-b8cd-57b163dbc8a2",
@@ -819,6 +847,12 @@
         "equidistance": 60
       },
       {
+        "shortname": "WT",
+        "longname": "WASSERTEMPERATUR",
+        "unit": "°C",
+        "equidistance": 60
+      },
+      {
         "shortname": "Q",
         "longname": "ABFLUSS",
         "unit": "m³/s",
@@ -827,7 +861,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Passau"
+    "kreis": "Landkreis Passau",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "53d40547-8a09-4b25-988c-2e6d8d8d98ee",
@@ -869,7 +904,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Deggendorf"
+    "kreis": "Landkreis Deggendorf",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "7fe63a95-8ff6-4cff-9a29-a124136516b5",
@@ -911,7 +947,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Straubing-Bogen"
+    "kreis": "Landkreis Straubing-Bogen",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "f768173a-7a22-40f7-90a3-4676da7e5010",
@@ -941,7 +978,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Regensburg"
+    "kreis": "Landkreis Regensburg",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "7644f1d7-3198-4313-9340-abefd459a4f3",
@@ -989,7 +1027,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Regensburg"
+    "kreis": "Regensburg",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "eebd633a-3af0-4b79-83d5-b6490765e06c",
@@ -1019,7 +1058,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Regensburg"
+    "kreis": "Regensburg",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "e476bcad-b898-4f68-9c26-4f1a1159dff6",
@@ -1067,7 +1107,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Kelheim"
+    "kreis": "Landkreis Kelheim",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "c9409937-b794-4b69-b36b-38467daab09a",
@@ -1103,7 +1144,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Kelheim"
+    "kreis": "Landkreis Kelheim",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "824a046b-9ca3-4db8-993d-e755122854e0",
@@ -1133,7 +1175,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Ingolstadt"
+    "kreis": "Ingolstadt",
+    "einzugsgebiet": "Donau"
   },
   {
     "uuid": "0024cc40-d690-468d-84f9-4e9bf45d9108",
@@ -1158,7 +1201,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Emsland"
+    "kreis": "Landkreis Emsland",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "70bee932-1c14-42f8-b4df-9a85589ca80e",
@@ -1183,7 +1227,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Recklinghausen"
+    "kreis": "Kreis Recklinghausen",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "e6b68bc2-6814-4bbf-b37e-44a0b7807c2d",
@@ -1208,7 +1253,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Recklinghausen"
+    "kreis": "Kreis Recklinghausen",
+    "einzugsgebiet": "Lippe"
   },
   {
     "uuid": "f5bc4a51-004f-4e5e-99b9-e6ae888d57de",
@@ -1233,7 +1279,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Coesfeld"
+    "kreis": "Kreis Coesfeld",
+    "einzugsgebiet": "Lippe"
   },
   {
     "uuid": "ccd3e8f1-39e9-4e09-aa41-625afda84460",
@@ -1258,7 +1305,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Münster"
+    "kreis": "Münster",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "ed260406-bdd6-42ef-bf2a-1246eea392f9",
@@ -1283,7 +1331,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Münster"
+    "kreis": "Münster",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "ade3a084-8680-47b5-9d2e-288cb6c5f9d5",
@@ -1308,7 +1357,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Steinfurt"
+    "kreis": "Kreis Steinfurt",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "04572010-1db2-4338-8562-b3dca5e715c5",
@@ -1338,7 +1388,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Emsland"
+    "kreis": "Landkreis Emsland",
+    "einzugsgebiet": "Hase"
   },
   {
     "uuid": "8177a148-5674-4b8f-8ded-050907f640f3",
@@ -1363,7 +1414,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Emsland"
+    "kreis": "Landkreis Emsland",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "16508b11-4349-48f7-be51-1227b7888585",
@@ -1388,7 +1440,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Emsland"
+    "kreis": "Landkreis Emsland",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "e1217d07-91f8-4019-b3a2-0c0d69316ab8",
@@ -1413,7 +1466,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "4a4daad2-0e96-4070-914e-a1c4f6b7a3e5",
@@ -1438,7 +1492,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "bc9f369e-5fd4-466c-8d97-ddb1ecd2aed2",
@@ -1463,7 +1518,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "6cb287c2-2fb2-4845-b11f-e78bd5db2ce3",
@@ -1488,7 +1544,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "18216ff8-18aa-4a71-bd32-e7479ccc439d",
@@ -1513,7 +1570,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "6e19aeca-d37a-4b00-9354-c6dd90f12de2",
@@ -1538,7 +1596,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "69fc0432-e9dc-400c-8c21-0c26e85df884",
@@ -1563,7 +1622,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "a1341b43-9c62-4e71-87cc-61a0d4d1b105",
@@ -1606,7 +1666,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "f6dc9514-bdaf-4817-b3bf-34cd4b5c3e18",
@@ -1631,7 +1692,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "ab9d5a42-2b8d-491b-9fd1-8120df23c8e6",
@@ -1661,7 +1723,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Waldeck-Frankenberg"
+    "kreis": "Landkreis Waldeck-Frankenberg",
+    "einzugsgebiet": "Eder"
   },
   {
     "uuid": "c6e9f744-4dbf-4e8e-a219-cab051ec610c",
@@ -1691,7 +1754,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Waldeck-Frankenberg"
+    "kreis": "Landkreis Waldeck-Frankenberg",
+    "einzugsgebiet": "Eder"
   },
   {
     "uuid": "d2155fa6-b03d-468c-884e-ccf6fefc40bd",
@@ -1727,7 +1791,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Waldeck-Frankenberg"
+    "kreis": "Landkreis Waldeck-Frankenberg",
+    "einzugsgebiet": "Eder"
   },
   {
     "uuid": "86c5688f-2fac-4d58-a245-ad8ce14cafbf",
@@ -1763,7 +1828,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Dithmarschen"
+    "kreis": "Dithmarschen",
+    "einzugsgebiet": "Eider"
   },
   {
     "uuid": "7f01fbd8-653c-40ba-8ed0-57386a9b4557",
@@ -1799,7 +1865,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Dithmarschen"
+    "kreis": "Dithmarschen",
+    "einzugsgebiet": "Eider"
   },
   {
     "uuid": "61394669-3f1b-44e5-ae37-50fd2512f4fa",
@@ -1835,7 +1902,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Dithmarschen"
+    "kreis": "Dithmarschen",
+    "einzugsgebiet": "Eider"
   },
   {
     "uuid": "cb93548e-c1ce-43f6-b3a1-6903f8835b33",
@@ -1889,7 +1957,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Dithmarschen"
+    "kreis": "Dithmarschen",
+    "einzugsgebiet": "Eider"
   },
   {
     "uuid": "721313e7-935a-4bb8-8c6d-0e014211b2ec",
@@ -1919,7 +1988,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Nordfriesland"
+    "kreis": "Nordfriesland",
+    "einzugsgebiet": "Eider"
   },
   {
     "uuid": "00e386ac-e35c-4a6e-80dd-f8cd8a9e7a62",
@@ -1985,7 +2055,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Nordfriesland"
+    "kreis": "Nordfriesland",
+    "einzugsgebiet": "Eider"
   },
   {
     "uuid": "8ac85e6c-6167-496c-b16f-fa94f81cd94a",
@@ -2039,7 +2110,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Nordfriesland"
+    "kreis": "Nordfriesland",
+    "einzugsgebiet": "Eider"
   },
   {
     "uuid": "8e326085-c879-4704-95b4-c1fc19874176",
@@ -2145,7 +2217,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen",
-    "kreis": "Sächsische Schweiz-Osterzgebirge"
+    "kreis": "Sächsische Schweiz-Osterzgebirge",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "70272185-b2b3-4178-96b8-43bea330dcae",
@@ -2181,7 +2254,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen",
-    "kreis": "Dresden"
+    "kreis": "Dresden",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "24440872-5bd2-4fb3-8554-907b49816c49",
@@ -2211,7 +2285,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen",
-    "kreis": "Meißen"
+    "kreis": "Meißen",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "b04b739d-7ffa-41ee-9eb9-95cb1b4ef508",
@@ -2247,7 +2322,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen",
-    "kreis": "Meißen"
+    "kreis": "Meißen",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "16b9b4e7-be14-41fd-941e-6755c97276cc",
@@ -2277,7 +2353,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Elbe-Elster"
+    "kreis": "Elbe-Elster",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "83bbaedb-5d81-4bc6-9f66-3bd700c99c1f",
@@ -2313,7 +2390,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen",
-    "kreis": "Nordsachsen"
+    "kreis": "Nordsachsen",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "f3dc8f07-c2bb-4b92-b0b0-4e01a395a2c6",
@@ -2343,7 +2421,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Wittenberg"
+    "kreis": "Wittenberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "c093b557-4954-4f05-8f5c-6c6d7916c62d",
@@ -2373,7 +2452,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Wittenberg"
+    "kreis": "Wittenberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "070b1eb4-3872-4e07-b2e5-e25fd9251b93",
@@ -2409,7 +2489,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Wittenberg"
+    "kreis": "Wittenberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "1ce53a59-33b9-40dc-9b17-3cd2a2414607",
@@ -2439,7 +2520,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Wittenberg"
+    "kreis": "Wittenberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "ae93f2a5-612e-4514-b5fd-9c8aecdd73c7",
@@ -2475,7 +2557,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Wittenberg"
+    "kreis": "Wittenberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "e97116a4-7d30-4671-8ba1-cdce0a153d1d",
@@ -2505,7 +2588,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Dessau-Roßlau"
+    "kreis": "Dessau-Roßlau",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "1edc5fa4-88af-47f5-95a4-0e77a06fe8b1",
@@ -2535,7 +2619,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Dessau-Roßlau"
+    "kreis": "Dessau-Roßlau",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "094b96e5-caeb-46d3-a8ee-d44182add069",
@@ -2571,7 +2656,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Anhalt-Bitterfeld"
+    "kreis": "Anhalt-Bitterfeld",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "939f82ec-15a9-49c8-8828-dc2f8a2d49e2",
@@ -2607,7 +2693,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "90bcb315-f080-41a8-a0ac-6122331bb4cf",
@@ -2637,7 +2724,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "b8567c1e-8610-4c2b-a240-65e8a74919fa",
@@ -2667,7 +2755,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Magdeburg"
+    "kreis": "Magdeburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "ccccb57f-a2f9-4183-ae88-5710d3afaefd",
@@ -2703,7 +2792,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Magdeburg"
+    "kreis": "Magdeburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "e30f2e83-b80b-4b96-8f39-fa60317afcc7",
@@ -2739,7 +2829,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Magdeburg"
+    "kreis": "Magdeburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "3adf88fd-fd7a-41d0-84f5-1143c98a6564",
@@ -2769,7 +2860,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Jerichower Land"
+    "kreis": "Jerichower Land",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "133f0f6c-2ca1-4798-9360-5b5f417dd839",
@@ -2799,7 +2891,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Börde"
+    "kreis": "Börde",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "13e91b77-90f3-41a5-a320-641748e9c311",
@@ -2835,7 +2928,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Stendal"
+    "kreis": "Stendal",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "de4cc1db-51cb-4b62-bee2-9750cbe4f5c4",
@@ -2865,7 +2959,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Stendal"
+    "kreis": "Stendal",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "f4c55f77-ab80-4e00-bed3-aa6631aba074",
@@ -2895,7 +2990,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Stendal"
+    "kreis": "Stendal",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "e32b0a28-8cd5-4053-bc86-fff9c6469106",
@@ -2925,7 +3021,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Prignitz"
+    "kreis": "Prignitz",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "cbf3cd49-91bd-49cc-8926-ccc6c0e7eca4",
@@ -2961,7 +3058,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Prignitz"
+    "kreis": "Prignitz",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "48f2661f-f9cb-4093-9d57-da2418ed656e",
@@ -2991,7 +3089,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Prignitz"
+    "kreis": "Prignitz",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "550e3885-a9d1-4e55-bd25-34228bd6d988",
@@ -3021,7 +3120,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüchow-Dannenberg"
+    "kreis": "Lüchow-Dannenberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "c80a4f21-528c-4771-98d7-10cd591699a4",
@@ -3051,7 +3151,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Prignitz"
+    "kreis": "Prignitz",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "ac507f42-1593-49ea-865f-10b2523617c7",
@@ -3081,7 +3182,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüchow-Dannenberg"
+    "kreis": "Lüchow-Dannenberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "6e3ea719-48b1-408a-bc55-0986c1e94cd5",
@@ -3111,7 +3213,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "c233674f-259a-4304-b81f-dce1f415d85b",
@@ -3141,7 +3244,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüchow-Dannenberg"
+    "kreis": "Lüchow-Dannenberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "a26e57c9-1cb8-4fca-ba80-9e02abc81df8",
@@ -3171,7 +3275,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüchow-Dannenberg"
+    "kreis": "Lüchow-Dannenberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "67d6e882-b60c-40d3-975c-a6d7a2b4e40a",
@@ -3207,7 +3312,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüchow-Dannenberg"
+    "kreis": "Lüchow-Dannenberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "6aa1cd8e-e528-4bcb-ba8e-705b6dcb7da2",
@@ -3237,7 +3343,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüneburg"
+    "kreis": "Lüneburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "33e0bce0-13df-4ffc-be9d-f1a79e795e1c",
@@ -3267,7 +3374,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Sude"
   },
   {
     "uuid": "d9289367-c8aa-4b6a-b1ad-857fec94c6bb",
@@ -3297,7 +3405,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüneburg"
+    "kreis": "Lüneburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "b3492c68-8373-4769-9b29-22f66635a478",
@@ -3327,7 +3436,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüneburg"
+    "kreis": "Lüneburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "44f7e955-c97d-45c8-9ed7-19406806fb4c",
@@ -3357,7 +3467,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Herzogtum Lauenburg"
+    "kreis": "Herzogtum Lauenburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "0f7f58a8-411f-43d9-b42a-e897e63c4faa",
@@ -3405,7 +3516,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Herzogtum Lauenburg"
+    "kreis": "Herzogtum Lauenburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "2ee12b9a-f7fd-4856-82b9-6bdd850c2bba",
@@ -3435,7 +3547,8 @@
     ],
     "country": "Deutschland",
     "land": "Hamburg",
-    "kreis": "Hamburg"
+    "kreis": "Hamburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "3de8ea26-ab29-4e46-adad-06198ba2e0b7",
@@ -3465,7 +3578,8 @@
     ],
     "country": "Deutschland",
     "land": "Hamburg",
-    "kreis": "Hamburg"
+    "kreis": "Hamburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "b02ce5c0-64e9-4d24-90b9-269a28a1e9f9",
@@ -3499,7 +3613,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Harburg"
+    "kreis": "Harburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "ae1b91d0-e746-4f65-9f64-2d2e23603a82",
@@ -3529,7 +3644,8 @@
     ],
     "country": "Deutschland",
     "land": "Hamburg",
-    "kreis": "Hamburg"
+    "kreis": "Hamburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "706e5110-c5e2-4915-9989-c071fcb492ec",
@@ -3559,7 +3675,8 @@
     ],
     "country": "Deutschland",
     "land": "Hamburg",
-    "kreis": "Hamburg"
+    "kreis": "Hamburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "fed4c295-7a01-463c-998e-70ebad8cd2cc",
@@ -3589,7 +3706,8 @@
     ],
     "country": "Deutschland",
     "land": "Hamburg",
-    "kreis": "Hamburg"
+    "kreis": "Hamburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "d488c5cc-4de9-4631-8ce1-0db0e700b546",
@@ -3619,7 +3737,8 @@
     ],
     "country": "Deutschland",
     "land": "Hamburg",
-    "kreis": "Hamburg"
+    "kreis": "Hamburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "816affba-0118-4668-887f-fb882ed573b2",
@@ -3649,7 +3768,8 @@
     ],
     "country": "Deutschland",
     "land": "Hamburg",
-    "kreis": "Hamburg"
+    "kreis": "Hamburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "e6b42536-6bf8-42e3-8ef5-7d1a283a8608",
@@ -3679,7 +3799,8 @@
     ],
     "country": "Deutschland",
     "land": "Hamburg",
-    "kreis": "Hamburg"
+    "kreis": "Hamburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "bacb459b-0f24-4233-bb35-cd224a51678e",
@@ -3709,7 +3830,8 @@
     ],
     "country": "Deutschland",
     "land": "Hamburg",
-    "kreis": "Hamburg"
+    "kreis": "Hamburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "f3c6ee73-5561-4068-96ec-364016e7d9ef",
@@ -3739,7 +3861,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Pinneberg"
+    "kreis": "Kreis Pinneberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "81c95d3a-3193-4e9c-a411-adf97c751a43",
@@ -3770,7 +3893,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "8d18d129-07f1-4c4d-adba-a985016be0b0",
@@ -3800,7 +3924,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "599c23b1-4550-41e3-a7e7-3056989927f1",
@@ -3842,7 +3967,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Pinneberg"
+    "kreis": "Kreis Pinneberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "6d43098c-632d-4e89-996f-98b1c99e5630",
@@ -3873,7 +3999,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "80f0fc4d-9fc7-449d-9d68-ee89333f0eff",
@@ -3915,7 +4042,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "391bbba5-83d4-4791-b07e-65ab29b423f6",
@@ -3945,7 +4073,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Pinneberg"
+    "kreis": "Kreis Pinneberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "7398029b-c6a1-484f-b1f6-1afe568ee1e2",
@@ -3987,7 +4116,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "a653eb04-de2e-47f7-8e2c-09277cfe95ae",
@@ -4017,7 +4147,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "3ed90357-4b01-4119-b1c5-bd2c62871e7b",
@@ -4059,7 +4190,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "8c20b4dc-1540-4b14-8c88-0e1d87de22c4",
@@ -4101,7 +4233,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "1f1bbed7-c1fa-45b4-90d3-df94b50ad631",
@@ -4137,7 +4270,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "d9acdbec-61ff-4308-978a-2f4d1c2c4059",
@@ -4167,7 +4301,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "610ab204-d3c4-4a11-a38b-e31461fdcf27",
@@ -4197,7 +4332,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "f973fb71-4a44-4603-8b13-25002dd6dbd8",
@@ -4228,7 +4364,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "d4f5f719-8c52-4f8d-945d-1c31404cc628",
@@ -4258,7 +4395,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Dithmarschen"
+    "kreis": "Dithmarschen",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "eb90bd3f-5405-412d-81e0-7a58be52dcef",
@@ -4288,7 +4426,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "5140295e-b93e-4081-a920-642d89c7ca8b",
@@ -4317,7 +4456,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "aad49293-242a-43ad-a8b1-e91d7792c4b2",
@@ -4347,7 +4487,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Cuxhaven"
+    "kreis": "Landkreis Cuxhaven",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "a7b1eda9-bed4-4456-8e54-529828cdcbf9",
@@ -4387,7 +4528,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Jerichower Land"
+    "kreis": "Jerichower Land",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "831ad501-d2fe-4782-ab83-4f1c8e0b15ff",
@@ -4417,7 +4559,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Jerichower Land"
+    "kreis": "Jerichower Land",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "64c37072-db97-4e08-8981-c67f0282de5c",
@@ -4453,7 +4596,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Jerichower Land"
+    "kreis": "Jerichower Land",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "532d8718-6ec7-4f12-bb2f-bde2dec50182",
@@ -4483,7 +4627,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Jerichower Land"
+    "kreis": "Jerichower Land",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "e9e7f20c-9f74-41fd-b054-cad59fca2cd4",
@@ -4513,7 +4658,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Jerichower Land"
+    "kreis": "Jerichower Land",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "e4f29379-6fd3-4501-afc5-bc5a41cb6e93",
@@ -4553,7 +4699,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Jerichower Land"
+    "kreis": "Jerichower Land",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "c6a12d34-c78f-44a2-a7ff-4b8d88f316cc",
@@ -4583,7 +4730,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Potsdam-Mittelmark"
+    "kreis": "Potsdam-Mittelmark",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "3bfcf759-27b3-4042-b59a-f6c8ed9e533e",
@@ -4613,7 +4761,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Potsdam-Mittelmark"
+    "kreis": "Potsdam-Mittelmark",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "bf7bb8e8-e81f-4655-9e84-28738feae936",
@@ -4649,7 +4798,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Lübeck"
+    "kreis": "Lübeck",
+    "einzugsgebiet": "Trave"
   },
   {
     "uuid": "45634232-36ac-416c-806d-5f64201dae2c",
@@ -4679,7 +4829,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Herzogtum Lauenburg"
+    "kreis": "Herzogtum Lauenburg",
+    "einzugsgebiet": "Trave"
   },
   {
     "uuid": "46644438-83d6-4da8-a2a1-1deb2cb67561",
@@ -4721,7 +4872,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Herzogtum Lauenburg"
+    "kreis": "Herzogtum Lauenburg",
+    "einzugsgebiet": "Trave"
   },
   {
     "uuid": "6c5b6422-126d-4bf0-8856-7b86d74ea1b3",
@@ -4746,7 +4898,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Gifhorn"
+    "kreis": "Gifhorn",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "9cf795ce-8bdf-494b-b8c6-ef1bfb89c08b",
@@ -4783,7 +4936,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Gifhorn"
+    "kreis": "Gifhorn",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "728bd3e3-23f2-41c6-8ac5-4cfa223a5a7e",
@@ -4814,7 +4968,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Uelzen"
+    "kreis": "Uelzen",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "3eba7da6-fbd6-431c-91d3-522ec49275f0",
@@ -4851,7 +5006,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Uelzen"
+    "kreis": "Uelzen",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "0d0082cf-0b4b-4c8b-8e97-5d37b511916b",
@@ -4882,7 +5038,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Uelzen"
+    "kreis": "Uelzen",
+    "einzugsgebiet": "Ilmenau"
   },
   {
     "uuid": "b8997708-53d0-4932-8fbf-265083e11517",
@@ -4907,7 +5064,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Uelzen"
+    "kreis": "Uelzen",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "c7364d1e-6139-4575-84cb-b420d21275c4",
@@ -4938,7 +5096,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüneburg"
+    "kreis": "Lüneburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "f348f2f6-37c2-41c2-8d53-fd06a18acce0",
@@ -4975,7 +5134,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüneburg"
+    "kreis": "Lüneburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "d18033cd-9cf6-4800-9176-57758bb444dc",
@@ -5006,7 +5166,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüneburg"
+    "kreis": "Lüneburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "7fec2f4f-6a2e-47ec-8f3c-016c581e4bbd",
@@ -5031,7 +5192,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüneburg"
+    "kreis": "Lüneburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "df06a523-8012-41cd-bd3c-47979d66e45e",
@@ -5059,7 +5221,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Emsland"
+    "kreis": "Landkreis Emsland",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "86f8dbab-6a64-408b-a5d5-69e69f01db2f",
@@ -5113,7 +5276,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Leer"
+    "kreis": "Landkreis Leer",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "aa6af4e6-a44f-46c4-abf6-449f8a68bab1",
@@ -5143,7 +5307,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Leer"
+    "kreis": "Landkreis Leer",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "abb23dad-0880-41ab-8d2d-dd33e11f148f",
@@ -5173,7 +5338,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Leer"
+    "kreis": "Landkreis Leer",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "244cae8b-ce75-4c2d-a66e-cb804f8335a2",
@@ -5215,7 +5381,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Leer"
+    "kreis": "Landkreis Leer",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "5d1e4350-0f39-4428-84c3-6f8f0bbe80d4",
@@ -5245,7 +5412,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Leer"
+    "kreis": "Landkreis Leer",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "edfdf747-be92-462f-87ed-53d228a33172",
@@ -5286,7 +5454,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "438b565e-f293-43c8-8771-377e555ed5ec",
@@ -5327,7 +5496,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "7753c1fa-34d8-4d09-a7c7-38024079117c",
@@ -5356,7 +5526,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "c8af067c-ba6a-4a76-86d8-1ce8e532ef8b",
@@ -5385,7 +5556,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "3a8ed45f-28e7-4263-8437-d926c6a194f4",
@@ -5415,7 +5587,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Steinfurt"
+    "kreis": "Kreis Steinfurt",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "50a449ba-af4c-42c7-b2c4-9a3eda37e1e3",
@@ -5445,7 +5618,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Steinfurt"
+    "kreis": "Kreis Steinfurt",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "200363fc-cdc5-4c22-a271-a25d1ba880ed",
@@ -5475,7 +5649,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Emsland"
+    "kreis": "Landkreis Emsland",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "ad357e52-0978-4583-91e6-bc03a222f655",
@@ -5505,7 +5680,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Emsland"
+    "kreis": "Landkreis Emsland",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "6de43652-2db9-4627-a255-9cb1f8efb820",
@@ -5535,7 +5711,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Emsland"
+    "kreis": "Landkreis Emsland",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "8a08c920-c911-43e5-90dd-27d4d4e757d0",
@@ -5571,7 +5748,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "5fea1a12-326f-4919-ac9a-02f9fa11ab57",
@@ -5601,7 +5779,8 @@
     ],
     "country": "Deutschland",
     "land": "Hamburg",
-    "kreis": "Hamburg"
+    "kreis": "Hamburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "227b83f7-1302-4d7e-8d70-899036ff4ce2",
@@ -5643,7 +5822,8 @@
     ],
     "country": "Deutschland",
     "land": "Hamburg",
-    "kreis": "Hamburg"
+    "kreis": "Hamburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "6629a4ca-4e2e-40b8-a66c-964d906c6911",
@@ -5673,7 +5853,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "f099ce74-1a3d-4d47-9810-75c2b1b178b6",
@@ -5703,7 +5884,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "547422fb-364e-4870-9977-c7782f0712e2",
@@ -5733,7 +5915,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "6386de1c-0426-4795-b23d-7ea2754ec782",
@@ -5763,7 +5946,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "3cd46cc7-b94d-424f-a860-c389dd9992a4",
@@ -5793,7 +5977,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "b6bbe4f8-aa59-414a-8292-2d3919590a20",
@@ -5823,7 +6008,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "516fbf8c-dc08-4808-b39b-1fa65a462180",
@@ -5853,7 +6039,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "6f81b35f-8339-4012-8029-ca193403e52c",
@@ -5883,7 +6070,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "79d783d3-e423-4c6d-b914-d7b7d161a89f",
@@ -5913,7 +6101,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "d3e21e8a-99ce-4033-8db6-9d0f0648beb3",
@@ -5944,7 +6133,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "23721dfd-9b89-4b69-af80-063229917f27",
@@ -5980,7 +6170,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Göttingen"
+    "kreis": "Landkreis Göttingen",
+    "einzugsgebiet": "Fulda"
   },
   {
     "uuid": "213a585d-d665-4be7-96a4-78a992b9614d",
@@ -6016,7 +6207,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Kassel"
+    "kreis": "Landkreis Kassel",
+    "einzugsgebiet": "Fulda"
   },
   {
     "uuid": "acd63934-e40d-4650-a094-01cea45432be",
@@ -6058,7 +6250,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Schwalm-Eder-Kreis"
+    "kreis": "Schwalm-Eder-Kreis",
+    "einzugsgebiet": "Fulda"
   },
   {
     "uuid": "d1ba62a4-767b-49ba-9ce8-ab17537b2fe1",
@@ -6100,7 +6293,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Hersfeld-Rotenburg"
+    "kreis": "Landkreis Hersfeld-Rotenburg",
+    "einzugsgebiet": "Fulda"
   },
   {
     "uuid": "f49855d8-371f-4bdf-8ade-ed6b475e6b27",
@@ -6130,7 +6324,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Osterholz"
+    "kreis": "Landkreis Osterholz",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "2c68509c-bf1e-4866-9ec4-b26b231e5e04",
@@ -6160,7 +6355,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "e607a4b6-85cc-4f12-a53d-116cb6eef4f5",
@@ -6190,7 +6386,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "1b2e2996-c2ef-4d9c-9052-ced8cb7bc226",
@@ -6226,7 +6423,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "5bb1f56d-7c56-4b01-9da0-2a08a0aaedeb",
@@ -6268,7 +6466,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "c8a1cf0a-9441-47aa-8c64-64e8962a9bd4",
@@ -6298,7 +6497,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "414dd4ee-b38b-489f-a1fe-19b1d62f3202",
@@ -6340,7 +6540,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "4eec6b25-6b02-4448-b5db-10843c8d6175",
@@ -6370,7 +6571,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "3404a6e5-8dfe-42b1-90f6-c0c3741b6ac8",
@@ -6406,7 +6608,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Märkisch-Oderland"
+    "kreis": "Märkisch-Oderland",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "99309d3e-58d6-4200-b212-c8499467b4ce",
@@ -6448,7 +6651,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Märkisch-Oderland"
+    "kreis": "Märkisch-Oderland",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "4ee515f9-8cfb-4835-8460-8dde0b978fbe",
@@ -6490,7 +6694,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Uckermark"
+    "kreis": "Uckermark",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "314945d6-b499-40cf-bb21-d76cf4547e3a",
@@ -6520,7 +6725,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Uckermark"
+    "kreis": "Uckermark",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "d8ef9f21-479e-4504-8bf7-aef2dbe6184d",
@@ -6549,7 +6755,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Brandenburg"
+    "land": "Brandenburg",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "b6650b13-582b-4d54-adac-991ac140e039",
@@ -6578,7 +6785,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Brandenburg"
+    "land": "Brandenburg",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "1b51e55e-088a-44c3-a633-b1bee44422d7",
@@ -6608,7 +6816,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Oldenburg"
+    "kreis": "Oldenburg",
+    "einzugsgebiet": "Hunte"
   },
   {
     "uuid": "c9df61c4-2a0b-47bd-8b51-fef7f430e528",
@@ -6638,7 +6847,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Oldenburg"
+    "kreis": "Landkreis Oldenburg",
+    "einzugsgebiet": "Hunte"
   },
   {
     "uuid": "2eacef2f-7a8f-413a-a2c7-f1da4cf22742",
@@ -6668,7 +6878,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Oldenburg"
+    "kreis": "Landkreis Oldenburg",
+    "einzugsgebiet": "Hunte"
   },
   {
     "uuid": "b3d88ca6-ea13-4540-a623-c02e43800a3b",
@@ -6698,7 +6909,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Wesermarsch"
+    "kreis": "Landkreis Wesermarsch",
+    "einzugsgebiet": "Hunte"
   },
   {
     "uuid": "2e1d458b-f78f-41dc-bebd-e0512578610a",
@@ -6728,7 +6940,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Wesermarsch"
+    "kreis": "Landkreis Wesermarsch",
+    "einzugsgebiet": "Hunte"
   },
   {
     "uuid": "531da758-b2f5-471d-9d9f-a78576081079",
@@ -6758,7 +6971,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Wesermarsch"
+    "kreis": "Landkreis Wesermarsch",
+    "einzugsgebiet": "Hunte"
   },
   {
     "uuid": "003200ab-d138-49d9-aa52-217817941f85",
@@ -6795,7 +7009,8 @@
     ],
     "country": "Deutschland",
     "land": "Thüringen",
-    "kreis": "Ilm-Kreis"
+    "kreis": "Ilm-Kreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "d7a8df36-2978-45b8-99d1-76d84cf34c01",
@@ -6825,7 +7040,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüneburg"
+    "kreis": "Lüneburg",
+    "einzugsgebiet": "Ilmenau"
   },
   {
     "uuid": "07830b68-c5b8-42dd-bf48-7176802130d0",
@@ -6855,7 +7071,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüneburg"
+    "kreis": "Lüneburg",
+    "einzugsgebiet": "Ilmenau"
   },
   {
     "uuid": "a238b70f-1198-4b2f-8c03-41f3503e5389",
@@ -6891,7 +7108,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüneburg"
+    "kreis": "Lüneburg",
+    "einzugsgebiet": "Ilmenau"
   },
   {
     "uuid": "eb3d4195-8c73-46b6-87e9-ef0de83edddf",
@@ -6921,7 +7139,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüneburg"
+    "kreis": "Lüneburg",
+    "einzugsgebiet": "Ilmenau"
   },
   {
     "uuid": "308c39b6-475f-42c3-857f-7cf257426fa1",
@@ -6957,7 +7176,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Lüneburg"
+    "kreis": "Lüneburg",
+    "einzugsgebiet": "Ilmenau"
   },
   {
     "uuid": "c33c3667-b8c5-484a-8ea0-b92933b5a9f0",
@@ -6987,7 +7207,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Harburg"
+    "kreis": "Harburg",
+    "einzugsgebiet": "Ilmenau"
   },
   {
     "uuid": "bb62b28f-9947-42b1-92e4-743a1e0c4a76",
@@ -7023,7 +7244,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Harburg"
+    "kreis": "Harburg",
+    "einzugsgebiet": "Ilmenau"
   },
   {
     "uuid": "6b05e8dc-3089-497a-a602-f40c4283d8bb",
@@ -7053,7 +7275,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Harburg"
+    "kreis": "Harburg",
+    "einzugsgebiet": "Ilmenau"
   },
   {
     "uuid": "36243256-7786-4e69-922f-50785d8904bf",
@@ -7083,7 +7306,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Waldeck-Frankenberg"
+    "kreis": "Landkreis Waldeck-Frankenberg",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "855205e7-1cc9-4c5f-a2c2-7d5d84011708",
@@ -7119,7 +7343,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Waldeck-Frankenberg"
+    "kreis": "Landkreis Waldeck-Frankenberg",
+    "einzugsgebiet": "Eder"
   },
   {
     "uuid": "f85bd17b-06c7-49bd-8bfc-ee2bf3ffea99",
@@ -7148,7 +7373,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "f77317d9-654f-4f51-925e-004c592049da",
@@ -7201,7 +7427,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "fac30fe9-a39c-445a-84de-637a199f1dfa",
@@ -7230,7 +7457,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "b1cda5a0-115f-4976-a0a6-9d427ff6dceb",
@@ -7260,7 +7488,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Friesland"
+    "kreis": "Landkreis Friesland",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "c8b9a2b6-b783-417f-8479-3a0d732fb901",
@@ -7289,7 +7518,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "26656fda-cacf-4e92-9935-3ae6e717fe5b",
@@ -7319,7 +7549,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Friesland"
+    "kreis": "Landkreis Friesland",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "c41d42b1-5b0d-47c9-ba53-d58d3d109b64",
@@ -7349,7 +7580,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Friesland"
+    "kreis": "Landkreis Friesland",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "70039212-c8a8-43fc-82a5-150d95831772",
@@ -7379,7 +7611,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Friesland"
+    "kreis": "Landkreis Friesland",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "8122b09b-a174-41d9-9a38-c0a5223366b8",
@@ -7429,7 +7662,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Greifswald"
+    "kreis": "Vorpommern-Greifswald",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "c1588dcc-e314-4097-a54c-c0ffbe79209f",
@@ -7459,7 +7693,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Greifswald"
+    "kreis": "Vorpommern-Greifswald",
+    "einzugsgebiet": "Ucker"
   },
   {
     "uuid": "136febf6-1371-4118-a9b8-4275444bda5d",
@@ -7495,7 +7730,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Pinneberg"
+    "kreis": "Kreis Pinneberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "53c277c3-7ddb-4281-9937-97dcfe3753fa",
@@ -7537,7 +7773,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "cf6ac249-f20a-400b-8543-31f2d2fe23f0",
@@ -7562,7 +7799,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Oldenburg"
+    "kreis": "Oldenburg",
+    "einzugsgebiet": "Hunte"
   },
   {
     "uuid": "4e7a6cfa-7548-4f7f-a97a-eb0694881003",
@@ -7592,7 +7830,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Marburg-Biedenkopf"
+    "kreis": "Landkreis Marburg-Biedenkopf",
+    "einzugsgebiet": "Lahn"
   },
   {
     "uuid": "4b386a6a-996e-4a4a-a440-15d6b40226d4",
@@ -7628,7 +7867,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Gießen"
+    "kreis": "Landkreis Gießen",
+    "einzugsgebiet": "Lahn"
   },
   {
     "uuid": "32807065-b887-49f0-935a-80033e5f3cb0",
@@ -7676,7 +7916,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Lahn-Dill-Kreis"
+    "kreis": "Lahn-Dill-Kreis",
+    "einzugsgebiet": "Lahn"
   },
   {
     "uuid": "89038b42-8181-48df-a0cd-2ca3913f2d68",
@@ -7701,7 +7942,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Limburg-Weilburg"
+    "kreis": "Landkreis Limburg-Weilburg",
+    "einzugsgebiet": "Lahn"
   },
   {
     "uuid": "eadedeb6-c31e-483f-b6c4-ca0153359ad7",
@@ -7737,7 +7979,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Rhein-Lahn-Kreis"
+    "kreis": "Rhein-Lahn-Kreis",
+    "einzugsgebiet": "Lahn"
   },
   {
     "uuid": "64f735fd-88b6-42ea-9cdd-dc18d3806c34",
@@ -7773,7 +8016,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Rhein-Lahn-Kreis"
+    "kreis": "Rhein-Lahn-Kreis",
+    "einzugsgebiet": "Lahn"
   },
   {
     "uuid": "6b6b31e2-e5c7-4c85-8405-b8d0b6e158c4",
@@ -7803,7 +8047,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Rhein-Lahn-Kreis"
+    "kreis": "Rhein-Lahn-Kreis",
+    "einzugsgebiet": "Lahn"
   },
   {
     "uuid": "d198c901-fe4e-4c3f-9323-d6a771f51960",
@@ -7833,7 +8078,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "503ad891-c9de-428c-b682-434510ed9de8",
@@ -7863,7 +8109,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "c42ad3df-cfe3-4dca-9dcf-dbbaac569a2f",
@@ -7893,7 +8140,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "24ce3282-39dd-4f2f-ba80-9676e59de7c7",
@@ -7923,7 +8171,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "d4df3617-8209-4bcd-948e-fa723beb6666",
@@ -7953,7 +8202,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Cloppenburg"
+    "kreis": "Landkreis Cloppenburg",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "5e6ae93a-7856-4005-bc77-fc6e4f5ad630",
@@ -7983,7 +8233,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Leer"
+    "kreis": "Landkreis Leer",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "8e16bd66-c49b-406a-930e-4dccfb330ff5",
@@ -8013,7 +8264,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Heidekreis"
+    "kreis": "Heidekreis",
+    "einzugsgebiet": "Leine"
   },
   {
     "uuid": "dda39817-d01d-467f-a6a3-7487011a45d1",
@@ -8043,7 +8295,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Region Hannover"
+    "kreis": "Region Hannover",
+    "einzugsgebiet": "Leine"
   },
   {
     "uuid": "8134af78-3100-4679-bf1d-be82410df429",
@@ -8073,7 +8326,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Region Hannover"
+    "kreis": "Region Hannover",
+    "einzugsgebiet": "Leine"
   },
   {
     "uuid": "76844306-4c37-4a6f-aac4-9e518e96306f",
@@ -8103,7 +8357,8 @@
     ],
     "country": "Deutschland",
     "land": "Bremen",
-    "kreis": "Stadtgebiet Bremen"
+    "kreis": "Stadtgebiet Bremen",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "9592d736-26af-46e5-84fd-e43e89b66566",
@@ -8133,7 +8388,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "bcdfa310-d887-49bf-a562-1e439759044a",
@@ -8163,7 +8419,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "3244d787-f884-40ae-9752-ad3507309edc",
@@ -8199,7 +8456,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "259dcb4a-2366-45a6-a448-b06a8941ae16",
@@ -8230,7 +8488,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "db1684c1-7ffc-4e8a-b8cf-8240a0d03519",
@@ -8290,7 +8549,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Kreis Groß-Gerau"
+    "kreis": "Kreis Groß-Gerau",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "66ff3eb4-513b-478b-abd2-2f5126ea66fd",
@@ -8350,7 +8610,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Frankfurt am Main"
+    "kreis": "Frankfurt am Main",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "07374faf-2039-4430-ae6d-adc0e0784c4b",
@@ -8380,7 +8641,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Main-Kinzig-Kreis"
+    "kreis": "Main-Kinzig-Kreis",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "da453ad0-5f1d-417c-baa3-74ae297f0b7a",
@@ -8410,7 +8672,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Main-Kinzig-Kreis"
+    "kreis": "Main-Kinzig-Kreis",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "27eed51b-c0a4-417e-926b-bb4194bfb341",
@@ -8452,7 +8715,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Main-Kinzig-Kreis"
+    "kreis": "Main-Kinzig-Kreis",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "4627475d-ccda-4d53-8f13-28527c49eaf5",
@@ -8506,7 +8770,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Aschaffenburg"
+    "kreis": "Landkreis Aschaffenburg",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "3ef81fc0-33dc-4f67-8bb8-3f66975292d5",
@@ -8537,7 +8802,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Offenbach"
+    "kreis": "Landkreis Offenbach",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "3c7cfb10-c866-404b-b11c-0d79986f865a",
@@ -8584,7 +8850,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Bayern"
+    "land": "Bayern",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "355b02d2-c578-46d9-a56b-8046d470cb95",
@@ -8638,7 +8905,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Miltenberg"
+    "kreis": "Landkreis Miltenberg",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "a919f57f-8378-42d8-82f8-b87eaf008641",
@@ -8692,7 +8960,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Miltenberg"
+    "kreis": "Landkreis Miltenberg",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "0e065a22-9a0b-4f1d-b813-22fe6321bb1a",
@@ -8734,7 +9003,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Main-Tauber-Kreis"
+    "kreis": "Main-Tauber-Kreis",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "1ed983c3-114c-4fcc-a1db-61d336cf045f",
@@ -8777,7 +9047,11 @@
         "shortname": "O2",
         "longname": "SAUERSTOFFGEHALT",
         "unit": "mg/l",
-        "equidistance": 60
+        "equidistance": 60,
+        "comment": {
+          "shortDescription": "Störung",
+          "longDescription": "Störung"
+        }
       },
       {
         "shortname": "PH",
@@ -8808,7 +9082,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Main-Spessart"
+    "kreis": "Landkreis Main-Spessart",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "915d76e1-3bf9-4e37-9a9a-4d144cd771cc",
@@ -8874,7 +9149,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Würzburg"
+    "kreis": "Würzburg",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "3de69bf8-dcbb-4afb-a15b-a8683a6a689c",
@@ -8916,7 +9192,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Kitzingen"
+    "kreis": "Landkreis Kitzingen",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "42ecae60-eeb3-4b41-9721-46b3f12d04b8",
@@ -8981,7 +9258,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Bayern"
+    "land": "Bayern",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "a77aad00-caa0-44a2-95cb-8afd9c4ff00c",
@@ -9047,7 +9325,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Bamberg"
+    "kreis": "Landkreis Bamberg",
+    "einzugsgebiet": "Main"
   },
   {
     "uuid": "ff02f181-491c-4925-ad13-07edd2ddb3f1",
@@ -9082,7 +9361,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Bayern"
+    "land": "Bayern",
+    "einzugsgebiet": "Fr�nkische Rezat"
   },
   {
     "uuid": "4a69e82e-97a3-4573-8aeb-b695c1eaa0b1",
@@ -9112,7 +9392,8 @@
     ],
     "country": "Deutschland",
     "land": "Bayern",
-    "kreis": "Landkreis Kelheim"
+    "kreis": "Landkreis Kelheim",
+    "einzugsgebiet": "Paar"
   },
   {
     "uuid": "a1cf60be-8149-445d-a7a6-e7c7e7051944",
@@ -9142,7 +9423,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "3f8ceb6d-e95d-46e6-b523-3d15fe706049",
@@ -9178,7 +9460,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "6c7c180f-6dc1-4c4d-97bd-814080df8bcf",
@@ -9203,7 +9486,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Steinfurt"
+    "kreis": "Kreis Steinfurt",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "7af19499-8bc8-4a91-964d-88618ea8998a",
@@ -9228,7 +9512,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Steinfurt"
+    "kreis": "Kreis Steinfurt",
+    "einzugsgebiet": "Ems"
   },
   {
     "uuid": "bec8a6a5-c3de-4322-856a-870ceb992fe4",
@@ -9283,7 +9568,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Osnabrück"
+    "kreis": "Landkreis Osnabrück",
+    "einzugsgebiet": "Hase"
   },
   {
     "uuid": "1125a391-6586-4951-865f-3a2c72f2c81a",
@@ -9308,7 +9594,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Osnabrück"
+    "kreis": "Landkreis Osnabrück",
+    "einzugsgebiet": "Hunte"
   },
   {
     "uuid": "6760b547-a7e7-408a-b3aa-529fe376bfcd",
@@ -9345,7 +9632,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Osnabrück"
+    "kreis": "Landkreis Osnabrück",
+    "einzugsgebiet": "Hunte"
   },
   {
     "uuid": "c2aa9164-1073-4271-82ef-44344fbe456e",
@@ -9370,7 +9658,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Minden-Lübbecke"
+    "kreis": "Kreis Minden-Lübbecke",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "ac970eb0-f5cf-4db0-90f0-e281f5d4775c",
@@ -9407,7 +9696,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Minden-Lübbecke"
+    "kreis": "Kreis Minden-Lübbecke",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "6d3a3e2a-713c-4232-9b70-834a2c0e9705",
@@ -9444,7 +9734,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Minden-Lübbecke"
+    "kreis": "Kreis Minden-Lübbecke",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "8bccd43b-ed6f-4ed8-ae6e-80ad7e330658",
@@ -9475,7 +9766,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Minden-Lübbecke"
+    "kreis": "Kreis Minden-Lübbecke",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "d2c8f60e-fda4-4744-9017-9c727fdcfe1f",
@@ -9512,7 +9804,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Schaumburg"
+    "kreis": "Landkreis Schaumburg",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "c1f06401-9488-4a27-b932-59cce52c5819",
@@ -9537,7 +9830,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Schaumburg"
+    "kreis": "Landkreis Schaumburg",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "864a8111-d0c1-4b74-b94e-515f0869355e",
@@ -9562,7 +9856,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Schaumburg"
+    "kreis": "Landkreis Schaumburg",
+    "einzugsgebiet": "Leine"
   },
   {
     "uuid": "eb24b5a3-5102-429b-93a9-15656fee850f",
@@ -9586,7 +9881,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Leine"
   },
   {
     "uuid": "6288de60-38be-4291-9ff6-dcf6c0f58cea",
@@ -9610,7 +9906,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Leine"
   },
   {
     "uuid": "516c4814-d70b-47bf-99bf-a76844b94e5e",
@@ -9665,7 +9962,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Region Hannover"
+    "kreis": "Region Hannover",
+    "einzugsgebiet": "Leine"
   },
   {
     "uuid": "27dfd137-3b88-42e8-9baf-6bee76e0717c",
@@ -9690,7 +9988,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Region Hannover"
+    "kreis": "Region Hannover",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "dd41a7d6-9b11-4ec4-9518-388266750cfa",
@@ -9721,7 +10020,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Region Hannover"
+    "kreis": "Region Hannover",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "98daae03-5aaa-4284-9717-7d52da4fe063",
@@ -9746,7 +10046,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Region Hannover"
+    "kreis": "Region Hannover",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "bc20d819-1782-4588-885d-129f21a27cf9",
@@ -9783,7 +10084,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Region Hannover"
+    "kreis": "Region Hannover",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "ab0d9117-83f3-412d-bce5-b3e698246c0b",
@@ -9808,7 +10110,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Region Hannover"
+    "kreis": "Region Hannover",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "be05603a-83e4-48d4-90d9-e074b7d34dcd",
@@ -9833,7 +10136,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Peine"
+    "kreis": "Landkreis Peine",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "42b865fb-5dd8-4204-a7aa-260704d69e21",
@@ -9870,7 +10174,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Braunschweig"
+    "kreis": "Braunschweig",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "a8604e8f-9330-4431-8cf6-0a68fc793c82",
@@ -9901,7 +10206,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Gifhorn"
+    "kreis": "Gifhorn",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "9dfb4b0b-daa6-4a90-9a82-60734d3d2f04",
@@ -9938,7 +10244,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Wolfsburg"
+    "kreis": "Wolfsburg",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "892183d6-3a28-4347-afb4-bc89602ca927",
@@ -9969,7 +10276,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Wolfsburg"
+    "kreis": "Wolfsburg",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "dbb2bb9f-0f80-4df4-9d5c-98af2ee41826",
@@ -9994,7 +10302,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Wolfsburg"
+    "kreis": "Wolfsburg",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "4ed5f6da-b7a0-4431-ab1f-1a26e69a21bc",
@@ -10019,7 +10328,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Gifhorn"
+    "kreis": "Gifhorn",
+    "einzugsgebiet": "Aller"
   },
   {
     "uuid": "36f80081-9353-4ab1-8e61-07a5509f1cea",
@@ -10049,7 +10359,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Börde"
+    "kreis": "Börde",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "90d92801-c13c-4b1a-8885-83d1a07d6db8",
@@ -10098,7 +10409,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Börde"
+    "kreis": "Börde",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "32b997c2-d97c-452a-a5c1-ee4592a15b4c",
@@ -10128,7 +10440,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Börde"
+    "kreis": "Börde",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "896aed46-8290-49b0-a6f8-90d53027cd1f",
@@ -10153,7 +10466,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Koblenz"
+    "kreis": "Koblenz",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "9dbcac54-db55-4d24-88b2-74a0d75a68c4",
@@ -10183,7 +10497,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Koblenz"
+    "kreis": "Koblenz",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "dc1bb420-ec60-4bc3-bce2-b3869a2513df",
@@ -10213,7 +10528,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Mayen-Koblenz"
+    "kreis": "Landkreis Mayen-Koblenz",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "16578824-88de-4700-ab09-f61dbb1182bd",
@@ -10238,7 +10554,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Mayen-Koblenz"
+    "kreis": "Landkreis Mayen-Koblenz",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "edc67ca3-b597-402a-9037-ff39ee816452",
@@ -10268,7 +10585,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Cochem-Zell"
+    "kreis": "Landkreis Cochem-Zell",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "768df4e9-ed5a-4141-901b-e25ac404d559",
@@ -10304,7 +10622,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Cochem-Zell"
+    "kreis": "Landkreis Cochem-Zell",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "583420a8-8903-485e-8c35-003814506838",
@@ -10334,7 +10653,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Cochem-Zell"
+    "kreis": "Landkreis Cochem-Zell",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "20640279-2334-4acd-afb5-c8f3afc18379",
@@ -10364,7 +10684,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Cochem-Zell"
+    "kreis": "Landkreis Cochem-Zell",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "ee861944-647f-4242-bf61-60f9b9d75fb7",
@@ -10394,7 +10715,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Bernkastel-Wittlich"
+    "kreis": "Landkreis Bernkastel-Wittlich",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "d867e7e9-feb9-4d36-8757-4afd865e697b",
@@ -10424,7 +10746,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Bernkastel-Wittlich"
+    "kreis": "Landkreis Bernkastel-Wittlich",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "a392113c-d040-4b36-b47d-9099275bb308",
@@ -10454,7 +10777,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Bernkastel-Wittlich"
+    "kreis": "Landkreis Bernkastel-Wittlich",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "dc344605-c507-4054-b4e3-293cf0602bc4",
@@ -10484,7 +10808,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Trier-Saarburg"
+    "kreis": "Landkreis Trier-Saarburg",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "abd34ee6-a578-4639-b73d-fa4e08f40345",
@@ -10520,7 +10845,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Trier"
+    "kreis": "Trier",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "3bec53ca-444e-4014-a7b0-07b3591e954b",
@@ -10550,7 +10876,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Trier"
+    "kreis": "Trier",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "69308142-f78e-4877-9af8-e7221b01d303",
@@ -10573,7 +10900,8 @@
         "equidistance": 15
       }
     ],
-    "country": "Luxemburg"
+    "country": "Luxemburg",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "bb5560fc-7995-40a2-b92f-3d828c67dcfa",
@@ -10601,7 +10929,8 @@
         }
       }
     ],
-    "country": "Luxemburg"
+    "country": "Luxemburg",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "c263ea53-ca4d-41f5-b3f5-6178fec302aa",
@@ -10637,7 +10966,8 @@
     ],
     "country": "Deutschland",
     "land": "Saarland",
-    "kreis": "Landkreis Merzig-Wadern"
+    "kreis": "Landkreis Merzig-Wadern",
+    "einzugsgebiet": "la Moselle Rivi�re"
   },
   {
     "uuid": "cfad4ee5-580f-4df2-918b-bc89c615ad0b",
@@ -10667,7 +10997,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "81630fdd-5949-412b-a2e0-d3da8bc8bcda",
@@ -10697,7 +11028,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "ad3a51da-2e25-4818-b96f-6a6d8a20d803",
@@ -10733,7 +11065,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "ec8188ee-f4e4-4f5e-91ae-472e765060cd",
@@ -10763,7 +11096,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "30739ff3-9d71-4e38-991c-0f7a2f54ed2d",
@@ -10799,7 +11133,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "a5902c55-6ff4-4bbe-88a1-ebba45b03cec",
@@ -10829,7 +11164,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "a64918a6-e6f5-495e-ad2d-a8e3655c9424",
@@ -10859,7 +11195,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "497c29ee-32b2-4535-ac5f-3881a106c793",
@@ -10907,7 +11244,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "0fab94c7-d51c-4b5a-a2ab-694c13efb024",
@@ -10937,7 +11275,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "956ce5ff-1fc8-461e-ab2e-0ac70758bb46",
@@ -10973,7 +11312,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "db4a69b2-65ba-4dd8-8b3e-eadf2cc241c6",
@@ -11015,7 +11355,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "25530a3e-d0a8-456f-b7ea-6a3886843279",
@@ -11045,7 +11386,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "c4381eb3-d21f-4bd1-bc1c-66c03b7d8bcf",
@@ -11081,7 +11423,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "7bbd90ad-98e9-4415-8040-23500f2e01e7",
@@ -11123,7 +11466,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "12499527-9476-45ed-80a2-b2b729742414",
@@ -11153,7 +11497,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "bccaacb3-a9a5-44aa-b05b-3f29c3c6e38a",
@@ -11195,7 +11540,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "3dec3921-6f01-4801-b648-a7f3ee33acd3",
@@ -11231,7 +11577,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "541c508a-00bf-4a9d-bd47-17fda98b349d",
@@ -11267,7 +11614,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "a68cf527-a458-4d84-8171-7756813ca72c",
@@ -11309,7 +11657,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "d75442cf-87f8-4a56-8ee0-8ed7f94fe738",
@@ -11345,7 +11694,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "faefa284-84cf-4c1e-aa73-dccdc3de729d",
@@ -11375,7 +11725,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "06d86c6b-5ed0-475f-805a-a3ceb59af083",
@@ -11411,7 +11762,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "506e6b03-1209-4650-8b3b-3cd2d4724b5f",
@@ -11441,7 +11793,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "3ffddb2c-4c17-47d1-a7de-e1663d4031b7",
@@ -11489,7 +11842,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "bd317edd-214a-4e11-a9dc-3cc71a2907c3",
@@ -11531,7 +11885,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Mecklenburgische Seenplatte"
+    "kreis": "Mecklenburgische Seenplatte",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "19cc3b9a-546b-43dd-96a3-b0bf903672d2",
@@ -11561,7 +11916,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Mecklenburgische Seenplatte"
+    "kreis": "Mecklenburgische Seenplatte",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "ab13c115-6924-4d88-822c-0704b8df4767",
@@ -11591,7 +11947,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Mecklenburgische Seenplatte"
+    "kreis": "Mecklenburgische Seenplatte",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "25582d3f-dc5f-4c70-bd08-e84fd13201ca",
@@ -11621,7 +11978,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Mannheim"
+    "kreis": "Mannheim",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "827b2685-47ec-44df-a90f-980f5e0c1591",
@@ -11657,7 +12015,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Heidelberg"
+    "kreis": "Heidelberg",
+    "einzugsgebiet": "Neckar"
   },
   {
     "uuid": "3944c1fd-39f5-47b1-bb6e-323db05d70e8",
@@ -11682,7 +12041,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Heidelberg"
+    "kreis": "Heidelberg",
+    "einzugsgebiet": "Neckar"
   },
   {
     "uuid": "4c00a166-7d6d-48d7-b4dc-673b96b4041e",
@@ -11718,7 +12078,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Rhein-Neckar-Kreis"
+    "kreis": "Rhein-Neckar-Kreis",
+    "einzugsgebiet": "Neckar"
   },
   {
     "uuid": "fc1072e4-61d4-4e89-bc70-c7e8860fd208",
@@ -11748,7 +12109,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Neckar-Odenwald-Kreis"
+    "kreis": "Neckar-Odenwald-Kreis",
+    "einzugsgebiet": "Neckar"
   },
   {
     "uuid": "b76bf04c-45e7-40c7-8940-3e1419c6da15",
@@ -11859,7 +12221,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Landkreis Heilbronn"
+    "kreis": "Landkreis Heilbronn",
+    "einzugsgebiet": "Neckar"
   },
   {
     "uuid": "57db82c7-2785-44d0-bede-21de0686a6be",
@@ -11914,7 +12277,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Landkreis Ludwigsburg"
+    "kreis": "Landkreis Ludwigsburg",
+    "einzugsgebiet": "Neckar"
   },
   {
     "uuid": "42c11b7a-d5ff-4372-b5ee-3b755ea4cb6f",
@@ -11964,7 +12328,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Landkreis Ludwigsburg"
+    "kreis": "Landkreis Ludwigsburg",
+    "einzugsgebiet": "Neckar"
   },
   {
     "uuid": "6e183f4b-a506-4706-aeed-cf33b34e76ad",
@@ -12069,7 +12434,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Landkreis Ludwigsburg"
+    "kreis": "Landkreis Ludwigsburg",
+    "einzugsgebiet": "Neckar"
   },
   {
     "uuid": "f4854a4c-490a-43df-bc06-d2711ddf9b70",
@@ -12199,7 +12565,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Stuttgart"
+    "kreis": "Stuttgart",
+    "einzugsgebiet": "Neckar"
   },
   {
     "uuid": "80e002d8-bc6a-4685-9aab-88edbfc069e0",
@@ -12385,7 +12752,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Landkreis Esslingen"
+    "kreis": "Landkreis Esslingen",
+    "einzugsgebiet": "Neckar"
   },
   {
     "uuid": "963bdc26-34ad-43c8-b653-bbaa3466276a",
@@ -12415,7 +12783,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Oder"
   },
   {
     "uuid": "bf48cefd-0d00-4186-a366-343c25f43615",
@@ -12445,7 +12814,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "e506460f-4577-4405-8cc3-cc36a4bb516d",
@@ -12475,7 +12845,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Jerichower Land"
+    "kreis": "Jerichower Land",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "0e192297-1224-4465-b1c7-a476cc17f74d",
@@ -12505,7 +12876,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Rendsburg-Eckernförde"
+    "kreis": "Rendsburg-Eckernförde",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "85fc0dac-a53f-4638-880d-40b24bb282f3",
@@ -12535,7 +12907,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Dithmarschen"
+    "kreis": "Dithmarschen",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "3954300d-f112-4fe6-8d0a-b06496372e36",
@@ -12564,7 +12937,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Schleswig-Holstein"
+    "land": "Schleswig-Holstein",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "4a904d59-d48f-4878-af7b-cbd955f342e0",
@@ -12594,7 +12968,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Rendsburg-Eckernförde"
+    "kreis": "Rendsburg-Eckernförde",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "8c8afb56-88ea-483a-a7d4-033c22f53497",
@@ -12624,7 +12999,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Rendsburg-Eckernförde"
+    "kreis": "Rendsburg-Eckernförde",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "d0ec2790-a870-405e-bb61-2dcc3cf47467",
@@ -12654,7 +13030,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Rendsburg-Eckernförde"
+    "kreis": "Rendsburg-Eckernförde",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "8af24d6a-eecd-434e-9f1a-60ab6bc05490",
@@ -12679,7 +13056,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kiel"
+    "kreis": "Kiel",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "6dc44585-5b88-45d7-9c64-7c845408b698",
@@ -12704,7 +13082,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kiel"
+    "kreis": "Kiel",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "c0ec139b-13b4-4f86-bee3-06665ad81a40",
@@ -12740,7 +13119,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Pinneberg"
+    "kreis": "Kreis Pinneberg",
+    "einzugsgebiet": "Helgoland"
   },
   {
     "uuid": "2852b9ab-d30e-4d04-ae06-3e946f48a0b1",
@@ -12775,7 +13155,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Schleswig-Holstein"
+    "land": "Schleswig-Holstein",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "9c4c11f2-0548-4555-beac-ecfd36f9bd74",
@@ -12811,7 +13192,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Nordfriesland"
+    "kreis": "Nordfriesland",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "4a2501bf-cb57-46bb-87d3-d6808286b31b",
@@ -12879,7 +13261,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Leer"
+    "kreis": "Landkreis Leer",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "478f21e9-906b-4c6f-a009-b5eabb052746",
@@ -12909,7 +13292,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Leer"
+    "kreis": "Landkreis Leer",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "0d8233b8-36c9-4a24-ad77-a4e7c617932f",
@@ -12939,7 +13323,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Pinneberg"
+    "kreis": "Kreis Pinneberg",
+    "einzugsgebiet": "Helgoland"
   },
   {
     "uuid": "5287a3e1-c540-4ab1-b52e-880d124cbc43",
@@ -12975,7 +13360,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Dithmarschen"
+    "kreis": "Dithmarschen",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "e114aeec-c8d9-4d20-8fe1-8822058cb38b",
@@ -13011,7 +13397,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Nordfriesland"
+    "kreis": "Nordfriesland",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "6233e901-2600-4b54-ae06-7b987934e99e",
@@ -13047,7 +13434,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Nordfriesland"
+    "kreis": "Nordfriesland",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "733755fd-628f-4130-a694-aaba340531ba",
@@ -13083,7 +13471,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Nordfriesland"
+    "kreis": "Nordfriesland",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "5e92d73f-e4ea-42c1-9f98-91536c17cdff",
@@ -13119,7 +13508,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Nordfriesland"
+    "kreis": "Nordfriesland",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "04acd7e5-3cbc-4cdd-b4a9-f452e868f4d6",
@@ -13173,7 +13563,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Nordfriesland"
+    "kreis": "Nordfriesland",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "c0244c0e-6ae6-40cb-a967-4039b2a0ce7c",
@@ -13203,7 +13594,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Aurich"
+    "kreis": "Landkreis Aurich",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "a0c1dcb6-7812-48e6-8c01-f7edad7a2caf",
@@ -13233,7 +13625,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Wittmund"
+    "kreis": "Landkreis Wittmund",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "662c4b5e-0241-456d-ac7d-9f62fd95c0d1",
@@ -13262,7 +13655,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "e574d0af-5c63-4306-b1d3-43b7359de06d",
@@ -13291,7 +13685,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "3ff99b92-4396-4fa7-af73-02b9c015dcad",
@@ -13320,7 +13715,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "f0197bcf-6846-4c0a-9659-0c2626a9bcf0",
@@ -13350,7 +13746,8 @@
     ],
     "country": "Deutschland",
     "land": "Hamburg",
-    "kreis": "Hamburg"
+    "kreis": "Hamburg",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "e8daa3e2-77d1-4cfa-9ac9-501e7b2b4b0a",
@@ -13440,7 +13837,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "16a780aa-475d-41dc-a8ec-20488415b6d7",
@@ -13470,7 +13868,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "721d7dbf-c947-405c-8dba-e672a091f4c0",
@@ -13500,7 +13899,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "a9b8e24c-012a-48dc-a823-d48c1637cb42",
@@ -13530,7 +13930,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "470acd2a-f3e7-4fd2-96b0-e90344ee51bf",
@@ -13560,7 +13961,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "308f5979-4ab8-48ab-b618-081aa285559e",
@@ -13590,7 +13992,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "a5830277-af1d-4c64-be72-00591f36216c",
@@ -13620,7 +14023,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "2c95f83d-4669-4553-a18d-3f493176d34d",
@@ -13650,7 +14054,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "da3b5de9-bb1d-4545-a172-fa29301d552e",
@@ -13680,7 +14085,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Mecklenburgische Seenplatte"
+    "kreis": "Mecklenburgische Seenplatte",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "7909d3f7-ef5d-4321-b76d-712d9b0a0c68",
@@ -13710,7 +14116,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Mecklenburgische Seenplatte"
+    "kreis": "Mecklenburgische Seenplatte",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "09b422f7-3c5e-42f1-8680-ffd8fe381b86",
@@ -13740,7 +14147,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Mecklenburgische Seenplatte"
+    "kreis": "Mecklenburgische Seenplatte",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "2bcef51a-5104-469d-bbbc-f16a0dfd4206",
@@ -13770,7 +14178,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Mecklenburgische Seenplatte"
+    "kreis": "Mecklenburgische Seenplatte",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "ca3f535b-4a32-4dd7-a56b-2ac20dea4472",
@@ -13806,7 +14215,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Oder"
   },
   {
     "uuid": "8675aa70-cfbc-471a-8566-dcc851f201d3",
@@ -13854,7 +14264,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Oder"
   },
   {
     "uuid": "bffdf7f2-6200-42a2-a4bc-a8111e27e043",
@@ -13895,7 +14306,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Brandenburg"
+    "land": "Brandenburg",
+    "einzugsgebiet": "Oder"
   },
   {
     "uuid": "16258271-ec03-4542-873c-1642c8b654c9",
@@ -13935,7 +14347,8 @@
         "equidistance": 60
       }
     ],
-    "country": "Deutschland"
+    "country": "Deutschland",
+    "einzugsgebiet": "Oder"
   },
   {
     "uuid": "6298a8f9-7c77-4605-a55a-278c61cc8f50",
@@ -13977,7 +14390,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Märkisch-Oderland"
+    "kreis": "Märkisch-Oderland",
+    "einzugsgebiet": "Oder"
   },
   {
     "uuid": "f7a639a4-b824-445c-b158-108ebd70cc9a",
@@ -14025,7 +14439,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Märkisch-Oderland"
+    "kreis": "Märkisch-Oderland",
+    "einzugsgebiet": "Oder"
   },
   {
     "uuid": "30bff0df-8333-49ec-8fd7-a2d4c0db1cb1",
@@ -14066,7 +14481,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Brandenburg"
+    "land": "Brandenburg",
+    "einzugsgebiet": "Oder"
   },
   {
     "uuid": "e28babaa-7801-49a2-9c28-58701549ce5d",
@@ -14108,7 +14524,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Uckermark"
+    "kreis": "Uckermark",
+    "einzugsgebiet": "Oder"
   },
   {
     "uuid": "18e6fa6e-2564-4057-8503-05213e49e57a",
@@ -14158,7 +14575,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "eea7e3dc-d158-4173-ae7d-d322dd917aa4",
@@ -14188,7 +14606,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "0a6fe221-9fc9-46e0-802f-9c367a32ed72",
@@ -14218,7 +14637,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "adbd3144-1774-45e8-8eb7-60f01a712426",
@@ -14248,7 +14668,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "f0f78cc4-1ab4-4548-abed-63c65a267a8a",
@@ -14273,7 +14694,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Waldeck-Frankenberg"
+    "kreis": "Landkreis Waldeck-Frankenberg",
+    "einzugsgebiet": "Eder"
   },
   {
     "uuid": "04cbc946-8ee9-4521-ac52-557642cad52c",
@@ -14323,7 +14745,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Rotenburg (Wümme)"
+    "kreis": "Landkreis Rotenburg (Wümme)",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "e5e02890-87bd-4fab-b590-ffa557c3532e",
@@ -14348,7 +14771,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Cuxhaven"
+    "kreis": "Landkreis Cuxhaven",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "86d07669-4670-48a1-8f30-7d7b26224ad6",
@@ -14379,7 +14803,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Cuxhaven"
+    "kreis": "Landkreis Cuxhaven",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "04790e03-4353-4e80-beef-b3ed439484bc",
@@ -14410,7 +14835,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Cuxhaven"
+    "kreis": "Landkreis Cuxhaven",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "f44e7220-892e-40b5-8ef4-3da129c2a6ae",
@@ -14441,7 +14867,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Cuxhaven"
+    "kreis": "Landkreis Cuxhaven",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "7cb4566b-c584-4167-8736-f52ca7fd837d",
@@ -14471,7 +14898,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "8c3295dc-fe73-45bc-9a7b-679d4aaad0cf",
@@ -14501,7 +14929,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "9427fafc-7146-4be1-a71e-4e4658236037",
@@ -14532,7 +14961,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "a9e93be0-cb0e-4418-ba3c-94e7869f6199",
@@ -14562,7 +14992,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "b8d05bf9-2ef2-416d-ba70-b5dba74fe777",
@@ -14591,7 +15022,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Rügen"
+    "kreis": "Vorpommern-Rügen",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "09227288-8c72-4b12-88fe-8765d1b2b400",
@@ -14620,7 +15052,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Rügen"
+    "kreis": "Vorpommern-Rügen",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "220ff4c6-83da-4a1b-9c13-dfee5a2a8798",
@@ -14650,7 +15083,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Rostock"
+    "kreis": "Rostock",
+    "einzugsgebiet": "Warnow"
   },
   {
     "uuid": "00c33ed9-6bea-45b4-8728-7edc7e43e2f3",
@@ -14680,7 +15114,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Rügen"
+    "kreis": "Vorpommern-Rügen",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "b9163121-2747-4d2b-bcf5-ab5ff7396e56",
@@ -14710,7 +15145,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Rügen"
+    "kreis": "Vorpommern-Rügen",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "340707f4-5d35-4898-8b34-95ea3f4206b3",
@@ -14740,7 +15176,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Rügen"
+    "kreis": "Vorpommern-Rügen",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "b327e35c-5dad-4b79-9cef-60fbd504eb37",
@@ -14770,7 +15207,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Greifswald"
+    "kreis": "Vorpommern-Greifswald",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "492f85b8-e5c6-439e-8e14-08ca78f10dce",
@@ -14800,7 +15238,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Rügen"
+    "kreis": "Vorpommern-Rügen",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "905e7328-b8aa-4b08-9c22-c864101e462b",
@@ -14830,7 +15269,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Rügen"
+    "kreis": "Vorpommern-Rügen",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "4b348b56-b08c-4522-9042-49c1edb45d0d",
@@ -14864,7 +15304,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Rügen"
+    "kreis": "Vorpommern-Rügen",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "91922b9b-ef7b-4aae-95a1-9d6a9e61969a",
@@ -14894,7 +15335,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Rügen"
+    "kreis": "Vorpommern-Rügen",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "9e7b2a4d-cfe8-4524-8a1e-c196ea897e9f",
@@ -14924,7 +15366,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Rügen"
+    "kreis": "Vorpommern-Rügen",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "d1c9bb3c-2929-46a8-a338-adfddf0ef524",
@@ -14954,7 +15397,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Rügen"
+    "kreis": "Vorpommern-Rügen",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "1fa822e6-fb0c-4331-83f1-749972046dca",
@@ -14983,7 +15427,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Mecklenburg-Vorpommern"
+    "land": "Mecklenburg-Vorpommern",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "087b6386-0957-4b47-af7d-ecd62f6d63ce",
@@ -15013,7 +15458,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Küstengewässer einschließlich Anteil am Festlandsockel"
+    "kreis": "Küstengewässer einschließlich Anteil am Festlandsockel",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "f53bb77f-e55a-468f-b7be-b66baf7e3e5b",
@@ -15043,7 +15489,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Greifswald"
+    "kreis": "Vorpommern-Greifswald",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "c0f33a36-cac4-4e47-a3f5-d1863c2f0f99",
@@ -15073,7 +15520,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Küstengewässer einschließlich Anteil am Festlandsockel"
+    "kreis": "Küstengewässer einschließlich Anteil am Festlandsockel",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "6b53ef42-5bd9-4366-ace3-442e307bec60",
@@ -15103,7 +15551,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Greifswald"
+    "kreis": "Vorpommern-Greifswald",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "9e19c411-f728-4a43-a057-39d4155c71cc",
@@ -15133,7 +15582,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Flensburg"
+    "kreis": "Flensburg",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "5a33bf14-6bdc-4666-b2e3-ac78e3083e2a",
@@ -15163,7 +15613,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Schleswig-Flensburg"
+    "kreis": "Schleswig-Flensburg",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "22b7dcb3-8c42-4f71-9191-49143ba3a828",
@@ -15192,7 +15643,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Schleswig-Holstein"
+    "land": "Schleswig-Holstein",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "70d4f87f-4489-455a-a435-d6df9e09a87e",
@@ -15222,7 +15674,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Schleswig-Flensburg"
+    "kreis": "Schleswig-Flensburg",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "d22c341b-80c2-436d-98e1-8a2575bc975a",
@@ -15252,7 +15705,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Nordwestmecklenburg"
+    "kreis": "Nordwestmecklenburg",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "95a0ab45-a9ac-4f9a-93e9-b0ffa1c57b5f",
@@ -15282,7 +15736,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Nordwestmecklenburg"
+    "kreis": "Nordwestmecklenburg",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "06219dd9-a2c4-463c-9619-623b3c026cbc",
@@ -15312,7 +15767,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Ostholstein"
+    "kreis": "Ostholstein",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "3ad4013f-644b-47f5-a641-44b332bfecb2",
@@ -15342,7 +15798,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kiel"
+    "kreis": "Kiel",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "736437d7-0f6f-41b7-bc69-5ed721da4f85",
@@ -15401,7 +15858,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Ostholstein"
+    "kreis": "Ostholstein",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "8effc15d-8583-4ac6-9f42-1b63c47f92b0",
@@ -15431,7 +15889,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Ostholstein"
+    "kreis": "Ostholstein",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "b09f2243-60f0-469a-8f3b-0ea6abc83267",
@@ -15461,7 +15920,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Schleswig-Flensburg"
+    "kreis": "Schleswig-Flensburg",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "09370c05-1041-4395-a5d4-b8db6e59c4c8",
@@ -15491,7 +15951,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Schleswig-Flensburg"
+    "kreis": "Schleswig-Flensburg",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "1faa9b2c-c269-4662-af70-ef11da27cc1c",
@@ -15521,7 +15982,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Rendsburg-Eckernförde"
+    "kreis": "Rendsburg-Eckernförde",
+    "einzugsgebiet": "Ostsee"
   },
   {
     "uuid": "25ca1bef-4f8e-4523-89f5-7d8593e46370",
@@ -15551,7 +16013,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Jerichower Land"
+    "kreis": "Jerichower Land",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "bafddcbf-4108-431e-9f57-568be08fd538",
@@ -15581,7 +16044,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Jerichower Land"
+    "kreis": "Jerichower Land",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "8ba772ed-e45b-4be8-b91d-0c6c92de59e4",
@@ -15611,7 +16075,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Mecklenburgische Seenplatte"
+    "kreis": "Mecklenburgische Seenplatte",
+    "einzugsgebiet": "Peene"
   },
   {
     "uuid": "b7e238e8-29ec-4522-8252-b2cae7d4f58e",
@@ -15641,7 +16106,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Mecklenburgische Seenplatte"
+    "kreis": "Mecklenburgische Seenplatte",
+    "einzugsgebiet": "Peene"
   },
   {
     "uuid": "a3328262-207d-4e65-96d8-202368ca0cb8",
@@ -15671,7 +16137,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Greifswald"
+    "kreis": "Vorpommern-Greifswald",
+    "einzugsgebiet": "Peene"
   },
   {
     "uuid": "22fd01e0-090b-476b-80aa-f4586e259785",
@@ -15701,7 +16168,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Vorpommern-Greifswald"
+    "kreis": "Vorpommern-Greifswald",
+    "einzugsgebiet": "Peene"
   },
   {
     "uuid": "575da86f-d975-4837-b6f5-6f19c3a5e4b6",
@@ -15737,7 +16205,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Pinneberg"
+    "kreis": "Kreis Pinneberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "26259e8f-7d2d-47e0-8851-0257542b63b3",
@@ -15779,7 +16248,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Pinneberg"
+    "kreis": "Kreis Pinneberg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "b2e89aef-c870-4c73-9112-0115b9120458",
@@ -15841,7 +16311,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Potsdam"
+    "kreis": "Potsdam",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "e020e651-e422-46d3-ae28-34887c5a4a8e",
@@ -15925,7 +16396,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Landkreis Lörrach"
+    "kreis": "Landkreis Lörrach",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "9da1ad2b-88db-4cbb-8132-eddfab07d5ba",
@@ -15955,7 +16427,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Landkreis Breisgau-Hochschwarzwald"
+    "kreis": "Landkreis Breisgau-Hochschwarzwald",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "5389b878-fad5-4f37-bb87-e6cb36b7078b",
@@ -15985,7 +16458,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Ortenaukreis"
+    "kreis": "Ortenaukreis",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "787e5d63-61e2-48cc-acf0-633e2bf923f2",
@@ -16015,7 +16489,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Ortenaukreis"
+    "kreis": "Ortenaukreis",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "23af9b02-5c82-4f6e-acb8-f92a06e5e4da",
@@ -16051,7 +16526,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Ortenaukreis"
+    "kreis": "Ortenaukreis",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "b02be240-1364-4c97-8bb6-675d7d842332",
@@ -16123,7 +16599,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Landkreis Rastatt"
+    "kreis": "Landkreis Rastatt",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "b6c6d5c8-e2d5-4469-8dd8-fa972ef7eaea",
@@ -16159,7 +16636,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Karlsruhe"
+    "kreis": "Karlsruhe",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "88e972e1-88a0-4eb9-847c-0925e5999a46",
@@ -16189,7 +16667,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Rhein-Pfalz-Kreis"
+    "kreis": "Rhein-Pfalz-Kreis",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "2cb8ae5b-c5c9-4fa8-bac0-bb724f2754f4",
@@ -16224,7 +16703,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Rheinland-Pfalz"
+    "land": "Rheinland-Pfalz",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "57090802-c51a-4d09-8340-b4453cd0e1f5",
@@ -16254,7 +16734,8 @@
     ],
     "country": "Deutschland",
     "land": "Baden-Württemberg",
-    "kreis": "Mannheim"
+    "kreis": "Mannheim",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "844a620f-f3b8-4b6b-8e3c-783ae2aa232a",
@@ -16289,7 +16770,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Rheinland-Pfalz"
+    "land": "Rheinland-Pfalz",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "d28e7ed1-3317-41c5-bec6-725369ed1171",
@@ -16319,7 +16801,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Mainz-Bingen"
+    "kreis": "Landkreis Mainz-Bingen",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "f6be7857-56b3-4db3-84e5-89e0c45985ed",
@@ -16349,7 +16832,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Mainz-Bingen"
+    "kreis": "Landkreis Mainz-Bingen",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "a37a9aa3-45e9-4d90-9df6-109f3a28a5af",
@@ -16385,7 +16869,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Mainz"
+    "kreis": "Mainz",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "665be0fe-5e38-43f6-8b04-02a93bdbeeb4",
@@ -16415,7 +16900,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Rheingau-Taunus-Kreis"
+    "kreis": "Rheingau-Taunus-Kreis",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "0309cd61-90c9-470e-99d4-2ee4fb2c5f84",
@@ -16445,7 +16931,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Mainz-Bingen"
+    "kreis": "Landkreis Mainz-Bingen",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "1d26e504-7f9e-480a-b52c-5932be6549ab",
@@ -16481,7 +16968,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Rhein-Lahn-Kreis"
+    "kreis": "Rhein-Lahn-Kreis",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "550eb7e9-172e-48e4-ae1e-d1b761b42223",
@@ -16511,7 +16999,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Rhein-Hunsrück-Kreis"
+    "kreis": "Rhein-Hunsrück-Kreis",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "2ff6379d-d168-4022-8da0-16846d45ef9b",
@@ -16541,7 +17030,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Rhein-Hunsrück-Kreis"
+    "kreis": "Rhein-Hunsrück-Kreis",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "d6dc44d1-63ac-4871-b175-60ac4040069a",
@@ -16571,7 +17061,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Rhein-Lahn-Kreis"
+    "kreis": "Rhein-Lahn-Kreis",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "4c7d796a-39f2-4f26-97a9-3aad01713e29",
@@ -16601,7 +17092,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Koblenz"
+    "kreis": "Koblenz",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "dc407f1e-e25f-4995-9feb-5bacc8658149",
@@ -16631,7 +17123,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Neuwied"
+    "kreis": "Landkreis Neuwied",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "5735892a-ec65-4b29-97c5-50939aa9584e",
@@ -16667,7 +17160,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Mayen-Koblenz"
+    "kreis": "Landkreis Mayen-Koblenz",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "b45359df-c020-4314-adb1-d1921db642da",
@@ -16697,7 +17191,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Ahrweiler"
+    "kreis": "Landkreis Ahrweiler",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "593647aa-9fea-43ec-a7d6-6476a76ae868",
@@ -16733,7 +17228,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Bonn"
+    "kreis": "Bonn",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "a6ee8177-107b-47dd-bcfd-30960ccc6e9c",
@@ -16775,7 +17271,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Köln"
+    "kreis": "Köln",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "8f7e5f92-1153-4f93-acba-ca48670c8ca9",
@@ -16811,7 +17308,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Düsseldorf"
+    "kreis": "Düsseldorf",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "c0f51e35-d0e8-4318-afaf-c5fcbc29f4c1",
@@ -16847,7 +17345,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Duisburg"
+    "kreis": "Duisburg",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "f33c3cc9-dc4b-4b77-baa9-5a5f10704398",
@@ -16883,7 +17382,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Wesel"
+    "kreis": "Kreis Wesel",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "2f025389-fac8-4557-94d3-7d0428878c86",
@@ -16919,7 +17419,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Kleve"
+    "kreis": "Kreis Kleve",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "9598e4cb-0849-401e-bba0-689234b27644",
@@ -16955,7 +17456,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Kleve"
+    "kreis": "Kreis Kleve",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "f18e81da-1fec-4308-a881-6defa7c6d18b",
@@ -16980,7 +17482,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Duisburg"
+    "kreis": "Duisburg",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "48780245-36f2-453e-b430-5fa838851d6d",
@@ -17005,7 +17508,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Duisburg"
+    "kreis": "Duisburg",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "12f63015-c66a-4e89-a69b-ddd069872d40",
@@ -17030,7 +17534,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Oberhausen"
+    "kreis": "Oberhausen",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "e251f943-ce2f-4003-b208-e2797aa72202",
@@ -17055,7 +17560,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Oberhausen"
+    "kreis": "Oberhausen",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "427318d0-ee8d-4d9b-89f1-e8a8685b5d8c",
@@ -17080,7 +17586,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Gelsenkirchen"
+    "kreis": "Gelsenkirchen",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "5b9f8134-8bf0-4b51-a548-72a36303bbc2",
@@ -17105,7 +17612,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Gelsenkirchen"
+    "kreis": "Gelsenkirchen",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "23045f8b-e7e8-4534-8162-b7dba81764db",
@@ -17130,7 +17638,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Herne"
+    "kreis": "Herne",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "05ca0e33-5c71-4368-b824-2243fcff656c",
@@ -17155,7 +17664,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Herne"
+    "kreis": "Herne",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "b9975ea1-5b45-4e27-abb8-4c3f7878b1f7",
@@ -17180,7 +17690,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Recklinghausen"
+    "kreis": "Kreis Recklinghausen",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "ac6c4362-1fb1-4b7a-9406-016bed804804",
@@ -17205,7 +17716,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Herne"
+    "kreis": "Herne",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "4d00c13e-e689-4dfc-85e6-a3fc8596ac8b",
@@ -17235,7 +17747,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Ostprignitz-Ruppin"
+    "kreis": "Ostprignitz-Ruppin",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "3d43a8d7-e599-4fc4-bf62-65eb0794685e",
@@ -17265,7 +17778,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Ostprignitz-Ruppin"
+    "kreis": "Ostprignitz-Ruppin",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "4e4fac1a-6fb4-4ce2-a041-bdc4a668d95d",
@@ -17295,7 +17809,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Magdeburg"
+    "kreis": "Magdeburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "ea3e14ca-2872-47e7-a10c-8b2e0b46bdba",
@@ -17320,7 +17835,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Magdeburg"
+    "kreis": "Magdeburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "12a3037f-cbf3-49d3-8da5-77fb38730bba",
@@ -17345,7 +17861,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Duisburg"
+    "kreis": "Duisburg",
+    "einzugsgebiet": "Ruhr"
   },
   {
     "uuid": "36fb2c81-5fc0-4f2c-8f37-347c822a4b59",
@@ -17370,7 +17887,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Mülheim an der Ruhr"
+    "kreis": "Mülheim an der Ruhr",
+    "einzugsgebiet": "Ruhr"
   },
   {
     "uuid": "c0594fb5-77ff-4287-9b8d-7ff326afe9ff",
@@ -17401,7 +17919,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Ennepe-Ruhr-Kreis"
+    "kreis": "Ennepe-Ruhr-Kreis",
+    "einzugsgebiet": "Ruhr"
   },
   {
     "uuid": "752a8c5a-5f2a-4575-af2f-d825cffc6eb3",
@@ -17432,7 +17951,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "99989609-7bd8-4f91-bd55-ad31fbf55ee4",
@@ -17462,7 +17982,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "2ae6cc12-5491-4f59-94c5-ccdbcb7474c8",
@@ -17492,7 +18013,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "2203fce7-9d1e-4586-84ab-0797468863a1",
@@ -17522,7 +18044,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "8d1fdc5b-b63a-4745-baeb-5e266d247e99",
@@ -17558,7 +18081,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "46a3350b-f3e6-4f5d-a297-2652c43bfac8",
@@ -17588,7 +18112,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "184200bc-cdb6-4116-a7cf-ac986c2d4fb8",
@@ -17618,7 +18143,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "ace7d4b0-33e5-46db-a41d-2fa7a321f67a",
@@ -17648,7 +18174,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Bode"
   },
   {
     "uuid": "501aa608-ea81-4690-a491-6602114c14af",
@@ -17684,7 +18211,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "e7f52bd2-f0cb-4194-aa85-4ad76a3a0671",
@@ -17714,7 +18242,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "93ddc1e6-072c-45f6-99c0-d7d7df9d39cf",
@@ -17744,7 +18273,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "9fb9abce-e1ac-4c11-94b2-a32d63f6fb40",
@@ -17774,7 +18304,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "e70e39ec-e476-4991-a39d-7d0e009556ef",
@@ -17804,7 +18335,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "5a7e1d4a-53aa-4f9f-a59b-50e01b7260c7",
@@ -17834,7 +18366,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Salzlandkreis"
+    "kreis": "Salzlandkreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "af82bc24-a355-4247-9532-b305eb57e16f",
@@ -17864,7 +18397,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Saalekreis"
+    "kreis": "Saalekreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "632a133b-fcc2-467f-8f9c-1ec63144f8d6",
@@ -17894,7 +18428,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Saalekreis"
+    "kreis": "Saalekreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "33193e2b-1203-4681-a23d-f87b9fab4b60",
@@ -17930,7 +18465,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Halle (Saale)"
+    "kreis": "Halle (Saale)",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "ea6870dc-507e-4ec4-a38c-cd8a5e8b7025",
@@ -17960,7 +18496,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Halle (Saale)"
+    "kreis": "Halle (Saale)",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "4626f6bc-494b-4a51-8c10-b47a32e87790",
@@ -17990,7 +18527,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Saalekreis"
+    "kreis": "Saalekreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "cde0f9b6-6b13-4de9-adfe-cad1fe085e30",
@@ -18020,7 +18558,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Saalekreis"
+    "kreis": "Saalekreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "31dfddc7-80a5-45ff-907b-7bf2c1d825c5",
@@ -18056,7 +18595,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Saalekreis"
+    "kreis": "Saalekreis",
+    "einzugsgebiet": "Saale"
   },
   {
     "uuid": "707ef20a-440d-4599-8dca-385eb5c3d020",
@@ -18081,7 +18621,8 @@
     ],
     "country": "Deutschland",
     "land": "Rheinland-Pfalz",
-    "kreis": "Landkreis Trier-Saarburg"
+    "kreis": "Landkreis Trier-Saarburg",
+    "einzugsgebiet": "Saar"
   },
   {
     "uuid": "50881379-70ca-4e85-9bf2-752a7e5aea8c",
@@ -18137,7 +18678,8 @@
     ],
     "country": "Deutschland",
     "land": "Saarland",
-    "kreis": "Landkreis Merzig-Wadern"
+    "kreis": "Landkreis Merzig-Wadern",
+    "einzugsgebiet": "Saar"
   },
   {
     "uuid": "eb28e62a-5009-4e07-9d63-225e31abe62d",
@@ -18239,7 +18781,8 @@
     ],
     "country": "Deutschland",
     "land": "Saarland",
-    "kreis": "Regionalverband Saarbrücken"
+    "kreis": "Regionalverband Saarbrücken",
+    "einzugsgebiet": "Saar"
   },
   {
     "uuid": "eeaba884-d4c5-4a83-88fb-adcd79adbc50",
@@ -18289,7 +18832,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Uckermark"
+    "kreis": "Uckermark",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "cc57198c-b40f-4c11-ad50-fceae4669a3e",
@@ -18320,7 +18864,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "d89eb759-58c4-43f4-9fe4-e6a21af23f5c",
@@ -18350,7 +18895,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "63a222c0-bd45-4af8-b9a7-27f9443a1936",
@@ -18380,7 +18926,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "09e15cf6-f155-4b76-b92f-6c260839121c",
@@ -18410,7 +18957,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "6dc4e4a0-2c10-4c27-a08f-a0ca0aa13df2",
@@ -18440,7 +18988,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "47d3e815-c556-4e1b-93de-9fe07329fb00",
@@ -18470,7 +19019,8 @@
     ],
     "country": "Deutschland",
     "land": "Berlin",
-    "kreis": "Berlin"
+    "kreis": "Berlin",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "1b8ac909-8377-4887-ab70-748de2dd9775",
@@ -18500,7 +19050,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Dahme-Spreewald"
+    "kreis": "Dahme-Spreewald",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "9d7cc90a-7380-4dbf-8641-3201dfcbc75d",
@@ -18530,7 +19081,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Dahme-Spreewald"
+    "kreis": "Dahme-Spreewald",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "e7440532-8033-44d6-99b4-037a05da0c54",
@@ -18560,7 +19112,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "53088d32-226a-49b7-962d-a5879c3aba29",
@@ -18590,7 +19143,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "b2204ea2-eb50-439f-a64d-98062ea1d21f",
@@ -18620,7 +19174,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "b577a043-b6b8-4db8-80e7-8abbb565c8c5",
@@ -18650,7 +19205,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "df242a51-7ed5-4205-be60-47e0e1f46fad",
@@ -18680,7 +19236,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Oder"
   },
   {
     "uuid": "9c336515-b238-4a1a-947f-dabe47f4b502",
@@ -18710,7 +19267,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Oder"
   },
   {
     "uuid": "2d9f473e-f2b6-4f50-bb4d-96362230a976",
@@ -18740,7 +19298,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "9e4adf71-ed15-453a-b50e-de03d2077e04",
@@ -18770,7 +19329,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "b89b68fd-0d40-4941-9ee1-e4f7a56351a0",
@@ -18800,7 +19360,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "4e6a3d17-1855-4458-b3fc-e71921a4da7b",
@@ -18830,7 +19391,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "c1d6f464-f38a-4e38-9f74-4c5d22a42c88",
@@ -18860,7 +19422,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "a9299f0c-9eb8-4369-a260-4be929e72736",
@@ -18890,7 +19453,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oder-Spree"
+    "kreis": "Oder-Spree",
+    "einzugsgebiet": "Spree"
   },
   {
     "uuid": "15859426-834c-429e-9c41-2e097b717b1d",
@@ -18926,7 +19490,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "24c6a014-864b-4d53-bd05-0b49106f5412",
@@ -18962,7 +19527,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "d863cbc3-5e5e-4095-855c-026f0850dd58",
@@ -18998,7 +19564,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "e5b8e9f3-f0cc-4ad7-8707-577ee1b25b3e",
@@ -19046,7 +19613,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Kreis Steinburg"
+    "kreis": "Kreis Steinburg",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "69fb4730-4866-4838-9b18-2c0ee9dce80d",
@@ -19071,7 +19639,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Sude"
   },
   {
     "uuid": "a9320108-ad58-41b8-b7b5-f52163a23927",
@@ -19113,7 +19682,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Ludwigslust-Parchim"
+    "kreis": "Ludwigslust-Parchim",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "680d5966-273f-4254-aabe-5d4e00e12a24",
@@ -19154,7 +19724,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Mecklenburg-Vorpommern"
+    "land": "Mecklenburg-Vorpommern",
+    "einzugsgebiet": "Elde"
   },
   {
     "uuid": "38414157-862e-428a-ae2c-77ff79871227",
@@ -19184,7 +19755,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Potsdam-Mittelmark"
+    "kreis": "Potsdam-Mittelmark",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "bb23b276-2c1c-4cde-bc9c-9d90d5a04890",
@@ -19214,7 +19786,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Potsdam-Mittelmark"
+    "kreis": "Potsdam-Mittelmark",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "5918b484-597f-4a1c-8262-0d0cbbb7986d",
@@ -19244,7 +19817,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Uckermark"
+    "kreis": "Uckermark",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "71357738-c8e2-4cb7-a41a-365659bb8d58",
@@ -19274,7 +19848,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Uckermark"
+    "kreis": "Uckermark",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "f4f9f7fb-eeff-46dc-9727-04d8aa56240a",
@@ -19304,7 +19879,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Lübeck"
+    "kreis": "Lübeck",
+    "einzugsgebiet": "Trave"
   },
   {
     "uuid": "c7383149-1f77-430d-8bef-c5667be3846b",
@@ -19334,7 +19910,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Lübeck"
+    "kreis": "Lübeck",
+    "einzugsgebiet": "Trave"
   },
   {
     "uuid": "795ce865-3ac4-43b8-88d5-049a34e4359e",
@@ -19364,7 +19941,8 @@
     ],
     "country": "Deutschland",
     "land": "Schleswig-Holstein",
-    "kreis": "Nordfriesland"
+    "kreis": "Nordfriesland",
+    "einzugsgebiet": "Eider"
   },
   {
     "uuid": "d2d025a2-e691-4986-b9c4-923e7f1a47c3",
@@ -19400,7 +19978,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Havelland"
+    "kreis": "Havelland",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "16d180c2-63aa-486b-8966-81a6041360bc",
@@ -19429,7 +20008,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Brandenburg"
+    "land": "Brandenburg",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "f8806fa4-cc2c-46e8-9b87-6231da0e3ddd",
@@ -19458,7 +20038,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Brandenburg"
+    "land": "Brandenburg",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "aa97c894-ed26-4fdd-945f-db9667979268",
@@ -19487,7 +20068,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Brandenburg"
+    "land": "Brandenburg",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "9829cab0-746b-4d10-9124-79ddda0a843e",
@@ -19516,7 +20098,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Brandenburg"
+    "land": "Brandenburg",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "2d1fa45a-8928-4ad0-b564-e74f7189681c",
@@ -19552,7 +20135,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Potsdam-Mittelmark"
+    "kreis": "Potsdam-Mittelmark",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "6c76e98e-44ca-4d25-91e7-b07c68577c5e",
@@ -19582,7 +20166,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Havelland"
+    "kreis": "Havelland",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "1ebd0f94-cc06-445c-8e73-43fe2b8c72dc",
@@ -19612,7 +20197,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Havelland"
+    "kreis": "Havelland",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "43ca90f5-3b4c-4b35-86ac-cab0fe1c2ce5",
@@ -19642,7 +20228,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Havelland"
+    "kreis": "Havelland",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "4de8a51c-4c6a-4334-92dd-0b1cbb8e0573",
@@ -19672,7 +20259,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Havelland"
+    "kreis": "Havelland",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "3af7d65c-c732-49e9-be05-fe3b5f88657c",
@@ -19708,7 +20296,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Havelland"
+    "kreis": "Havelland",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "5553e209-1b44-47f5-917d-2c6951ecc044",
@@ -19738,7 +20327,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Havelland"
+    "kreis": "Havelland",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "c62aa674-db07-4251-a50b-1676c11a9a25",
@@ -19768,7 +20358,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Havelland"
+    "kreis": "Havelland",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "fbb1c6c1-9fa9-4315-8e31-3499bf00bfef",
@@ -19797,7 +20388,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Sachsen-Anhalt"
+    "land": "Sachsen-Anhalt",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "f112a50a-d94a-49d3-a140-0a0402baf0d3",
@@ -19826,7 +20418,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Brandenburg"
+    "land": "Brandenburg",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "4c8282c1-c9c5-40c2-b379-95495ce0deee",
@@ -19856,7 +20449,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Stendal"
+    "kreis": "Stendal",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "914ce0a4-d900-4bf9-bace-47a6f73e7bed",
@@ -19886,7 +20480,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Stendal"
+    "kreis": "Stendal",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "ddb249c5-360b-4c4f-a7f6-1f6822d236c8",
@@ -19916,7 +20511,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Stendal"
+    "kreis": "Stendal",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "c203d5fb-96d7-4643-b2ef-b13b1d88c75b",
@@ -19952,7 +20548,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Stendal"
+    "kreis": "Stendal",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "ce086a21-29c2-444c-b53d-f3b70b086b2f",
@@ -19982,7 +20579,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Stendal"
+    "kreis": "Stendal",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "bb6fd2f0-458a-4ea5-aa58-e1c1a2fbd56d",
@@ -20012,7 +20610,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Stendal"
+    "kreis": "Stendal",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "863359dd-3171-4641-97bb-b21f06859072",
@@ -20042,7 +20641,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Stendal"
+    "kreis": "Stendal",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "2d93f2be-6d57-4716-a775-92fb5a63f88f",
@@ -20072,7 +20672,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Stendal"
+    "kreis": "Stendal",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "c13fc7d0-beb1-42a3-b831-4816d7649059",
@@ -20102,7 +20703,8 @@
     ],
     "country": "Deutschland",
     "land": "Sachsen-Anhalt",
-    "kreis": "Stendal"
+    "kreis": "Stendal",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "ab53a592-0f5a-43e2-9133-bf3169b0f274",
@@ -20138,7 +20740,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Prignitz"
+    "kreis": "Prignitz",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "3079c709-9d83-4c59-bf91-6bed2d5ea372",
@@ -20168,7 +20771,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Prignitz"
+    "kreis": "Prignitz",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "e0d0cc73-d3ef-41ff-a158-4692b62ed3f9",
@@ -20198,7 +20802,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Märkisch-Oderland"
+    "kreis": "Märkisch-Oderland",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "12deef85-1779-4b4f-9ba6-8467dc9d9866",
@@ -20248,7 +20853,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Rostock"
+    "kreis": "Rostock",
+    "einzugsgebiet": "Warnow"
   },
   {
     "uuid": "4a0061f0-7355-4a95-9c70-f05c8920d790",
@@ -20278,7 +20884,8 @@
     ],
     "country": "Deutschland",
     "land": "Mecklenburg-Vorpommern",
-    "kreis": "Rostock"
+    "kreis": "Rostock",
+    "einzugsgebiet": "Warnow"
   },
   {
     "uuid": "23636a08-775b-4101-a1af-1b57fb466d81",
@@ -20308,7 +20915,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "60b6ecb0-4ed5-4b8a-b875-07ae33a92b07",
@@ -20338,7 +20946,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Oberhavel"
+    "kreis": "Oberhavel",
+    "einzugsgebiet": "Havel"
   },
   {
     "uuid": "42805eb1-aca9-4f32-a373-24a9cf839aed",
@@ -20368,7 +20977,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "5c4c2d52-6c0d-4aa2-beed-6ce47e3e2bd7",
@@ -20398,7 +21008,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Barnim"
+    "kreis": "Barnim",
+    "einzugsgebiet": "Alte Oder"
   },
   {
     "uuid": "59219312-9e87-4b8c-8dde-325af733d282",
@@ -20434,7 +21045,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Göttingen"
+    "kreis": "Landkreis Göttingen",
+    "einzugsgebiet": "Werra"
   },
   {
     "uuid": "5b58af00-6817-4214-b151-34830ac563cc",
@@ -20470,7 +21082,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Werra-Meißner-Kreis"
+    "kreis": "Werra-Meißner-Kreis",
+    "einzugsgebiet": "Werra"
   },
   {
     "uuid": "5c735fa8-270e-42c3-b22f-b27418db10cf",
@@ -20512,7 +21125,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Werra-Meißner-Kreis"
+    "kreis": "Werra-Meißner-Kreis",
+    "einzugsgebiet": "Werra"
   },
   {
     "uuid": "a98b4a84-e51f-4d03-86d9-3b8bdac10e69",
@@ -20537,7 +21151,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Wesel"
+    "kreis": "Kreis Wesel",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "e3409c98-72d7-425b-9e2d-da54f75b3be8",
@@ -20562,7 +21177,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Wesel"
+    "kreis": "Kreis Wesel",
+    "einzugsgebiet": "Rhein"
   },
   {
     "uuid": "5db8ab4b-315b-466e-b9d5-5ba5a19f5f08",
@@ -20587,7 +21203,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Recklinghausen"
+    "kreis": "Kreis Recklinghausen",
+    "einzugsgebiet": "Lippe"
   },
   {
     "uuid": "6610cf2e-7bfd-4686-b9ac-b105f492d708",
@@ -20612,7 +21229,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Recklinghausen"
+    "kreis": "Kreis Recklinghausen",
+    "einzugsgebiet": "Lippe"
   },
   {
     "uuid": "a7ffcc9e-fecd-431c-8044-e004682d023f",
@@ -20637,7 +21255,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Recklinghausen"
+    "kreis": "Kreis Recklinghausen",
+    "einzugsgebiet": "Lippe"
   },
   {
     "uuid": "f833a494-961b-42d3-9843-e4e61607b5be",
@@ -20662,7 +21281,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Recklinghausen"
+    "kreis": "Kreis Recklinghausen",
+    "einzugsgebiet": "Lippe"
   },
   {
     "uuid": "7703d54d-ca33-44b9-b519-c618bae5bcc7",
@@ -20687,7 +21307,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Recklinghausen"
+    "kreis": "Kreis Recklinghausen",
+    "einzugsgebiet": "Lippe"
   },
   {
     "uuid": "2813f196-3404-4ac2-92be-e288fe1607af",
@@ -20712,7 +21333,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Recklinghausen"
+    "kreis": "Kreis Recklinghausen",
+    "einzugsgebiet": "Lippe"
   },
   {
     "uuid": "06c498e3-786a-48be-83be-6a6293ea3b8c",
@@ -20737,7 +21359,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Recklinghausen"
+    "kreis": "Kreis Recklinghausen",
+    "einzugsgebiet": "Lippe"
   },
   {
     "uuid": "4dd743e9-3040-4f11-8c7c-d5c5789d80b4",
@@ -20762,7 +21385,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Recklinghausen"
+    "kreis": "Kreis Recklinghausen",
+    "einzugsgebiet": "Lippe"
   },
   {
     "uuid": "e0d7d4b2-7a72-429f-a858-f1e6f5ff40ae",
@@ -20824,7 +21448,8 @@
     ],
     "country": "Deutschland",
     "land": "Bremen",
-    "kreis": "Bremen"
+    "kreis": "Bremen",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "227e53ca-4dd9-482b-be62-52fdc62a4b4e",
@@ -20854,7 +21479,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Göttingen"
+    "kreis": "Landkreis Göttingen",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "7e530482-0a13-4728-99db-a376304398b8",
@@ -20922,7 +21548,8 @@
     ],
     "country": "Deutschland",
     "land": "Bremen",
-    "kreis": "Bremen"
+    "kreis": "Bremen",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "b8b8c069-0993-4a45-a226-a6c8c18185ab",
@@ -20972,7 +21599,8 @@
     ],
     "country": "Deutschland",
     "land": "Bremen",
-    "kreis": "Stadtgebiet Bremen"
+    "kreis": "Stadtgebiet Bremen",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "cca92e6d-e2c3-4c5f-be56-5b8682b353eb",
@@ -21002,7 +21630,8 @@
     ],
     "country": "Deutschland",
     "land": "Bremen",
-    "kreis": "Stadtgebiet Bremen"
+    "kreis": "Stadtgebiet Bremen",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "eba772d4-509e-4fe7-ba51-d9a29b190432",
@@ -21032,7 +21661,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Wesermarsch"
+    "kreis": "Landkreis Wesermarsch",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "314ef522-a060-4033-ba14-8169dd26bb8d",
@@ -21062,7 +21692,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Kassel"
+    "kreis": "Landkreis Kassel",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "7febef93-09ce-49e9-9643-ecb3076ce9a7",
@@ -21092,7 +21723,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Wesermarsch"
+    "kreis": "Landkreis Wesermarsch",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "1e51195c-f9d7-4cff-9db1-d92bb855005c",
@@ -21122,7 +21754,8 @@
     ],
     "country": "Deutschland",
     "land": "Hessen",
-    "kreis": "Landkreis Kassel"
+    "kreis": "Landkreis Kassel",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "116572da-c036-4486-ac18-a92932424e30",
@@ -21182,7 +21815,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Cuxhaven"
+    "kreis": "Landkreis Cuxhaven",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "06e6b715-eb03-46ce-adf4-6cafca6368eb",
@@ -21224,7 +21858,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Wesermarsch"
+    "kreis": "Landkreis Wesermarsch",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "99dd338d-ef7d-43fd-a4e0-a9103406f0ad",
@@ -21255,7 +21890,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Wesermarsch"
+    "kreis": "Landkreis Wesermarsch",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "d3f822a0-e201-4a61-8913-589c74818ae0",
@@ -21309,7 +21945,8 @@
     ],
     "country": "Deutschland",
     "land": "Bremen",
-    "kreis": "Bremerhaven"
+    "kreis": "Bremerhaven",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "763633e7-3b4b-470a-978e-f9e456e4df7c",
@@ -21339,7 +21976,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Höxter"
+    "kreis": "Kreis Höxter",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "78029185-9dfc-4b1b-8695-45ebc2a09cf4",
@@ -21392,7 +22030,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "ad3b53f8-8c1b-439f-a0df-9f24827026d5",
@@ -21445,7 +22084,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "5310aed3-784c-4290-bfff-806c75b831d9",
@@ -21475,7 +22115,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Holzminden"
+    "kreis": "Landkreis Holzminden",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "c6772c3c-a6bb-4728-9250-a408ab3856bd",
@@ -21528,7 +22169,8 @@
       }
     ],
     "country": "Deutschland",
-    "land": "Niedersachsen"
+    "land": "Niedersachsen",
+    "einzugsgebiet": "Nordsee"
   },
   {
     "uuid": "fa886080-4271-4684-9999-1b6862a20ac1",
@@ -21564,7 +22206,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Hameln-Pyrmont"
+    "kreis": "Landkreis Hameln-Pyrmont",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "005dfdae-efcc-410a-bf1c-24096e0c2866",
@@ -21594,7 +22237,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Schaumburg"
+    "kreis": "Landkreis Schaumburg",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "2f56e265-cd67-4ea1-8529-549b6ccf273a",
@@ -21624,7 +22268,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Herford"
+    "kreis": "Kreis Herford",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "6b1b5c70-a23f-46de-954d-02bdc5bf2ecc",
@@ -21654,7 +22299,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Minden-Lübbecke"
+    "kreis": "Kreis Minden-Lübbecke",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "9aae4921-bda4-4081-b67b-2e0c5ab8bc54",
@@ -21684,7 +22330,8 @@
     ],
     "country": "Deutschland",
     "land": "Nordrhein-Westfalen",
-    "kreis": "Kreis Minden-Lübbecke"
+    "kreis": "Kreis Minden-Lübbecke",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "edfa125a-1e46-4c7e-9f3a-568ae013a4df",
@@ -21709,7 +22356,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Nienburg/Weser"
+    "kreis": "Landkreis Nienburg/Weser",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "3a24863b-fdec-455c-82da-ea8c7ae6f97a",
@@ -21739,7 +22387,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Nienburg/Weser"
+    "kreis": "Landkreis Nienburg/Weser",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "38497786-6c29-47f4-93de-d96001629496",
@@ -21769,7 +22418,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Nienburg/Weser"
+    "kreis": "Landkreis Nienburg/Weser",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "5b83cad2-ed64-42cf-87dd-98e27988c31a",
@@ -21799,7 +22449,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Nienburg/Weser"
+    "kreis": "Landkreis Nienburg/Weser",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "86f66699-29b6-4b94-85cb-d241e832230a",
@@ -21824,7 +22475,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Nienburg/Weser"
+    "kreis": "Landkreis Nienburg/Weser",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "e7c7cbaa-9a85-4033-be0f-b5bebcce0760",
@@ -21849,16 +22501,13 @@
           "unit": "m. ü. NN",
           "value": 7.991,
           "validFrom": "1981-11-01"
-        },
-        "comment": {
-          "shortDescription": "Funktionsstörung. Keine Messwerte.",
-          "longDescription": "Funktionsstörung. Keine Messwerte."
         }
       }
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Verden"
+    "kreis": "Landkreis Verden",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "78d69798-f956-4222-8d2b-f9f630fb9e36",
@@ -21888,7 +22537,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Verden"
+    "kreis": "Landkreis Verden",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "cbfdddd1-9e32-4de2-adca-7b32241c265d",
@@ -21918,7 +22568,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Diepholz"
+    "kreis": "Landkreis Diepholz",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "c42ff4c7-f4c6-4568-8b5c-0b556bd55926",
@@ -21948,7 +22599,8 @@
     ],
     "country": "Deutschland",
     "land": "Bremen",
-    "kreis": "Bremen"
+    "kreis": "Bremen",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "aeb9ed1c-6c01-4829-94e4-e530dbf79821",
@@ -21978,7 +22630,8 @@
     ],
     "country": "Deutschland",
     "land": "Bremen",
-    "kreis": "Stadtgebiet Bremen"
+    "kreis": "Stadtgebiet Bremen",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "44bb934c-4250-4e1b-ad70-0fbd8bb3eadd",
@@ -22020,7 +22673,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Uckermark"
+    "kreis": "Uckermark",
+    "einzugsgebiet": "Westoder"
   },
   {
     "uuid": "46e61953-4bdd-4045-a14e-a83948514c8a",
@@ -22056,7 +22710,8 @@
     ],
     "country": "Deutschland",
     "land": "Brandenburg",
-    "kreis": "Uckermark"
+    "kreis": "Uckermark",
+    "einzugsgebiet": "Westoder"
   },
   {
     "uuid": "5b94e4b9-cc96-433f-abf7-08287137ec54",
@@ -22087,7 +22742,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "e0747660-6d75-476a-be0f-73865bf47363",
@@ -22118,7 +22774,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Stade"
+    "kreis": "Landkreis Stade",
+    "einzugsgebiet": "Elbe"
   },
   {
     "uuid": "aac49cf2-5d3f-4c69-9847-027fecaeef30",
@@ -22148,7 +22805,8 @@
     ],
     "country": "Deutschland",
     "land": "Niedersachsen",
-    "kreis": "Landkreis Osterholz"
+    "kreis": "Landkreis Osterholz",
+    "einzugsgebiet": "Weser"
   },
   {
     "uuid": "36e85829-2fb3-41a0-8a1b-aa9e76431b47",
@@ -22178,6 +22836,7 @@
     ],
     "country": "Deutschland",
     "land": "Bremen",
-    "kreis": "Bremen"
+    "kreis": "Bremen",
+    "einzugsgebiet": "Weser"
   }
 ]

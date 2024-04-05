@@ -1,6 +1,7 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable, Logger } from '@nestjs/common';
-import { readFile, writeFile } from 'fs';
+import * as turf from '@turf/turf';
+import { readFile, readFileSync, writeFile } from 'fs';
 import { forkJoin, map, mergeMap, Observable, of } from 'rxjs';
 
 import { NominatimService } from '../nominatim/nominatim.service';
@@ -26,6 +27,7 @@ export interface PegelonlineStation {
   country: string;
   land?: string;
   kreis?: string;
+  einzugsgebiet?: string;
   mqtttopic: string;
   water: {
     shortname: string;
@@ -130,20 +132,20 @@ export class StationsService {
   }
 
   private filterResults(
-    origin: PegelonlineStation[],
+    originStations: PegelonlineStation[],
     query: StationQuery,
   ): PegelonlineStation[] {
-    origin = this.filterStation(query, origin);
-    origin = this.filterGewaesser(query, origin);
-    origin = this.filterLand(query, origin);
-    origin = this.filterAgency(query, origin);
-    origin = this.filterCountry(query, origin);
-    // TODO: add einzugsgebiet filter
-    origin = this.filterKreis(query, origin);
+    originStations = this.filterStation(query, originStations);
+    originStations = this.filterGewaesser(query, originStations);
+    originStations = this.filter(query, 'land', originStations);
+    originStations = this.filter(query, 'agency', originStations);
+    originStations = this.filter(query, 'country', originStations);
+    originStations = this.filter(query, 'einzugsgebiet', originStations);
+    originStations = this.filter(query, 'kreis', originStations);
     // TODO: add region filter
-    origin = this.filterParameter(query, origin);
-    origin = this.filterBbox(query, origin);
-    return origin;
+    originStations = this.filterParameter(query, originStations);
+    originStations = this.filterBbox(query, originStations);
+    return originStations;
   }
 
   private filterStation(query: StationQuery, stations: PegelonlineStation[]) {
@@ -185,22 +187,6 @@ export class StationsService {
       );
     }
     return stations;
-  }
-
-  private filterAgency(query: StationQuery, stations: PegelonlineStation[]) {
-    return this.filter(query, 'agency', stations);
-  }
-
-  private filterLand(query: StationQuery, stations: PegelonlineStation[]) {
-    return this.filter(query, 'land', stations);
-  }
-
-  private filterKreis(query: StationQuery, stations: PegelonlineStation[]) {
-    return this.filter(query, 'kreis', stations);
-  }
-
-  private filterCountry(query: StationQuery, stations: PegelonlineStation[]) {
-    return this.filter(query, 'country', stations);
   }
 
   private filter(
@@ -274,6 +260,10 @@ export class StationsService {
                   st.land = match.state || match.county || match.city;
                   st.kreis = match.county || match.city;
                 }
+                if (st.latitude && st.longitude) {
+                  const drainage = this.getDrainage(st.latitude, st.longitude);
+                  st.einzugsgebiet = drainage;
+                }
               });
               return stations;
             }),
@@ -285,6 +275,28 @@ export class StationsService {
         this.stations = res;
         this.logger.log(`finished fetching stations`);
       });
+  }
+
+  private getDrainage(lat: number, lon: number): string | undefined {
+    this.logger.log(`Get drainage for ${lat} and ${lon}`);
+    const fileContent = readFileSync('einzugsgebiete.geojson', 'utf-8');
+    const geojson = JSON.parse(fileContent);
+    const point = turf.point([lon, lat, 0]);
+    if (
+      geojson?.type === 'FeatureCollection' &&
+      geojson.features instanceof Array
+    ) {
+      const match = geojson.features.find((feature) => {
+        const polygon = turf.multiPolygon(feature.geometry.coordinates);
+        const inside = turf.booleanPointInPolygon(point, polygon);
+        return inside;
+      });
+      if (match) {
+        if (match.properties.NAME_2500) return match.properties.NAME_2500;
+        if (match.properties.NAME_1000) return match.properties.NAME_1000;
+        if (match.properties.NAME_500) return match.properties.NAME_500;
+      }
+    }
   }
 
   private saveFetchedStations(res: PegelonlineStation[]) {

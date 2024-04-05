@@ -32,6 +32,15 @@ export class OptionsController {
                     .filter((e) => e),
                 ),
               );
+            case 'einzugsgebiet':
+              return Array.from(
+                new Set(
+                  stations
+                    .map((st) => st.einzugsgebiet)
+                    .sort()
+                    .filter((e) => e),
+                ),
+              );
             case 'land':
               return Array.from(
                 new Set(
