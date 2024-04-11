@@ -86,7 +86,7 @@ export class StationsService {
   }
 
   private filterQ(filter: string): Observable<PegelonlineStation[]> {
-    const fields = ['shortname', 'longname', 'agency', 'land', 'kreis'];
+    const fields = ['shortname', 'longname', 'agency', 'land', 'kreis', 'uuid'];
     const waterFields = ['shortname', 'longname'];
     const timeseriesFields = ['shortname', 'longname'];
     return of(
