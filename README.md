@@ -71,3 +71,21 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Docker
+
+Build:
+
+```bash
+docker build -t dict-api .
+```
+
+Start:
+
+```bash
+docker run --rm -p 3000:3000 dict-api
+```
+
+Use and get a response:
+
+http://localhost:3000/search?q=köln
