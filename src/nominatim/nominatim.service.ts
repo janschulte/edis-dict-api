@@ -1,5 +1,6 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable, Logger } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 import { AxiosRequestConfig } from 'axios';
 import { map, Observable } from 'rxjs';
 
@@ -36,11 +37,14 @@ export interface NominatimSearchResponse {
 
 @Injectable()
 export class NominatimService {
-  // private nominatimBaseUrl = 'https://nominatim.openstreetmap.org/';
-  private nominatimBaseUrl = 'http://localhost:9090/';
+  private nominatimBaseUrl =
+    this.configService.get<string>('NOMINATIM_BASE_URL');
   private readonly logger = new Logger(NominatimService.name);
 
-  constructor(private readonly httpService: HttpService) {}
+  constructor(
+    private readonly httpService: HttpService,
+    private readonly configService: ConfigService,
+  ) {}
 
   getAdressData(id: string, lat: number, lon: number): Observable<AddressData> {
     const url = `${this.nominatimBaseUrl}reverse?lat=${lat}&lon=${lon}&format=json`;

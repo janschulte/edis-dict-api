@@ -1,10 +1,11 @@
 import { HttpModule } from '@nestjs/axios';
 import { Module } from '@nestjs/common';
+import { ConfigModule } from '@nestjs/config';
 
 import { NominatimService } from './nominatim/nominatim.service';
+import { OptionsController } from './options/options.controller';
 import { QueryController } from './query/query.controller';
 import { StationsService } from './stations/stations.service';
-import { OptionsController } from './options/options.controller';
 
 @Module({
   imports: [
@@ -12,6 +13,7 @@ import { OptionsController } from './options/options.controller';
       timeout: 5000,
       maxRedirects: 5,
     }),
+    ConfigModule.forRoot(),
   ],
   controllers: [QueryController, OptionsController],
   providers: [StationsService, NominatimService],

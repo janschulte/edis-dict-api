@@ -1,5 +1,6 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable, Logger } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 import * as turf from '@turf/turf';
 import { readFile, readFileSync, writeFile } from 'fs';
 import { forkJoin, map, mergeMap, Observable, of } from 'rxjs';
@@ -62,14 +63,22 @@ export class StationsService {
 
   private stations: PegelonlineStation[];
 
-  private readonly stationFilePath = './stations.json';
-  private readonly pegelonlineBaseUrl =
-    'https://www.pegelonline.wsv.de/webservices/rest-api/v2';
-  private readonly mqttBaseUrl = 'edis/pegelonline';
+  private readonly stationsFilePath = this.configService.get<string>(
+    'STATIONS_FILE_PATH',
+    'stations.json',
+  );
+  private readonly pegelonlineBaseUrl = this.configService.get<string>(
+    'PEGELONLINE_BASE_URL',
+  );
+  private readonly mqttBase = this.configService.get<string>(
+    'MQTT_BASE',
+    'edis/pegelonline',
+  );
 
   constructor(
     private readonly httpService: HttpService,
     private readonly nominatimSrvc: NominatimService,
+    private configService: ConfigService,
   ) {
     // this.fetchStations();
     this.loadStations();
@@ -116,10 +125,10 @@ export class StationsService {
     const mqtttopics = [];
     const pegelonlinelinks = [];
     stations.forEach((st) => {
-      st.mqtttopic = `${this.mqttBaseUrl}/+/+/+/+/${st.uuid}/+`;
+      st.mqtttopic = `${this.mqttBase}/+/+/+/+/${st.uuid}/+`;
       mqtttopics.push(st.mqtttopic);
       st.timeseries.forEach((ts) => {
-        ts.mqtttopic = `${this.mqttBaseUrl}/+/+/+/+/${st.uuid}/${ts.shortname}`;
+        ts.mqtttopic = `${this.mqttBase}/+/+/+/+/${st.uuid}/${ts.shortname}`;
         ts.pegelonlinelink = `${this.pegelonlineBaseUrl}/stations/${st.uuid}/${ts.shortname}/measurements.json`;
         pegelonlinelinks.push(ts.pegelonlinelink);
       });
@@ -230,7 +239,7 @@ export class StationsService {
     this.logger.log(`start fetching stations`);
     this.httpService
       .get<PegelonlineStation[]>(
-        'https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations.json?includeTimeseries=true',
+        `${this.pegelonlineBaseUrl}/stations.json?includeTimeseries=true`,
       )
       .pipe(map((res) => res.data))
       .pipe(
@@ -300,7 +309,7 @@ export class StationsService {
   }
 
   private saveFetchedStations(res: PegelonlineStation[]) {
-    writeFile(this.stationFilePath, JSON.stringify(res, null, 2), (err) => {
+    writeFile(this.stationsFilePath, JSON.stringify(res, null, 2), (err) => {
       if (err) {
         this.logger.error(err);
         return;
@@ -310,7 +319,7 @@ export class StationsService {
   }
 
   private loadStations() {
-    readFile(this.stationFilePath, 'utf8', (err, data) => {
+    readFile(this.stationsFilePath, 'utf8', (err, data) => {
       if (err) {
         this.logger.log(err);
         return;
