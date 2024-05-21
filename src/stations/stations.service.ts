@@ -2,6 +2,7 @@ import { HttpService } from '@nestjs/axios';
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import * as turf from '@turf/turf';
+import { CronJob } from 'cron';
 import { readFile, readFileSync, writeFile } from 'fs';
 import { forkJoin, map, mergeMap, Observable, of } from 'rxjs';
 
@@ -75,13 +76,33 @@ export class StationsService {
     'edis/pegelonline',
   );
 
+  private readonly runDataEnlargingOnInit =
+    this.configService.get('RUN_DATA_ENLARGING_ON_INIT', 'true') === 'true';
+
+  private readonly cronTimeForDataEnlarging = this.configService.get<string>(
+    'CRON_TIME_FOR_DATA_ENLARGING',
+    '00 00 00 * * *',
+  );
+
   constructor(
     private readonly httpService: HttpService,
     private readonly nominatimSrvc: NominatimService,
-    private configService: ConfigService,
+    private readonly configService: ConfigService,
   ) {
-    // this.fetchStations();
-    this.loadStations();
+    new CronJob(
+      this.cronTimeForDataEnlarging,
+      () => {
+        this.fetchStations();
+      },
+      null,
+      true,
+      null,
+      null,
+      this.runDataEnlargingOnInit,
+    );
+    if (!this.runDataEnlargingOnInit) {
+      this.loadStations();
+    }
   }
 
   getStations(query: StationQuery = {}): Observable<PegelonlineStation[]> {
@@ -236,7 +257,7 @@ export class StationsService {
   }
 
   private fetchStations() {
-    this.logger.log(`start fetching stations`);
+    this.logger.log(`Start fetching stations`);
     this.httpService
       .get<PegelonlineStation[]>(
         `${this.pegelonlineBaseUrl}/stations.json?includeTimeseries=true`,
@@ -273,6 +294,9 @@ export class StationsService {
                   const drainage = this.getDrainage(st.latitude, st.longitude);
                   st.einzugsgebiet = drainage;
                 }
+                this.logger.log(
+                  `Finished enlarging data for station ${st.longname}`,
+                );
               });
               return stations;
             }),
@@ -287,7 +311,6 @@ export class StationsService {
   }
 
   private getDrainage(lat: number, lon: number): string | undefined {
-    this.logger.log(`Get drainage for ${lat} and ${lon}`);
     const fileContent = readFileSync('einzugsgebiete.geojson', 'utf-8');
     const geojson = JSON.parse(fileContent);
     const point = turf.point([lon, lat, 0]);
