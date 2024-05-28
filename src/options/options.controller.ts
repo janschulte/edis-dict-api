@@ -9,8 +9,10 @@ import {
 import { map } from 'rxjs';
 
 import { StationsService } from '../stations/stations.service';
+import { ApiExcludeController } from '@nestjs/swagger';
 
 @Controller('options')
+@ApiExcludeController()
 export class OptionsController {
   private readonly logger = new Logger(OptionsController.name);
 

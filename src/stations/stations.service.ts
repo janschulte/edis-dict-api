@@ -1,6 +1,7 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
+import { ApiProperty } from '@nestjs/swagger';
 import * as turf from '@turf/turf';
 import { CronJob } from 'cron';
 import { readFile, readFileSync, writeFile } from 'fs';
@@ -8,7 +9,7 @@ import { forkJoin, map, mergeMap, Observable, of } from 'rxjs';
 
 import { NominatimService } from '../nominatim/nominatim.service';
 
-interface PegelonlineTimeseries {
+export class PegelonlineTimeseries {
   shortname: string;
   longname: string;
   unit: string;
@@ -17,44 +18,161 @@ interface PegelonlineTimeseries {
   equidistance: number;
 }
 
-export interface PegelonlineStation {
+export class PegelonlineStation {
+  @ApiProperty({
+    description: 'Eindeutige Stations-ID aus Pegelonline-API',
+  })
   uuid: string;
+
   number: string;
+
+  @ApiProperty({
+    description: 'Shortname aus Pegelonline-API',
+  })
   shortname: string;
+
+  @ApiProperty({
+    description: 'Longname aus Pegelonline-API',
+  })
   longname: string;
+
   km: number;
+
+  @ApiProperty({
+    description: 'Agency aus Pegelonline-API',
+  })
   agency: string;
+
+  @ApiProperty({
+    description: 'Longitude aus Pegelonline-API',
+    required: false,
+  })
   longitude?: number;
+
+  @ApiProperty({
+    description: 'Latitude aus Pegelonline-API',
+    required: false,
+  })
   latitude?: number;
-  country: string;
-  land?: string;
-  kreis?: string;
-  einzugsgebiet?: string;
-  mqtttopic: string;
+
+  @ApiProperty({
+    description: 'Water aus Pegelonline-API',
+  })
   water: {
     shortname: string;
     longname: string;
   };
+
+  @ApiProperty({
+    description: 'Land - angereichert in der DICT-API',
+    required: false,
+  })
+  country?: string;
+
+  @ApiProperty({
+    description: 'Bundesland - angereichert in der DICT-API',
+    required: false,
+  })
+  land?: string;
+
+  @ApiProperty({
+    description: 'Landkreis - angereichert in der DICT-API',
+    required: false,
+  })
+  kreis?: string;
+
+  @ApiProperty({
+    description: 'Einzugsgebiet - angereichert in der DICT-API',
+    required: false,
+  })
+  einzugsgebiet?: string;
+
+  @ApiProperty({
+    description: 'Zugehöriger mqtt topic für alle Messungen an der Station',
+    required: false,
+  })
+  mqtttopic: string;
+
+  @ApiProperty({
+    description: 'Timeseries aus Pegelonline-API',
+    type: PegelonlineTimeseries,
+  })
   timeseries: PegelonlineTimeseries[];
 }
 
-export interface AggregatedStationResponse {
+export class AggregatedStationResponse {
+  @ApiProperty({
+    description: 'Liste aller MQTT topics zu den Stationen',
+  })
   mqtttopics: string[];
+  @ApiProperty({
+    description: 'Liste aller Pegelonline-URLs zu den Stationen',
+  })
   pegelonlinelinks: string[];
+  @ApiProperty({
+    type: [PegelonlineStation],
+  })
   stations: PegelonlineStation[];
 }
 
-export interface StationQuery {
+export class StationQuery {
+  @ApiProperty({
+    required: false,
+    description: 'Suche über einen Stationsnamen (z.B. <code>Köln</code>)',
+  })
   station?: string;
+  @ApiProperty({
+    required: false,
+    description: 'Suche über ein Gewässer (z.B. <code>Rhein</code>)',
+  })
   gewaesser?: string;
+  @ApiProperty({
+    required: false,
+    description: 'Suche über eine Agency (z.B. <code>Dresden</code>)',
+  })
   agency?: string;
+  @ApiProperty({
+    required: false,
+    description: 'Suche über ein Bundesland (z.B. <code>Hamburg</code>)',
+  })
   land?: string;
+  @ApiProperty({
+    required: false,
+    description: 'Suche über ein Land (z.B. <code>Deutschland</code>)',
+  })
   country?: string;
+  @ApiProperty({
+    required: false,
+    description: 'Suche über ein Fluss-Einzugsgebiet (z.B. <code>Ems</code>)',
+  })
   einzugsgebiet?: string;
+  @ApiProperty({
+    required: false,
+    description: 'Suche über ein Landkreis (z.B. <code>Emsland</code>)',
+  })
   kreis?: string;
-  region?: string;
+  // @ApiProperty({
+  //   required: false,
+  //   description: 'Suche über eine Region',
+  // })
+  // region?: string;
+  @ApiProperty({
+    required: false,
+    description:
+      'Suche über einen Beobachtungsparameter (z.B. <code>Wassertemperatur</code>)',
+  })
   parameter?: string;
+  @ApiProperty({
+    required: false,
+    description:
+      'Suche über eine BoundingBox in der Form <code>minLon, minLat, maxLon, maxLat</code> (z.B. <code>7,52,8,53</code>)',
+  })
   bbox?: string;
+  @ApiProperty({
+    required: false,
+    description:
+      'Suche über alle verfügbaren Parameter (z.B. <code>Köln</code>)',
+  })
   q?: string;
 }
 
