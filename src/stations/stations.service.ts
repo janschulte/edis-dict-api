@@ -3,6 +3,7 @@ import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { ApiProperty } from '@nestjs/swagger';
 import * as turf from '@turf/turf';
+import { AxiosRequestConfig } from 'axios';
 import { CronJob } from 'cron';
 import { readFile, readFileSync, writeFile } from 'fs';
 import { forkJoin, map, mergeMap, Observable, of } from 'rxjs';
@@ -194,6 +195,11 @@ export class StationsService {
     'edis/pegelonline',
   );
 
+  private readonly proxyProtocol =
+    this.configService.get<string>('PROXY_PROTOCOL');
+  private readonly proxyHost = this.configService.get<string>('PROXY_HOST');
+  private readonly proxyPort = this.configService.get<number>('PROXY_PORT');
+
   private readonly runDataEnlargingOnInit =
     this.configService.get('RUN_DATA_ENLARGING_ON_INIT', 'true') === 'true';
 
@@ -376,9 +382,18 @@ export class StationsService {
 
   private fetchStations() {
     this.logger.log(`Start fetching stations`);
+    const config: AxiosRequestConfig = {};
+    if (this.proxyProtocol && this.proxyHost && this.proxyPort) {
+      config.proxy = {
+        protocol: this.proxyProtocol,
+        host: this.proxyHost,
+        port: this.proxyPort,
+      };
+    }
     this.httpService
       .get<PegelonlineStation[]>(
         `${this.pegelonlineBaseUrl}/stations.json?includeTimeseries=true`,
+        config,
       )
       .pipe(map((res) => res.data))
       .pipe(
@@ -421,10 +436,15 @@ export class StationsService {
           );
         }),
       )
-      .subscribe((res) => {
-        this.saveFetchedStations(res);
-        this.stations = res;
-        this.logger.log(`finished fetching stations`);
+      .subscribe({
+        next: (res) => {
+          this.saveFetchedStations(res);
+          this.stations = res;
+          this.logger.log(`finished fetching stations`);
+        },
+        error: (err) => {
+          this.logger.error(err);
+        },
       });
   }
 
