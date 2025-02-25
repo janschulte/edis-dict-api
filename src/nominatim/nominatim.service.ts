@@ -46,10 +46,15 @@ export class NominatimService {
     private readonly configService: ConfigService,
   ) {}
 
-  getAdressData(id: string, lat: number, lon: number): Observable<AddressData> {
+  getAdressData(
+    id: string,
+    lat: number,
+    lon: number,
+    lang: string,
+  ): Observable<AddressData> {
     const url = `${this.nominatimBaseUrl}reverse?lat=${lat}&lon=${lon}&format=json`;
     const config: AxiosRequestConfig = {
-      headers: { 'Accept-Language': 'de' },
+      headers: { 'Accept-Language': lang },
     };
     return this.httpService
       .get<NominatimReverseResponse>(url, config)

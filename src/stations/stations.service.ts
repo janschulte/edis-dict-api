@@ -8,7 +8,7 @@ import { CronJob } from 'cron';
 import { readFile, readFileSync, writeFile } from 'fs';
 import { forkJoin, map, mergeMap, Observable, of } from 'rxjs';
 
-import { NominatimService } from '../nominatim/nominatim.service';
+import { AddressData, NominatimService } from '../nominatim/nominatim.service';
 
 export class PegelonlineTimeseries {
   shortname: string;
@@ -17,6 +17,22 @@ export class PegelonlineTimeseries {
   mqtttopic: string;
   pegelonlinelink: string;
   equidistance: number;
+}
+
+interface AddressOptions {
+  id: string;
+  country: string;
+  country_alternatives: string[];
+  land: string;
+  land_alternatives: string[];
+  kreis: string;
+  kreis_alternatives: string[];
+}
+
+interface AddressTupel {
+  country: string;
+  land: string;
+  kreis: string;
 }
 
 export class PegelonlineStation {
@@ -70,17 +86,23 @@ export class PegelonlineStation {
   })
   country?: string;
 
+  country_alternatives?: string[];
+
   @ApiProperty({
     description: 'Bundesland - angereichert in der DICT-API',
     required: false,
   })
   land?: string;
 
+  land_alternatives?: string[];
+
   @ApiProperty({
     description: 'Landkreis - angereichert in der DICT-API',
     required: false,
   })
   kreis?: string;
+
+  kreis_alternatives?: string[];
 
   @ApiProperty({
     description: 'Einzugsgebiet - angereichert in der DICT-API',
@@ -195,6 +217,8 @@ export class StationsService {
     'edis/pegelonline',
   );
 
+  private readonly harvestLanguageList: string[] = ['en', 'fr'];
+
   private readonly proxyProtocol =
     this.configService.get<string>('PROXY_PROTOCOL');
   private readonly proxyHost = this.configService.get<string>('PROXY_HOST');
@@ -240,16 +264,32 @@ export class StationsService {
   }
 
   private filterQ(filter: string): Observable<PegelonlineStation[]> {
-    const fields = ['shortname', 'longname', 'agency', 'land', 'kreis', 'uuid'];
+    const fields = [
+      'shortname',
+      'longname',
+      'agency',
+      'country',
+      'country_alternatives',
+      'land',
+      'land_alternatives',
+      'kreis',
+      'kreis_alternatives',
+      'uuid',
+    ];
     const waterFields = ['shortname', 'longname'];
     const timeseriesFields = ['shortname', 'longname'];
     return of(
       this.stations.filter((station) => {
-        const matchField = fields.some(
-          (f) =>
-            station[f] &&
-            station[f].toLowerCase().indexOf(filter.toLowerCase()) >= 0,
-        );
+        const matchField = fields.some((f) => {
+          const prop = station[f];
+          if (typeof prop === 'string') {
+            return prop.toLowerCase().indexOf(filter.toLowerCase()) >= 0;
+          } else if (prop instanceof Array) {
+            return prop.some(
+              (e) => e.toLowerCase().indexOf(filter.toLowerCase()) >= 0,
+            );
+          }
+        });
         const matchWaterFields = waterFields.some(
           (wf) =>
             station.water[wf] &&
@@ -390,49 +430,17 @@ export class StationsService {
         port: this.proxyPort,
       };
     }
+    const url = `${this.pegelonlineBaseUrl}/stations.json?includeTimeseries=true`;
     this.httpService
-      .get<PegelonlineStation[]>(
-        `${this.pegelonlineBaseUrl}/stations.json?includeTimeseries=true`,
-        config,
-      )
+      .get<PegelonlineStation[]>(url, config)
       .pipe(map((res) => res.data))
       .pipe(
         mergeMap((stations) => {
           const requests = stations
-            .filter((s) => {
-              if (s.latitude && s.longitude) {
-                return true;
-              } else {
-                this.logger.warn(`${s.shortname} has no coordinates`);
-                return false;
-              }
-            })
-            .map((s) => {
-              return this.nominatimSrvc.getAdressData(
-                s.uuid,
-                s.latitude,
-                s.longitude,
-              );
-            });
+            .filter((s) => this.filterStations(s))
+            .map((s) => this.fetchAddressData(s));
           return forkJoin(requests).pipe(
-            map((res) => {
-              stations.forEach((st) => {
-                const match = res.find((e) => e.id === st.uuid);
-                if (match) {
-                  st.country = match.country;
-                  st.land = match.state || match.county || match.city;
-                  st.kreis = match.county || match.city;
-                }
-                if (st.latitude && st.longitude) {
-                  const drainage = this.getDrainage(st.latitude, st.longitude);
-                  st.einzugsgebiet = drainage;
-                }
-                this.logger.log(
-                  `Finished enlarging data for station ${st.longname}`,
-                );
-              });
-              return stations;
-            }),
+            map((res) => this.prepareStations(stations, res)),
           );
         }),
       )
@@ -446,6 +454,93 @@ export class StationsService {
           this.logger.error(err);
         },
       });
+  }
+  private prepareStations(
+    stations: PegelonlineStation[],
+    res: AddressOptions[],
+  ) {
+    stations.forEach((st) => {
+      const match = res.find((e) => e.id === st.uuid);
+      if (match) {
+        st.country = match.country;
+        st.country_alternatives = match.country_alternatives;
+        st.land = match.land;
+        st.land_alternatives = match.land_alternatives;
+        st.kreis = match.kreis;
+        st.kreis_alternatives = match.kreis_alternatives;
+      }
+      if (st.latitude && st.longitude) {
+        const drainage = this.getDrainage(st.latitude, st.longitude);
+        st.einzugsgebiet = drainage;
+      }
+      this.logger.log(`Finished enlarging data for station ${st.longname}`);
+    });
+    return stations;
+  }
+
+  filterStations(s: PegelonlineStation): boolean {
+    if (s.latitude && s.longitude) {
+      return true;
+    } else {
+      this.logger.warn(`${s.shortname} has no coordinates`);
+      return false;
+    }
+  }
+
+  private fetchAddressData(s: PegelonlineStation): Observable<AddressOptions> {
+    const requests: { [key: string]: Observable<AddressData> } = {
+      de: this.nominatimSrvc.getAdressData(
+        s.uuid,
+        s.latitude,
+        s.longitude,
+        'de',
+      ),
+    };
+    this.harvestLanguageList.forEach((lang) => {
+      requests[lang] = this.nominatimSrvc.getAdressData(
+        s.uuid,
+        s.latitude,
+        s.longitude,
+        lang,
+      );
+    });
+    return forkJoin(requests).pipe(
+      map((res) => {
+        const deData = res['de'];
+        const deTupel = this.getTupel(deData);
+        const response: AddressOptions = {
+          id: deData.id,
+          country: deTupel.country,
+          country_alternatives: [],
+          land: deTupel.land,
+          land_alternatives: [],
+          kreis: deTupel.kreis,
+          kreis_alternatives: [],
+        };
+        this.harvestLanguageList.forEach((e) => {
+          const data = res[e];
+          const tupel = this.getTupel(data);
+          if (response.country !== tupel.country) {
+            response.country_alternatives.push(tupel.country);
+          }
+          if (response.land !== tupel.land) {
+            response.land_alternatives.push(tupel.land);
+          }
+          if (response.kreis !== tupel.kreis) {
+            response.kreis_alternatives.push(tupel.kreis);
+          }
+        });
+        return response;
+      }),
+    );
+  }
+
+  private getTupel(data: AddressData): AddressTupel {
+    return {
+      country: data.country,
+      land: data.state || data.county || data.city,
+      kreis: data.county || data.city,
+    };
   }
 
   private getDrainage(lat: number, lon: number): string | undefined {
