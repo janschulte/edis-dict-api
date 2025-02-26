@@ -10,6 +10,13 @@ import { forkJoin, map, mergeMap, Observable, of } from 'rxjs';
 
 import { AddressData, NominatimService } from '../nominatim/nominatim.service';
 
+type FilterPropertyKey =
+  | 'country'
+  | 'land'
+  | 'kreis'
+  | 'agency'
+  | 'einzugsgebiet';
+
 export class PegelonlineTimeseries {
   shortname: string;
   longname: string;
@@ -232,6 +239,9 @@ export class StationsService {
     '00 00 00 * * *',
   );
 
+  private stationCount = 0;
+  private count = 0;
+
   constructor(
     private readonly httpService: HttpService,
     private readonly nominatimSrvc: NominatimService,
@@ -385,16 +395,32 @@ export class StationsService {
 
   private filter(
     query: StationQuery,
-    propertyKey: string,
+    propertyKey: FilterPropertyKey,
     stations: PegelonlineStation[],
   ): PegelonlineStation[] {
     const filterTerm = query[propertyKey];
     if (filterTerm) {
       this.logger.log(`Filter with paramter ${propertyKey}: ${filterTerm}`);
-      return stations.filter(
-        (e) =>
-          e[propertyKey]?.toLowerCase().indexOf(filterTerm.toLowerCase()) >= 0,
-      );
+      return stations.filter((st) => {
+        const match =
+          st[propertyKey]?.toLowerCase().indexOf(filterTerm.toLowerCase()) >= 0;
+        if (propertyKey === 'country' && !match) {
+          return st.country_alternatives?.some(
+            (e) => e.toLowerCase().indexOf(filterTerm.toLowerCase()) >= 0,
+          );
+        }
+        if (propertyKey === 'land' && !match) {
+          return st.land_alternatives?.some(
+            (e) => e.toLowerCase().indexOf(filterTerm.toLowerCase()) >= 0,
+          );
+        }
+        if (propertyKey === 'kreis' && !match) {
+          return st.kreis_alternatives?.some(
+            (e) => e.toLowerCase().indexOf(filterTerm.toLowerCase()) >= 0,
+          );
+        }
+        return match;
+      });
     }
     return stations;
   }
@@ -436,6 +462,8 @@ export class StationsService {
       .pipe(map((res) => res.data))
       .pipe(
         mergeMap((stations) => {
+          this.stationCount = stations.length;
+          this.count = 0;
           const requests = stations
             .filter((s) => this.filterStations(s))
             .map((s) => this.fetchAddressData(s));
@@ -482,6 +510,7 @@ export class StationsService {
     if (s.latitude && s.longitude) {
       return true;
     } else {
+      this.stationCount--;
       this.logger.warn(`${s.shortname} has no coordinates`);
       return false;
     }
@@ -530,6 +559,10 @@ export class StationsService {
             response.kreis_alternatives.push(tupel.kreis);
           }
         });
+        this.count++;
+        console.log(
+          `finished fetching data for ${s.longname} - ${this.count}/${this.stationCount}`,
+        );
         return response;
       }),
     );

@@ -8,8 +8,8 @@ import {
 } from '@nestjs/common';
 import { map } from 'rxjs';
 
-import { StationsService } from '../stations/stations.service';
 import { ApiExcludeController } from '@nestjs/swagger';
+import { StationsService } from '../stations/stations.service';
 
 @Controller('options')
 @ApiExcludeController()
@@ -26,14 +26,19 @@ export class OptionsController {
         map((stations) => {
           switch (query.parameter) {
             case 'kreis':
-              return Array.from(
-                new Set(
-                  stations
-                    .map((st) => st.kreis)
-                    .sort()
-                    .filter((e) => e),
+              return [
+                ...Array.from(
+                  new Set(stations.map((st) => st.kreis).filter((e) => e)),
                 ),
-              );
+                ...Array.from(
+                  new Set(
+                    stations
+                      .map((st) => st.kreis_alternatives)
+                      .filter((e) => e)
+                      .flat(),
+                  ),
+                ),
+              ].sort();
             case 'einzugsgebiet':
               return Array.from(
                 new Set(
@@ -44,14 +49,19 @@ export class OptionsController {
                 ),
               );
             case 'land':
-              return Array.from(
-                new Set(
-                  stations
-                    .map((st) => st.land)
-                    .sort()
-                    .filter((e) => e),
+              return [
+                ...Array.from(
+                  new Set(stations.map((st) => st.land).filter((e) => e)),
                 ),
-              );
+                ...Array.from(
+                  new Set(
+                    stations
+                      .map((st) => st.land_alternatives)
+                      .filter((e) => e)
+                      .flat(),
+                  ),
+                ),
+              ].sort();
             case 'station':
               return Array.from(
                 new Set(
@@ -80,14 +90,19 @@ export class OptionsController {
                 ),
               );
             case 'country':
-              return Array.from(
-                new Set(
-                  stations
-                    .map((st) => st.country)
-                    .sort()
-                    .filter((e) => e),
+              return [
+                ...Array.from(
+                  new Set(stations.map((st) => st.country).filter((e) => e)),
                 ),
-              );
+                ...Array.from(
+                  new Set(
+                    stations
+                      .map((st) => st.country_alternatives)
+                      .filter((e) => e)
+                      .flat(),
+                  ),
+                ),
+              ].sort();
             case 'parameter':
               return Array.from(
                 new Set(
