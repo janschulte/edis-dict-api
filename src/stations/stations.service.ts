@@ -224,7 +224,7 @@ export class StationsService {
     'edis/pegelonline',
   );
 
-  private readonly harvestLanguageList: string[] = ['en', 'fr'];
+  private readonly harvestLanguageList: string[] = [];
 
   private readonly proxyProtocol =
     this.configService.get<string>('PROXY_PROTOCOL');
@@ -261,6 +261,10 @@ export class StationsService {
     if (!this.runDataEnlargingOnInit) {
       this.loadStations();
     }
+
+    this.harvestLanguageList = this.configService
+      .get<string>('ADDITIONAL_HARVEST_LANGUAGE_LIST')
+      .split(',');
   }
 
   getStations(query: StationQuery = {}): Observable<PegelonlineStation[]> {
