@@ -9,6 +9,7 @@ import { readFile, readFileSync, writeFile } from 'fs';
 import { forkJoin, map, mergeMap, Observable, of } from 'rxjs';
 
 import { AddressData, NominatimService } from '../nominatim/nominatim.service';
+import { SearchTermListService } from '../search-term-list/search-term-list';
 
 type FilterPropertyKey =
   | 'country'
@@ -29,11 +30,11 @@ export class PegelonlineTimeseries {
 interface AddressOptions {
   id: string;
   country: string;
-  country_alternatives: string[];
+  country_alternatives?: string[];
   land: string;
-  land_alternatives: string[];
+  land_alternatives?: string[];
   kreis: string;
-  kreis_alternatives: string[];
+  kreis_alternatives?: string[];
 }
 
 interface AddressTupel {
@@ -87,6 +88,8 @@ export class PegelonlineStation {
     longname: string;
   };
 
+  water_alternatives?: string[];
+
   @ApiProperty({
     description: 'Land - angereichert in der DICT-API',
     required: false,
@@ -116,6 +119,8 @@ export class PegelonlineStation {
     required: false,
   })
   einzugsgebiet?: string;
+
+  einzugsgebiet_alternatives?: string[];
 
   @ApiProperty({
     description: 'Zugehöriger mqtt topic für alle Messungen an der Station',
@@ -246,6 +251,7 @@ export class StationsService {
     private readonly httpService: HttpService,
     private readonly nominatimSrvc: NominatimService,
     private readonly configService: ConfigService,
+    private readonly searchTermListSrvc: SearchTermListService,
   ) {
     new CronJob(
       this.cronTimeForDataEnlarging,
@@ -262,9 +268,12 @@ export class StationsService {
       this.loadStations();
     }
 
-    this.harvestLanguageList = this.configService
-      .get<string>('ADDITIONAL_HARVEST_LANGUAGE_LIST')
-      .split(',');
+    const langListConfig = this.configService.get<string>(
+      'ADDITIONAL_HARVEST_LANGUAGE_LIST',
+    );
+    if (langListConfig) {
+      this.harvestLanguageList = langListConfig.split(',');
+    }
   }
 
   getStations(query: StationQuery = {}): Observable<PegelonlineStation[]> {
@@ -499,15 +508,28 @@ export class StationsService {
         st.land = match.land;
         st.land_alternatives = match.land_alternatives;
         st.kreis = match.kreis;
-        st.kreis_alternatives = match.kreis_alternatives;
+        st.kreis_alternatives = this.mergeToArray([
+          match.kreis_alternatives,
+          this.searchTermListSrvc.getAlternativeKreise(match.kreis),
+        ]);
+        st.water_alternatives = this.searchTermListSrvc.getAlternativeGewaesser(
+          st.water.longname,
+        );
       }
       if (st.latitude && st.longitude) {
         const drainage = this.getDrainage(st.latitude, st.longitude);
         st.einzugsgebiet = drainage;
+        st.einzugsgebiet_alternatives =
+          this.searchTermListSrvc.getAlternativeEinzugsgebiete(drainage);
       }
       this.logger.log(`Finished enlarging data for station ${st.longname}`);
     });
     return stations;
+  }
+
+  private mergeToArray(entries: string[][]): string[] | undefined {
+    const list = entries.filter((e) => e !== undefined).flat();
+    return list.length ? list : undefined;
   }
 
   filterStations(s: PegelonlineStation): boolean {
@@ -544,11 +566,8 @@ export class StationsService {
         const response: AddressOptions = {
           id: deData.id,
           country: deTupel.country,
-          country_alternatives: [],
           land: deTupel.land,
-          land_alternatives: [],
           kreis: deTupel.kreis,
-          kreis_alternatives: [],
         };
         this.harvestLanguageList.forEach((e) => {
           const data = res[e];

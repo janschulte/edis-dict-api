@@ -5,6 +5,7 @@ import { ConfigModule } from '@nestjs/config';
 import { NominatimService } from './nominatim/nominatim.service';
 import { OptionsController } from './options/options.controller';
 import { QueryController } from './query/query.controller';
+import { SearchTermListService } from './search-term-list/search-term-list';
 import { StationsService } from './stations/stations.service';
 
 @Module({
@@ -16,6 +17,6 @@ import { StationsService } from './stations/stations.service';
     ConfigModule.forRoot(),
   ],
   controllers: [QueryController, OptionsController],
-  providers: [StationsService, NominatimService],
+  providers: [StationsService, NominatimService, SearchTermListService],
 })
 export class AppModule {}
