@@ -6,7 +6,7 @@ import * as turf from '@turf/turf';
 import { AxiosRequestConfig } from 'axios';
 import { CronJob } from 'cron';
 import { readFile, readFileSync, writeFile } from 'fs';
-import { forkJoin, map, mergeMap, Observable, of } from 'rxjs';
+import { catchError, forkJoin, map, mergeMap, Observable, of } from 'rxjs';
 
 import { AddressData, NominatimService } from '../nominatim/nominatim.service';
 import { SearchTermListService } from '../search-term-list/search-term-list';
@@ -16,7 +16,8 @@ type FilterPropertyKey =
   | 'land'
   | 'kreis'
   | 'agency'
-  | 'einzugsgebiet';
+  | 'einzugsgebiet'
+  | 'gewaesser';
 
 export class PegelonlineTimeseries {
   shortname: string;
@@ -298,6 +299,9 @@ export class StationsService {
       'kreis',
       'kreis_alternatives',
       'uuid',
+      'water_alternatives',
+      'einzugsgebiet',
+      'einzugsgebiet_alternatives',
     ];
     const waterFields = ['shortname', 'longname'];
     const timeseriesFields = ['shortname', 'longname'];
@@ -432,6 +436,16 @@ export class StationsService {
             (e) => e.toLowerCase().indexOf(filterTerm.toLowerCase()) >= 0,
           );
         }
+        if (propertyKey === 'einzugsgebiet' && !match) {
+          return st.einzugsgebiet_alternatives?.some(
+            (e) => e.toLowerCase().indexOf(filterTerm.toLowerCase()) >= 0,
+          );
+        }
+        if (propertyKey === 'gewaesser' && !match) {
+          return st.water_alternatives?.some(
+            (e) => e.toLowerCase().indexOf(filterTerm.toLowerCase()) >= 0,
+          );
+        }
         return match;
       });
     }
@@ -492,7 +506,7 @@ export class StationsService {
           this.logger.log(`finished fetching stations`);
         },
         error: (err) => {
-          this.logger.error(err);
+          this.logger.error(err.stack);
         },
       });
   }
@@ -559,36 +573,55 @@ export class StationsService {
         lang,
       );
     });
-    return forkJoin(requests).pipe(
-      map((res) => {
-        const deData = res['de'];
-        const deTupel = this.getTupel(deData);
-        const response: AddressOptions = {
-          id: deData.id,
-          country: deTupel.country,
-          land: deTupel.land,
-          kreis: deTupel.kreis,
-        };
-        this.harvestLanguageList.forEach((e) => {
-          const data = res[e];
-          const tupel = this.getTupel(data);
-          if (response.country !== tupel.country) {
-            response.country_alternatives.push(tupel.country);
-          }
-          if (response.land !== tupel.land) {
-            response.land_alternatives.push(tupel.land);
-          }
-          if (response.kreis !== tupel.kreis) {
-            response.kreis_alternatives.push(tupel.kreis);
-          }
-        });
-        this.count++;
-        console.log(
-          `finished fetching data for ${s.longname} - ${this.count}/${this.stationCount}`,
-        );
-        return response;
-      }),
-    );
+    return forkJoin(requests)
+      .pipe(
+        map((res) => {
+          const deData = res['de'];
+          const deTupel = this.getTupel(deData);
+          const response: AddressOptions = {
+            id: deData.id,
+            country: deTupel.country,
+            land: deTupel.land,
+            kreis: deTupel.kreis,
+          };
+          this.harvestLanguageList.forEach((e) => {
+            const data = res[e];
+            const tupel = this.getTupel(data);
+            if (response.country !== tupel.country) {
+              if (!response.country_alternatives) {
+                response.country_alternatives = [];
+              }
+              response.country_alternatives.push(tupel.country);
+            }
+            if (response.land !== tupel.land) {
+              if (!response.land_alternatives) {
+                response.land_alternatives = [];
+              }
+              response.land_alternatives.push(tupel.land);
+            }
+            if (response.kreis !== tupel.kreis) {
+              if (!response.kreis_alternatives) {
+                response.kreis_alternatives = [];
+              }
+              response.kreis_alternatives.push(tupel.kreis);
+            }
+          });
+          this.count++;
+          console.log(
+            `finished fetching data for ${s.longname} - ${this.count}/${this.stationCount}`,
+          );
+          return response;
+        }),
+      )
+      .pipe(
+        catchError((err) => {
+          this.logger.error(
+            `Error occurred while create address data for ${s.uuid}`,
+          );
+          this.logger.error(err.stack);
+          return of();
+        }),
+      );
   }
 
   private getTupel(data: AddressData): AddressTupel {

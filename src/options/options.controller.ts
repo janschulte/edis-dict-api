@@ -40,14 +40,21 @@ export class OptionsController {
                 ),
               ].sort();
             case 'einzugsgebiet':
-              return Array.from(
-                new Set(
-                  stations
-                    .map((st) => st.einzugsgebiet)
-                    .sort()
-                    .filter((e) => e),
+              return [
+                ...Array.from(
+                  new Set(
+                    stations.map((st) => st.einzugsgebiet).filter((e) => e),
+                  ),
                 ),
-              );
+                ...Array.from(
+                  new Set(
+                    stations
+                      .map((st) => st.einzugsgebiet_alternatives)
+                      .filter((e) => e)
+                      .flat(),
+                  ),
+                ),
+              ].sort();
             case 'land':
               return [
                 ...Array.from(
@@ -81,14 +88,24 @@ export class OptionsController {
                 ),
               );
             case 'gewaesser':
-              return Array.from(
-                new Set(
-                  stations
-                    .map((st) => st.water.shortname)
-                    .sort()
-                    .filter((e) => e),
+              return [
+                ...Array.from(
+                  new Set(
+                    stations
+                      .map((st) => st.water.shortname)
+                      .sort()
+                      .filter((e) => e),
+                  ),
                 ),
-              );
+                ...Array.from(
+                  new Set(
+                    stations
+                      .map((st) => st.water_alternatives)
+                      .filter((e) => e)
+                      .flat(),
+                  ),
+                ),
+              ].sort();
             case 'country':
               return [
                 ...Array.from(
