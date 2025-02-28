@@ -6,7 +6,7 @@ import * as turf from '@turf/turf';
 import { AxiosRequestConfig } from 'axios';
 import { CronJob } from 'cron';
 import { readFile, readFileSync, writeFile } from 'fs';
-import { forkJoin, map, mergeMap, Observable, of } from 'rxjs';
+import { concatMap, from, map, mergeMap, Observable, of, toArray } from 'rxjs';
 
 import { NominatimService } from '../nominatim/nominatim.service';
 
@@ -414,7 +414,9 @@ export class StationsService {
                 s.longitude,
               );
             });
-          return forkJoin(requests).pipe(
+          return from(requests).pipe(
+            concatMap(r => r),
+            toArray(),
             map((res) => {
               stations.forEach((st) => {
                 const match = res.find((e) => e.id === st.uuid);
@@ -434,7 +436,7 @@ export class StationsService {
               return stations;
             }),
           );
-        }),
+        }, 2),
       )
       .subscribe({
         next: (res) => {
@@ -443,6 +445,9 @@ export class StationsService {
           this.logger.log(`finished fetching stations`);
         },
         error: (err) => {
+          if (err instanceof AggregateError) {
+            this.logger.error(err.errors);
+          }
           this.logger.error(err);
         },
       });
