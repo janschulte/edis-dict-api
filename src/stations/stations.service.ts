@@ -235,11 +235,6 @@ export class StationsService {
 
   private readonly harvestLanguageList: string[] = [];
 
-  private readonly proxyProtocol =
-    this.configService.get<string>('PROXY_PROTOCOL');
-  private readonly proxyHost = this.configService.get<string>('PROXY_HOST');
-  private readonly proxyPort = this.configService.get<number>('PROXY_PORT');
-
   private readonly runDataEnlargingOnInit =
     this.configService.get('RUN_DATA_ENLARGING_ON_INIT', 'true') === 'true';
 
@@ -479,13 +474,6 @@ export class StationsService {
   private fetchStations() {
     this.logger.log(`Start fetching stations`);
     const config: AxiosRequestConfig = {};
-    if (this.proxyProtocol && this.proxyHost && this.proxyPort) {
-      config.proxy = {
-        protocol: this.proxyProtocol,
-        host: this.proxyHost,
-        port: this.proxyPort,
-      };
-    }
     const url = `${this.pegelonlineBaseUrl}/stations.json?includeTimeseries=true`;
     this.httpService
       .get<PegelonlineStation[]>(url, config)
