@@ -6,7 +6,7 @@ import * as turf from '@turf/turf';
 import { AxiosRequestConfig } from 'axios';
 import { CronJob } from 'cron';
 import { readFile, readFileSync, writeFile } from 'fs';
-import { catchError, forkJoin, map, mergeMap, Observable, of } from 'rxjs';
+import { catchError, forkJoin, map, Observable, of } from 'rxjs';
 
 import { AddressData, NominatimService } from '../nominatim/nominatim.service';
 import { SearchTermListService } from '../search-term-list/search-term-list';
@@ -141,11 +141,14 @@ export class AggregatedStationResponse {
     description: 'Liste aller MQTT topics zu den Stationen',
   })
   mqtttopics: string[];
+
   @ApiProperty({
     description: 'Liste aller Pegelonline-URLs zu den Stationen',
   })
   pegelonlinelinks: string[];
+
   @ApiProperty({
+    description: 'Liste aller Pegelonlinestationen',
     type: [PegelonlineStation],
   })
   stations: PegelonlineStation[];
@@ -216,7 +219,7 @@ export class StationQuery {
 export class StationsService {
   private readonly logger = new Logger(StationsService.name);
 
-  private stations: PegelonlineStation[];
+  private stations: PegelonlineStation[] = [];
 
   private readonly stationsFilePath = this.configService.get<string>(
     'STATIONS_FILE_PATH',
@@ -487,58 +490,48 @@ export class StationsService {
     this.httpService
       .get<PegelonlineStation[]>(url, config)
       .pipe(map((res) => res.data))
-      .pipe(
-        mergeMap((stations) => {
-          this.stationCount = stations.length;
-          this.count = 0;
-          const requests = stations
-            .filter((s) => this.filterStations(s))
-            .map((s) => this.fetchAddressData(s));
-          return forkJoin(requests).pipe(
-            map((res) => this.prepareStations(stations, res)),
-          );
-        }),
-      )
       .subscribe({
-        next: (res) => {
-          this.saveFetchedStations(res);
-          this.stations = res;
-          this.logger.log(`finished fetching stations`);
+        next: (fetchedStations) => {
+          const filteredStations = fetchedStations
+            .filter((st) => this.filterStations(st))
+          this.stationCount = filteredStations.length;
+          this.count = 0;
+          filteredStations.forEach((st) => {
+            this.extendStation(st);
+          });
         },
         error: (err) => {
           this.logger.error(err.stack);
         },
       });
   }
-  private prepareStations(
-    stations: PegelonlineStation[],
-    res: AddressOptions[],
-  ) {
-    stations.forEach((st) => {
-      const match = res.find((e) => e.id === st.uuid);
-      if (match) {
-        st.country = match.country;
-        st.country_alternatives = match.country_alternatives;
-        st.land = match.land;
-        st.land_alternatives = match.land_alternatives;
-        st.kreis = match.kreis;
-        st.kreis_alternatives = this.mergeToArray([
-          match.kreis_alternatives,
-          this.searchTermListSrvc.getAlternativeKreise(match.kreis),
-        ]);
-        st.water_alternatives = this.searchTermListSrvc.getAlternativeGewaesser(
-          st.water.longname,
-        );
-      }
-      if (st.latitude && st.longitude) {
-        const drainage = this.getDrainage(st.latitude, st.longitude);
-        st.einzugsgebiet = drainage;
-        st.einzugsgebiet_alternatives =
+
+  private extendStation(station: PegelonlineStation) {
+    this.fetchAddressData(station).subscribe((data) => {
+      station.country = data.country;
+      station.country_alternatives = data.country_alternatives;
+      station.land = data.land;
+      station.land_alternatives = data.land_alternatives;
+      station.kreis = data.kreis;
+      station.kreis_alternatives = this.mergeToArray([
+        data.kreis_alternatives,
+        this.searchTermListSrvc.getAlternativeKreise(data.kreis),
+      ]);
+      station.water_alternatives =
+        this.searchTermListSrvc.getAlternativeGewaesser(station.water.longname);
+      if (station.latitude && station.longitude) {
+        const drainage = this.getDrainage(station.latitude, station.longitude);
+        station.einzugsgebiet = drainage;
+        station.einzugsgebiet_alternatives =
           this.searchTermListSrvc.getAlternativeEinzugsgebiete(drainage);
       }
-      this.logger.log(`Finished enlarging data for station ${st.longname}`);
+      this.count++;
+      this.logger.log(
+        `Finished enlarging data for station ${station.longname} - ${this.count}/${this.stationCount}`,
+      );
+      this.stations.push(station);
+      this.saveFetchedStations();
     });
-    return stations;
   }
 
   private mergeToArray(entries: string[][]): string[] | undefined {
@@ -546,7 +539,7 @@ export class StationsService {
     return list.length ? list : undefined;
   }
 
-  filterStations(s: PegelonlineStation): boolean {
+  private filterStations(s: PegelonlineStation): boolean {
     if (s.latitude && s.longitude) {
       return true;
     } else {
@@ -606,10 +599,6 @@ export class StationsService {
               response.kreis_alternatives.push(tupel.kreis);
             }
           });
-          this.count++;
-          console.log(
-            `finished fetching data for ${s.longname} - ${this.count}/${this.stationCount}`,
-          );
           return response;
         }),
       )
@@ -653,23 +642,30 @@ export class StationsService {
     }
   }
 
-  private saveFetchedStations(res: PegelonlineStation[]) {
-    writeFile(this.stationsFilePath, JSON.stringify(res, null, 2), (err) => {
-      if (err) {
-        this.logger.error(err);
-        return;
-      }
-      this.logger.log('Saved successfully');
-    });
+  private saveFetchedStations() {
+    writeFile(
+      this.stationsFilePath,
+      JSON.stringify(this.stations, null, 2),
+      (err) => {
+        if (err) {
+          this.logger.error(err);
+          return;
+        }
+      },
+    );
   }
 
   private loadStations() {
-    readFile(this.stationsFilePath, 'utf8', (err, data) => {
-      if (err) {
-        this.logger.log(err);
-        return;
-      }
-      this.stations = JSON.parse(data);
+    return new Promise<void>((resolve, reject) => {
+      readFile(this.stationsFilePath, 'utf8', (err, data) => {
+        if (err) {
+          this.logger.log(err);
+          reject(err);
+          return;
+        }
+        this.stations = JSON.parse(data);
+        resolve();
+      });
     });
   }
 }

@@ -53,7 +53,6 @@ export class SearchTermListService {
       .replaceAll('Kreis', '')
       .replaceAll('kreis', '')
       .trim();
-    console.log(kreis);
     const match = this.searchTermList.find((e) => {
       if (e.Suchwortkategorie === 'Landkreis') {
         return (
