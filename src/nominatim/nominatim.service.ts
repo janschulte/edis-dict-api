@@ -2,7 +2,7 @@ import { HttpService } from '@nestjs/axios';
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { AxiosRequestConfig } from 'axios';
-import { map, Observable } from 'rxjs';
+import { catchError, map, Observable } from 'rxjs';
 
 export interface AddressData {
   id: string;
@@ -13,6 +13,7 @@ export interface AddressData {
 }
 
 interface NominatimReverseResponse {
+  error?: string;
   place_id: number;
   address: {
     state: string;
@@ -53,16 +54,32 @@ export class NominatimService {
     };
     return this.httpService
       .get<NominatimReverseResponse>(url, config)
-      .pipe(map((res) => res.data))
+      .pipe(map((res) => res.data),
+            catchError((err) => {
+              this.logger.error(err);
+              throw "Error gettind address data: " + err;
+            })
+      )
       .pipe(
         map((res) => {
+          if (res.address) {
+            return {
+              id: id,
+              country: res.address.country,
+              state: res.address.state,
+              county: res.address.county,
+              city: res.address.city,
+            };
+          } else if (res.error) {
+            this.logger.error(res.error);
+          }
           return {
             id: id,
-            country: res.address.country,
-            state: res.address.state,
-            county: res.address.county,
-            city: res.address.city,
-          };
+            country: "",
+            state: "",
+            county: "",
+            city: "",
+          }
         }),
       );
   }
