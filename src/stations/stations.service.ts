@@ -20,10 +20,29 @@ type FilterPropertyKey =
   | 'gewaesser';
 
 export class PegelonlineTimeseries {
+  @ApiProperty({
+    description: 'Shortname zur Zeitreihe',
+  })
   shortname: string;
+
+  @ApiProperty({
+    description: 'Longname zur Zeitreihe',
+  })
   longname: string;
+
+  @ApiProperty({
+    description: 'Messeinheit der Zeitreihe',
+  })
   unit: string;
+
+  @ApiProperty({
+    description: 'mqtt Topic für die Zeitreihe',
+  })
   mqtttopic: string;
+
+  @ApiProperty({
+    description: 'Link zu den Messwerten',
+  })
   pegelonlinelink: string;
   equidistance: number;
 }
