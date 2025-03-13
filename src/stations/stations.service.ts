@@ -514,10 +514,10 @@ export class StationsService {
           this.searchTermListSrvc.getAlternativeEinzugsgebiete(drainage);
       }
       this.count++;
+      this.stations.push(station);
       this.logger.log(
         `Finished enlarging data for station ${station.longname} - ${this.count}/${this.stationCount}`,
       );
-      this.stations.push(station);
       this.saveFetchedStations();
     });
   }

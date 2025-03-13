@@ -38,7 +38,6 @@ export class AppModule {
           if (this.pendingRequests < this.maxRequestsCount) {
             this.pendingRequests++;
             clearInterval(interval);
-            console.log(`Send request: ${config.url}`);
             resolve(config);
           }
         }, INTERVAL_MS);
