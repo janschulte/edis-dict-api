@@ -55,12 +55,15 @@ interface AddressOptions {
   land_alternatives?: string[];
   kreis: string;
   kreis_alternatives?: string[];
+  city: string;
+  city_alternatives?: string[];
 }
 
 interface AddressTupel {
   country: string;
   land: string;
   kreis: string;
+  city: string;
 }
 
 export class PegelonlineStation {
@@ -109,6 +112,10 @@ export class PegelonlineStation {
   };
 
   water_alternatives?: string[];
+
+  city?: string;
+
+  city_alternatives?: string[];
 
   @ApiProperty({
     description: 'Land - angereichert in der DICT-API',
@@ -323,6 +330,8 @@ export class StationsService {
       'water_alternatives',
       'einzugsgebiet',
       'einzugsgebiet_alternatives',
+      'city',
+      'city_alternatives',
     ];
     const waterFields = ['shortname', 'longname'];
     const timeseriesFields = ['shortname', 'longname'];
@@ -357,19 +366,26 @@ export class StationsService {
     // TODO: add here some intelligent aggregation of mqtt topics
     const mqtttopics = [];
     const pegelonlinelinks = [];
-    stations.forEach((st) => {
-      st.mqtttopic = `${this.mqttBase}/+/+/+/+/${st.uuid}/+`;
-      mqtttopics.push(st.mqtttopic);
-      st.timeseries.forEach((ts) => {
-        ts.mqtttopic = `${this.mqttBase}/+/+/+/+/${st.uuid}/${ts.shortname}`;
-        ts.pegelonlinelink = `${this.pegelonlineBaseUrl}/stations/${st.uuid}/${ts.shortname}/measurements.json`;
-        pegelonlinelinks.push(ts.pegelonlinelink);
+    const preparedStations = stations.map((st) => {
+      const stationTopic = `${this.mqttBase}/+/+/+/+/${st.uuid}/+`;
+      mqtttopics.push(stationTopic);
+      const timeseries = st.timeseries.map((ts) => {
+        const mqtttopic = `${this.mqttBase}/+/+/+/+/${st.uuid}/${ts.shortname}`;
+        const pegelonlinelink = `${this.pegelonlineBaseUrl}/stations/${st.uuid}/${ts.shortname}/measurements.json`;
+        pegelonlinelinks.push(pegelonlinelink);
+        return { ...ts, mqtttopic, pegelonlinelink } as PegelonlineTimeseries;
       });
+      const station = {
+        ...st,
+        timeseries,
+        mqtttopic: stationTopic,
+      } as PegelonlineStation;
+      return station;
     });
     return {
       mqtttopics,
       pegelonlinelinks,
-      stations,
+      stations: preparedStations,
     };
   }
 
@@ -510,6 +526,7 @@ export class StationsService {
       .pipe(map((res) => res.data))
       .subscribe({
         next: (fetchedStations) => {
+          this.cleanupStationList(fetchedStations);
           const filteredStations = fetchedStations.filter((st) =>
             this.filterStations(st),
           );
@@ -525,6 +542,12 @@ export class StationsService {
       });
   }
 
+  private cleanupStationList(newList: PegelonlineStation[]) {
+    this.stations = this.stations.filter(
+      (st) => newList.find((nSt) => nSt.uuid === st.uuid) !== undefined,
+    );
+  }
+
   private extendStation(station: PegelonlineStation) {
     this.fetchAddressData(station).subscribe({
       next: (data) => {
@@ -533,6 +556,8 @@ export class StationsService {
         station.land = data.land;
         station.land_alternatives = data.land_alternatives;
         station.kreis = data.kreis;
+        station.city = data.city;
+        station.city_alternatives = data.city_alternatives;
         station.kreis_alternatives = this.mergeToArray([
           data.kreis_alternatives,
           this.searchTermListSrvc.getAlternativeKreise(data.kreis),
@@ -618,8 +643,13 @@ export class StationsService {
         const response: AddressOptions = {
           id: deData.id,
           country: deTupel.country,
+          country_alternatives: this.getTranscriptions(deTupel.country),
           land: deTupel.land,
+          land_alternatives: this.getTranscriptions(deTupel.land),
           kreis: deTupel.kreis,
+          kreis_alternatives: this.getTranscriptions(deTupel.kreis),
+          city: deTupel.city,
+          city_alternatives: this.getTranscriptions(deTupel.city),
         };
         this.harvestLanguageList.forEach((e) => {
           const data = res[e];
@@ -648,11 +678,27 @@ export class StationsService {
     );
   }
 
+  private getTranscriptions(text?: string): string[] | undefined {
+    if (text) {
+      if (text.indexOf('ü') >= 0) {
+        return [text.replaceAll('ü', 'ue')];
+      }
+      if (text.indexOf('ä') >= 0) {
+        return [text.replaceAll('ä', 'ae')];
+      }
+      if (text.indexOf('ö') >= 0) {
+        return [text.replaceAll('ö', 'oe')];
+      }
+    }
+    return undefined;
+  }
+
   private getTupel(data: AddressData): AddressTupel {
     return {
       country: data.country,
       land: data.state || data.county || data.city,
       kreis: data.county || data.city,
+      city: data.city,
     };
   }
 
