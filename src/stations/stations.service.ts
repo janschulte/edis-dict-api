@@ -271,7 +271,7 @@ export class StationsService {
 
   private readonly cronTimeForDataEnlarging = this.configService.get<string>(
     'CRON_TIME_FOR_DATA_ENLARGING',
-    '00 00 00 * * *',
+    '00 00 * * *',
   );
 
   private stationCount = 0;
