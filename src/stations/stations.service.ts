@@ -111,10 +111,22 @@ export class PegelonlineStation {
     longname: string;
   };
 
+  @ApiProperty({
+    description: 'Alternative Bennenungen zu Water',
+    required: false,
+  })
   water_alternatives?: string[];
 
+  @ApiProperty({
+    description: 'Stadt - angereichert in der DICT-API',
+    required: false,
+  })
   city?: string;
 
+  @ApiProperty({
+    description: 'Alternative Bennenungen zur Stadt',
+    required: false,
+  })
   city_alternatives?: string[];
 
   @ApiProperty({
@@ -123,6 +135,10 @@ export class PegelonlineStation {
   })
   country?: string;
 
+  @ApiProperty({
+    description: 'Alternative Bennenungen zum Land',
+    required: false,
+  })
   country_alternatives?: string[];
 
   @ApiProperty({
@@ -131,6 +147,10 @@ export class PegelonlineStation {
   })
   land?: string;
 
+  @ApiProperty({
+    description: 'Alternative Bennenungen zum Bundesland',
+    required: false,
+  })
   land_alternatives?: string[];
 
   @ApiProperty({
@@ -139,6 +159,10 @@ export class PegelonlineStation {
   })
   kreis?: string;
 
+  @ApiProperty({
+    description: 'Alternative Bennenungen zum Landkreis',
+    required: false,
+  })
   kreis_alternatives?: string[];
 
   @ApiProperty({
@@ -147,6 +171,10 @@ export class PegelonlineStation {
   })
   einzugsgebiet?: string;
 
+  @ApiProperty({
+    description: 'Alternative Bennenungen zum Einzugsgebiet',
+    required: false,
+  })
   einzugsgebiet_alternatives?: string[];
 
   @ApiProperty({
